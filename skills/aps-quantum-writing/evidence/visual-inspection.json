@@ -1,0 +1,202 @@
+{
+  "record_type": "Translated inherited original image-inspection observations; no images included",
+  "source_review_date": "2026-10-09",
+  "distinct_papers": 13,
+  "scope": "Six Applied PDF pages, four PRX figures, and seven Research figures; page and figure units are not interchangeable. Not a 300- or 700-paper image audit.",
+  "records": [
+    {
+      "journal": "Physical Review Applied",
+      "rank": 2,
+      "doi": "10.1103/pd5d-sddp",
+      "reviewed_source_url": "https://arxiv.org/pdf/2512.18064v2",
+      "source_version": "Pinned arXiv author manuscript 2512.18064v2",
+      "visual_scope": "PDF p.9, Fig.3",
+      "visual_observation": "Actual image inspection: five design rows by four physical-observable columns preserve the same within-column axes; labels sit beside y-axes and centered below each plot. Small inset parameter summaries carry useful content but must remain legible at final width.",
+      "visual_limitation": "Do not copy its20-panel density without comparable necessity; row/column invariants make the density interpretable."
+    },
+    {
+      "journal": "Physical Review Applied",
+      "rank": 13,
+      "doi": "10.1103/zjgr-1cxw",
+      "reviewed_source_url": "https://arxiv.org/pdf/2510.25703v1",
+      "source_version": "Pinned arXiv author manuscript 2510.25703v1",
+      "visual_scope": "PDF p.3, Fig.2",
+      "visual_observation": "Actual image inspection: a compact six-panel device-physics figure combines level diagram, event histogram, gate map, fidelity and relaxation traces. Insets show the pulse that generates each measurement; color and marker shapes connect selected operating points across panels.",
+      "visual_limitation": "One-column typesetting makes inset labels small; check final-size readability rather than using this as a minimum text-size precedent."
+    },
+    {
+      "journal": "Physical Review Applied",
+      "rank": 32,
+      "doi": "10.1103/c8ss-8vyh",
+      "reviewed_source_url": "https://arxiv.org/pdf/2512.17148v2",
+      "source_version": "Pinned arXiv author manuscript 2512.17148v2",
+      "visual_scope": "PDF p.9, Fig.7",
+      "visual_observation": "Actual image inspection: a dense proposed optical setup explicitly connects spectral branches, fiber delays, detection, feedforward electronics and two output arms. A small line-color key encodes different optical/electrical media; device abbreviations are expanded in the caption.",
+      "visual_limitation": "This is a proposed system, not a fully realized demonstration. Several long loops and crossings increase tracing effort; reuse functional grouping/dependency detail rather than its exact routing or color-only distinctions."
+    },
+    {
+      "journal": "Physical Review Applied",
+      "rank": 36,
+      "doi": "10.1103/xkbl-ctwn",
+      "reviewed_source_url": "https://arxiv.org/pdf/2601.02149v4",
+      "source_version": "Pinned arXiv author manuscript 2601.02149v4",
+      "visual_scope": "PDF p.1, Fig.1",
+      "visual_observation": "Actual image inspection: conductance-map input, transformer, parameter correction, updated Hamiltonian/maps and loss form a closed scientific feedback graph. Black and blue arrows distinguish training and inference in a single-column area.",
+      "visual_limitation": "Training/inference meaning should also have text or line-style cues for accessibility; this figure alone does not establish experimental closure of the loop."
+    },
+    {
+      "journal": "Physical Review Applied",
+      "rank": 38,
+      "doi": "10.1103/c4zz-pbk4",
+      "reviewed_source_url": "https://arxiv.org/pdf/2512.19902v2",
+      "source_version": "Pinned arXiv author manuscript 2512.19902v2",
+      "visual_scope": "PDF p.4, Fig.3",
+      "visual_observation": "Actual image inspection: simulation and experimental gain maps form aligned comparison columns with cable-length annotations spanning corresponding rows; upper color bars share the gain scale. Shared lower frequency labels and a left shared voltage-bias label reduce repetition. Right-hand performance panels separate gain/noise from saturation.",
+      "visual_limitation": "Two cable lengths also use different bias/current settings, so visual alignment is a mechanism comparison, not an all-other-variables-fixed claim. Dual y-axes require explicit units and curve mapping."
+    },
+    {
+      "journal": "Physical Review Applied",
+      "rank": 45,
+      "doi": "10.1103/y4nq-kcw1",
+      "reviewed_source_url": "https://arxiv.org/pdf/2509.10758v1",
+      "source_version": "Pinned arXiv author manuscript 2509.10758v1",
+      "visual_scope": "PDF p.10, Fig.2",
+      "visual_observation": "Actual image inspection: three parallel pipelines compare the order of parameter assignment, expensive operator construction, evaluation and error mitigation. Consistent operation colors plus explicit mathematical labels permit step-by-step comparison; arrows encode dependency rather than decoration.",
+      "visual_limitation": "The transferable element is operation ordering and reused work, not a universal three-column template or the specific palette."
+    },
+    {
+      "doi": "10.1103/9cwp-ppp2",
+      "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/9cwp-ppp2/fulltext",
+      "version": "APS Version of Record PDF",
+      "figures": [
+        {
+          "figure": "1",
+          "pdf_page": 2,
+          "printed_page": "041009-2",
+          "observation": "Architecture, the measured array, and predicted performance occupy separate regions; axis titles sit near their axes."
+        },
+        {
+          "figure": "2",
+          "pdf_page": 4,
+          "printed_page": "041009-4",
+          "observation": "Each optical component aligns with a sensitivity plot below it, connecting structure to diagnostics."
+        },
+        {
+          "figure": "4",
+          "pdf_page": 6,
+          "printed_page": "041009-6",
+          "observation": "Location lines connect images above to shared-x quantitative plots below; a model at the right connects back to the structure. Colors distinguish radial groups and metrics."
+        }
+      ],
+      "journal": "Physical Review X",
+      "scope": "Only the listed figures were visually inspected; not a complete-figure audit of the paper or corpus."
+    },
+    {
+      "doi": "10.1103/zy7s-j86r",
+      "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/zy7s-j86r/fulltext",
+      "version": "APS Version of Record PDF",
+      "figures": [
+        {
+          "figure": "1",
+          "pdf_page": 2,
+          "printed_page": "031038-2",
+          "observation": "Group conditions and formulas form inputs, parallel constraints, criteria, and outputs, with dashed grouping, thin connections, and limited semantic color."
+        }
+      ],
+      "journal": "Physical Review X",
+      "scope": "Only the listed figures were visually inspected; not a complete-figure audit of the paper or corpus."
+    },
+    {
+      "candidate_rank": 47,
+      "figures": [
+        "2"
+      ],
+      "pdf_page": 6,
+      "observation": "Chip grid, circuit, DAG, mapping, and encoding tables align within one figure. Region colors remain consistent across objects, blue arrows show transformations, and the caption explains an encoding example.",
+      "transfer": "When the contribution is a representation, show one instance across representations rather than only generic input/algorithm/output boxes.",
+      "caution": "Redundant position, numbering, or text should supplement color. This is not a journal-wide workflow template.",
+      "doi": "10.1103/b7ck-8wh4",
+      "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/b7ck-8wh4/fulltext",
+      "source_version": "APS version of record PDF",
+      "review_date": "2026-10-09",
+      "pdf_sha256": "87f7c0a261de40d0dde1edcbf21cf25f307b538f92d09a89311721994937e50e",
+      "printed_page": "033360-6",
+      "scope": "Only the listed figures and visible captions on that page; not a complete-image audit.",
+      "journal": "Physical Review Research"
+    },
+    {
+      "candidate_rank": 57,
+      "figures": [
+        "9"
+      ],
+      "pdf_page": 10,
+      "observation": "A left column connects structure, density, discretization, QUBO, solving, and coordinate output; the right column supplies matching molecular, density, and grid examples. Dashed boxes mark the solver boundary.",
+      "transfer": "Distinguish scientific-object transformations from computational-module boundaries and place intermediate results beside the corresponding step.",
+      "caution": "A commercial logo is only part of the example, not a substitute for methods or resource budgets; unnecessary whitespace can be reduced.",
+      "doi": "10.1103/gyqr-mv1h",
+      "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/gyqr-mv1h/fulltext",
+      "source_version": "APS version of record PDF",
+      "review_date": "2026-10-09",
+      "pdf_sha256": "8a60a45e7a71aac7c44909d411688ab878dafdaad5221cc83cf7cf188c2f6b7a",
+      "printed_page": "033344-10",
+      "scope": "Only the listed figures and visible captions on that page; not a complete-image audit.",
+      "journal": "Physical Review Research"
+    },
+    {
+      "candidate_rank": 86,
+      "figures": [
+        "2",
+        "3"
+      ],
+      "pdf_page": 6,
+      "observation": "Figure 2 uses a fixed graph layout across four stages; node colors mark selected, removed, and remaining nodes. Local highlighting identifies a node that restarts reduction. Figure 3 distinguishes algorithms with shape and color and includes a hard-instance inset.",
+      "transfer": "Keep object coordinates fixed across mechanism stages and mark the local change; retain comparable baselines and uncertainties in data plots.",
+      "caution": "Exact reduction and heuristic node selection have different guarantees; a continuous visual workflow does not merge those guarantees.",
+      "doi": "10.1103/nh3b-1wv5",
+      "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/nh3b-1wv5/fulltext",
+      "source_version": "APS version of record PDF",
+      "review_date": "2026-10-09",
+      "pdf_sha256": "a3a8064d0ec2391dfc030bd2505ae6bfac911c594b487e50d9131654a0e78400",
+      "printed_page": "033296-6",
+      "scope": "Only the listed figures and visible captions on that page; not a complete-image audit.",
+      "journal": "Physical Review Research"
+    },
+    {
+      "candidate_rank": 10,
+      "figures": [
+        "3",
+        "4"
+      ],
+      "pdf_page": 5,
+      "observation": "Figure 3 arranges raw T1, a binned close-up, and converted quality factor in three columns. Dashed lines link regions and a secondary axis records counts. Figure 4 compares device and process distributions with separate mean, median, and quartile encodings.",
+      "transfer": "When processing changes the comparison, connect the raw quantity, estimation steps, and final metric in a traceable figure sequence.",
+      "caution": "A dual axis is used only for clearly labeled different quantities here; this is not general advice to prefer dual axes.",
+      "doi": "10.1103/3n9q-lg8m",
+      "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/3n9q-lg8m/fulltext",
+      "source_version": "APS version of record PDF",
+      "review_date": "2026-10-09",
+      "pdf_sha256": "2c948b02871ec7a2a739ebd63ca38c871c7ea6e2b86abdf90de1da5a24efb23b",
+      "printed_page": "043013-5",
+      "scope": "Only the listed figures and visible captions on that page; not a complete-image audit.",
+      "journal": "Physical Review Research"
+    },
+    {
+      "candidate_rank": 107,
+      "figures": [
+        "8"
+      ],
+      "pdf_page": 12,
+      "observation": "Frequency and intensity noise occupy two rows; response functions, PSD, and error contribution occupy three columns. Arrows connect input spectra to contributions and shared column labels reduce repetition.",
+      "transfer": "Use repeated panel organization for the same calculation, allowing readers to connect response times spectrum to error sources.",
+      "caution": "The pale PSD color has weak contrast when reduced; borrow the structure rather than the exact palette and check final-size readability.",
+      "doi": "10.1103/z46h-mgh4",
+      "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/z46h-mgh4/fulltext",
+      "source_version": "APS version of record PDF",
+      "review_date": "2026-10-09",
+      "pdf_sha256": "f12325938a42adf98a46c3ae1939cf0cea5a7a65b68dd955d579b7369148867f",
+      "printed_page": "033269-12",
+      "scope": "Only the listed figures and visible captions on that page; not a complete-image audit.",
+      "journal": "Physical Review Research"
+    }
+  ]
+}

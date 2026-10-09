@@ -1,0 +1,17 @@
+% Explicit, opt-in helpers for local typography previews.
+% Choose the helper only after journal AND article type are known.
+% Heading presence and wording remain author decisions.
+% Pass heading words without terminal punctuation, except Note added. below.
+% Never redefine \section globally with these helpers.
+\newcommand{\prlrunin}[1]{%
+  \par\noindent\hspace*{\parindent}%
+  {\normalfont\itshape #1---}\ignorespaces}
+\newcommand{\apsletterrunin}[1]{%
+  \par\noindent\hspace*{\parindent}%
+  {\normalfont\itshape #1.}\ \ignorespaces}
+\newcommand{\apssecondaryrunin}[1]{%
+  \par\noindent\hspace*{\parindent}%
+  {\normalfont #1:}\quad\ignorespaces}
+\newcommand{\apsdeepprlrunin}[1]{%
+  \par\noindent\hspace*{\parindent}%
+  {\normalfont\itshape #1.}\ \ignorespaces}

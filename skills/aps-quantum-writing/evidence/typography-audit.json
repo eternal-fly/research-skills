@@ -1,0 +1,836 @@
+{
+  "record_type": "Inherited source-release verification, not English-release test execution",
+  "source_audit_date": "2026-10-09",
+  "engine": "pdfTeX 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian)",
+  "latex": "LaTeX2e <2024-11-01> patch level 2",
+  "revtex": "4.2f; class header 2022/06/05; APS distribution released 2023-05-30",
+  "source_count": 29,
+  "runs_per_source": 2,
+  "negative_invalid_option_controls": [
+    "prxquantum",
+    "prresearch",
+    "letter",
+    "rapid"
+  ],
+  "fail_closed_guard_controls": 3,
+  "representative_preview_pdf_pages": 5,
+  "assertion_count": 32,
+  "assertions": [
+    {
+      "check": "PRL Introduction run-in",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "x_bp": 63.9630012512207,
+        "header_text": "Introduction—"
+      }
+    },
+    {
+      "check": "PRL Illustrative model run-in",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "x_bp": 63.963008880615234,
+        "header_text": "Illustrative model—"
+      }
+    },
+    {
+      "check": "PRL Conclusions run-in",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "x_bp": 326.97601318359375,
+        "header_text": "Conclusions—"
+      }
+    },
+    {
+      "check": "PRL Acknowledgments run-in",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "x_bp": 326.9760437011719,
+        "header_text": "Acknowledgments—"
+      }
+    },
+    {
+      "check": "PRL Data availability run-in",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "x_bp": 326.9760437011719,
+        "header_text": "Data availability—"
+      }
+    },
+    {
+      "check": "PRL Note added keeps period-plus-dash",
+      "pass": true,
+      "detail": "Specific exception only."
+    },
+    {
+      "check": "PRL secondary/deeper Global fit:",
+      "pass": true,
+      "detail": {
+        "page": 1,
+        "text": "Global fit:",
+        "bbox": [
+          63.9630012512207,
+          262.41510009765625,
+          107.56929779052734,
+          272.377685546875
+        ],
+        "spans": [
+          {
+            "text": "Global fit:",
+            "font": "CMR10",
+            "size": 9.962599754333496,
+            "flags": 4,
+            "origin": [
+              63.9630012512207,
+              270.201171875
+            ],
+            "bbox": [
+              63.9630012512207,
+              262.41510009765625,
+              107.56929779052734,
+              272.377685546875
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "PRL secondary/deeper Boundary conditions.",
+      "pass": true,
+      "detail": {
+        "page": 1,
+        "text": "Boundary conditions. A further subtopic uses an ital-",
+        "bbox": [
+          63.9630012512207,
+          286.32611083984375,
+          299.0986022949219,
+          296.2886962890625
+        ],
+        "spans": [
+          {
+            "text": "Boundary conditions.",
+            "font": "CMTI10",
+            "size": 9.962599754333496,
+            "flags": 6,
+            "origin": [
+              63.9630012512207,
+              294.1121826171875
+            ],
+            "bbox": [
+              63.9630012512207,
+              286.32611083984375,
+              157.16311645507812,
+              296.2886962890625
+            ]
+          },
+          {
+            "text": " A further subtopic uses an ital-",
+            "font": "CMR10",
+            "size": 9.962599754333496,
+            "flags": 4,
+            "origin": [
+              157.16311645507812,
+              294.1121826171875
+            ],
+            "bbox": [
+              157.16311645507812,
+              286.32611083984375,
+              299.0986022949219,
+              296.2886962890625
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "Non-PRL Letter Introduction.",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "header_text": "Introduction.",
+        "body_prefix": " This optional heading is indented,"
+      }
+    },
+    {
+      "check": "Non-PRL Letter Illustrative model.",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "header_text": "Illustrative model.",
+        "body_prefix": " The paper chooses its own descrip-"
+      }
+    },
+    {
+      "check": "Non-PRL Letter Outlook.",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "header_text": "Outlook.",
+        "body_prefix": " A closing title can be chosen to f"
+      }
+    },
+    {
+      "check": "Non-PRL Letter Acknowledgments.",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "header_text": "Acknowledgments.",
+        "body_prefix": " This illustrative placeholder foll"
+      }
+    },
+    {
+      "check": "Non-PRL Letter Data availability.",
+      "pass": true,
+      "detail": {
+        "head_font": "CMTI10",
+        "body_font": "CMR10",
+        "font_size_bp": 9.962599754333496,
+        "baseline_difference_bp": 0.0,
+        "header_text": "Data availability.",
+        "body_prefix": " This illustrative placeholder foll"
+      }
+    },
+    {
+      "check": "Non-PRL Letter Appendix is italic period run-in",
+      "pass": true,
+      "detail": {
+        "header": {
+          "page": 1,
+          "text": "Appendix:",
+          "bbox": [
+            326.9761047363281,
+            243.98313903808594,
+            370.0643615722656,
+            253.94573974609375
+          ],
+          "spans": [
+            {
+              "text": "Appendix:",
+              "font": "CMTI10",
+              "size": 9.962599754333496,
+              "flags": 6,
+              "origin": [
+                326.9761047363281,
+                251.76922607421875
+              ],
+              "bbox": [
+                326.9761047363281,
+                243.98313903808594,
+                370.0643615722656,
+                253.94573974609375
+              ]
+            }
+          ]
+        },
+        "same_baseline_continuations": [
+          {
+            "text": "Illustrative derivation.",
+            "font": "CMTI10",
+            "size": 9.962599754333496,
+            "flags": 6,
+            "origin": [
+              378.49273681640625,
+              251.76922607421875
+            ],
+            "bbox": [
+              378.49273681640625,
+              243.98313903808594,
+              477.2021484375,
+              253.94573974609375
+            ]
+          },
+          {
+            "text": " This optional ap-",
+            "font": "CMR10",
+            "size": 9.962599754333496,
+            "flags": 4,
+            "origin": [
+              477.2021484375,
+              251.76922607421875
+            ],
+            "bbox": [
+              477.2021484375,
+              243.98313903808594,
+              562.1115112304688,
+              253.94573974609375
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "Regular ILLUSTRATIVE PRINCIPAL HEADING",
+      "pass": true,
+      "detail": {
+        "text": "ILLUSTRATIVE PRINCIPAL HEADING",
+        "font": "CMBX9",
+        "size_bp": 8.966400146484375,
+        "flags": 20
+      }
+    },
+    {
+      "check": "Regular Illustrative first subheading",
+      "pass": true,
+      "detail": {
+        "text": "Illustrative first subheading",
+        "font": "CMBX9",
+        "size_bp": 8.966400146484375,
+        "flags": 20
+      }
+    },
+    {
+      "check": "Regular Illustrative second subheading",
+      "pass": true,
+      "detail": {
+        "text": "Illustrative second subheading",
+        "font": "CMBXTI10",
+        "size_bp": 8.966400146484375,
+        "flags": 22
+      }
+    },
+    {
+      "check": "Native regular third-level is italic non-bold",
+      "pass": true,
+      "detail": {
+        "page": 1,
+        "text": "Illustrative second subheading",
+        "bbox": [
+          125.78052520751953,
+          371.9172668457031,
+          244.253662109375,
+          380.8836669921875
+        ],
+        "spans": [
+          {
+            "text": "Illustrative second subheading",
+            "font": "CMTI9",
+            "size": 8.966400146484375,
+            "flags": 6,
+            "origin": [
+              125.78052520751953,
+              378.9248046875
+            ],
+            "bbox": [
+              125.78052520751953,
+              371.9172668457031,
+              244.253662109375,
+              380.8836669921875
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "Regular starred third-level hook",
+      "pass": true,
+      "detail": {
+        "page": 1,
+        "text": "Starred third-level control",
+        "bbox": [
+          381.884033203125,
+          186.2441864013672,
+          497.2276611328125,
+          195.21058654785156
+        ],
+        "spans": [
+          {
+            "text": "Starred third-level control",
+            "font": "CMBXTI10",
+            "size": 8.966400146484375,
+            "flags": 22,
+            "origin": [
+              381.884033203125,
+              193.251708984375
+            ],
+            "bbox": [
+              381.884033203125,
+              186.2441864013672,
+              497.2276611328125,
+              195.21058654785156
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "PRL blocked regular hook preserves every text glyph position",
+      "pass": true,
+      "detail": "Exact extracted page/line/span equality, including coordinates, fonts and sizes."
+    },
+    {
+      "check": "Guard warns: prl-blocked-regular-hook",
+      "pass": true,
+      "detail": "Warning, no silent unsupported patch."
+    },
+    {
+      "check": "Guard warns: regular-blocked-existing-hook",
+      "pass": true,
+      "detail": "Warning, no silent unsupported patch."
+    },
+    {
+      "check": "Guard warns: regular-blocked-dispatcher",
+      "pass": true,
+      "detail": "Warning, no silent unsupported patch."
+    },
+    {
+      "check": "Invalid option reported: prxquantum",
+      "pass": true,
+      "detail": "PDF generation does not validate the class option; REVTeX ignores it."
+    },
+    {
+      "check": "Invalid option reported: prresearch",
+      "pass": true,
+      "detail": "PDF generation does not validate the class option; REVTeX ignores it."
+    },
+    {
+      "check": "Invalid option reported: letter",
+      "pass": true,
+      "detail": "PDF generation does not validate the class option; REVTeX ignores it."
+    },
+    {
+      "check": "Invalid option reported: rapid",
+      "pass": true,
+      "detail": "PDF generation does not validate the class option; REVTeX ignores it."
+    },
+    {
+      "check": "Preview clean log: preview-prl-chosen-headings",
+      "pass": true,
+      "detail": "No overfull boxes, font substitution, undefined references, or unused options. Underfull justification warnings, if any, are recorded separately."
+    },
+    {
+      "check": "Preview clean log: preview-prl-unheaded-opening",
+      "pass": true,
+      "detail": "No overfull boxes, font substitution, undefined references, or unused options. Underfull justification warnings, if any, are recorded separately."
+    },
+    {
+      "check": "Preview clean log: preview-prl-no-main-headings",
+      "pass": true,
+      "detail": "No overfull boxes, font substitution, undefined references, or unused options. Underfull justification warnings, if any, are recorded separately."
+    },
+    {
+      "check": "Preview clean log: preview-regular-production-preview",
+      "pass": true,
+      "detail": "No overfull boxes, font substitution, undefined references, or unused options. Underfull justification warnings, if any, are recorded separately."
+    },
+    {
+      "check": "Preview clean log: preview-nonprl-letter",
+      "pass": true,
+      "detail": "No overfull boxes, font substitution, undefined references, or unused options. Underfull justification warnings, if any, are recorded separately."
+    }
+  ],
+  "compilations": [
+    {
+      "source": "physrev-letter-explicit.tex",
+      "name": "physrev-letter-explicit",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "pra-letter-explicit.tex",
+      "name": "pra-letter-explicit",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "pra.tex",
+      "name": "pra",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prapplied-letter-explicit.tex",
+      "name": "prapplied-letter-explicit",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prapplied.tex",
+      "name": "prapplied",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prb-letter-explicit.tex",
+      "name": "prb-letter-explicit",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prb.tex",
+      "name": "prb",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prl-blocked-regular-hook.tex",
+      "name": "prl-blocked-regular-hook",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prl-explicit-runin.tex",
+      "name": "prl-explicit-runin",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prl-no-introduction.tex",
+      "name": "prl-no-introduction",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prl-no-main-headings.tex",
+      "name": "prl-no-main-headings",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prl-preprint.tex",
+      "name": "prl-preprint",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prl.tex",
+      "name": "prl",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prresearch-fallback.tex",
+      "name": "prresearch-fallback",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prx.tex",
+      "name": "prx",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "prxquantum-fallback.tex",
+      "name": "prxquantum-fallback",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "regular-blocked-dispatcher.tex",
+      "name": "regular-blocked-dispatcher",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "regular-blocked-existing-hook.tex",
+      "name": "regular-blocked-existing-hook",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "regular-hook-controls.tex",
+      "name": "regular-hook-controls",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "unsupported-letter.tex",
+      "name": "unsupported-letter",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": true,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "unsupported-prresearch.tex",
+      "name": "unsupported-prresearch",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": true,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "unsupported-prxquantum.tex",
+      "name": "unsupported-prxquantum",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": true,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "unsupported-rapid.tex",
+      "name": "unsupported-rapid",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": true,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "preview/nonprl-letter.tex",
+      "name": "preview-nonprl-letter",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "preview/prl-chosen-headings.tex",
+      "name": "preview-prl-chosen-headings",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "preview/prl-no-main-headings.tex",
+      "name": "preview-prl-no-main-headings",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "preview/prl-unheaded-opening.tex",
+      "name": "preview-prl-unheaded-opening",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "preview/regular-native-hierarchy.tex",
+      "name": "preview-regular-native-hierarchy",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    },
+    {
+      "source": "preview/regular-production-preview.tex",
+      "name": "preview-regular-production-preview",
+      "returncodes": [
+        0,
+        0
+      ],
+      "pdf_exists": true,
+      "unused_option_warning": false,
+      "overfull_warning": false,
+      "undefined_reference_warning": false,
+      "font_substitution_warning": false
+    }
+  ],
+  "limits": [
+    "Four negative controls compile to PDFs while warning about unused options; they are not supported journal configurations.",
+    "The five preview pages are synthetic layout examples, not paper PDFs or publisher facsimiles.",
+    "No new compilation or font-position test is implied by this inherited record."
+  ]
+}

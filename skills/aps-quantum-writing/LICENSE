@@ -1,0 +1,65 @@
+APS Quantum Writing Noncommercial Source-Available License
+License version 1.0
+For APS Quantum Writing v1.0.0
+
+Copyright (c) 2026 Luofei Wang
+
+1. Scope
+
+"Skill" means the copyright-protected text, instructions, code, documentation, and assets in APS Quantum Writing that Luofei Wang ("Author") has authority to license under these terms. Third-party materials are addressed separately below.
+
+This is a custom source-available license. Rights not expressly granted are reserved, subject to applicable law and separately granted permissions.
+
+2. Permitted use and necessary copies
+
+Subject to these terms, the Author grants you a nonexclusive, royalty-free copyright license to download, install, study, and use the Skill for noncommercial purposes, and to make private local modifications for those purposes.
+
+You may make copies reasonably necessary for these activities, including installation, backup, and incidental copies made by AI tools when loading or processing the Skill for your permitted use. Using a paid AI tool does not, by itself, make your use commercial. This permission does not authorize public sharing of the Skill through that tool or grant the tool provider independent reuse rights.
+
+3. Noncommercial use and scientific publication
+
+"Noncommercial" means use that is not primarily intended for commercial advantage or monetary compensation. Commercial use of the Skill, including selling or licensing it for payment, charging for access, or incorporating it into a commercial product or paid service, requires the Author's separate written permission.
+
+Ordinary noncommercial scientific research and preparation of scientific manuscripts, figures, presentations, and other research outputs are permitted. Such research does not become commercial merely because researchers receive salaries or research grants, pay publication fees, or publish through a commercial publisher.
+
+You may submit, publish, and share outputs from permitted use. The Author claims no ownership of your research or outputs merely because you used the Skill, and this license does not require attribution to the Skill in those outputs. These permissions do not authorize reproducing the Skill itself as an output or evade restrictions on copying its protected text, code, or assets. Third-party rights remain applicable.
+
+4. Redistribution and repackaging
+
+Except for necessary copies permitted above, applicable platform rights below, or rights available independently of this license, you may not distribute or publicly make available the Skill, whether unchanged or modified, without the Author's separate written permission.
+
+This includes publishing modified, repackaged, or rebranded versions, offering copies for sale, and incorporating protected portions of the Skill into another distributed project. Attribution alone does not authorize these activities.
+
+Keep the copyright notice, this license, and applicable third-party notices with copies of the Skill made under this license. Do not misrepresent the origin of the Skill or your modifications.
+
+5. Independent implementations
+
+This license does not claim ownership of ideas, methods, concepts, procedures, or other material that copyright law does not protect. You may independently implement ideas inspired by the Skill, including in commercial projects. That freedom does not itself authorize copying the Skill's protected expression into those projects.
+
+6. Third-party materials and existing rights
+
+Third-party materials remain governed by their respective licenses. This license does not replace, narrow, or revoke permissions independently available under those licenses, including applicable MIT upstream licenses, DejaVu font license notices, and SIL Open Font License terms accompanying AMS font materials.
+
+Nothing here removes rights already granted under applicable GitHub platform terms, including public-repository viewing and forking rights. Those platform rights do not create a general permission under this license to redistribute the Skill elsewhere.
+
+Nothing here restricts uses allowed by applicable law without permission, including relevant copyright exceptions and limitations. No copyright is asserted through this license over material that is not legally protected, including any unprotectable AI-generated material.
+
+7. No endorsement
+
+Do not represent that the Author endorses you, your modifications, or your products. This license grants no trademark or patent rights. Lawful descriptive attribution is unaffected.
+
+8. Termination and separate permission
+
+The permissions granted by this license terminate if you fail to comply with its terms. Reinstatement requires the Author's written permission. Termination does not remove rights independently available under law, third-party licenses, or platform terms, or retroactively restrict outputs lawfully created under this license.
+
+Contact the Author for permission covering commercial use or redistribution beyond these terms.
+
+9. Disclaimer and liability
+
+To the maximum extent permitted by applicable law, the Skill is provided "as is," without warranties, including warranties of accuracy, fitness for a particular purpose, merchantability, or noninfringement. You are responsible for reviewing and verifying its outputs before relying on them.
+
+To the maximum extent permitted by applicable law, the Author is not liable for claims, losses, or damages arising from use of, or inability to use, the Skill. Nothing here excludes rights or liabilities that applicable law does not permit to be excluded.
+
+If a provision is unenforceable, the remaining provisions continue to the extent permitted by applicable law.
+
+End of license.

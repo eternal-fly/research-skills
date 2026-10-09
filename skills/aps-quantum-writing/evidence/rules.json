@@ -1,0 +1,2068 @@
+{
+  "schema_version": "1.0",
+  "record_type": "English translation and faithful summary of inherited original rule observations",
+  "scope": "23 legacy rules and 17 added-journal rules; DOI, source-version, locator, and counterexample roles retained. No paper text is reproduced.",
+  "rules": [
+    {
+      "rule_id": "PRA-C01",
+      "status": "Retrospective writing recommendation; no causal quality claim",
+      "principle": "Connect background to the contribution through a specific unresolved problem, then identify the evidence.",
+      "applicability": "Technical Regular Article introductions; adapt to theory, experiment, or methods.",
+      "evidence": [
+        {
+          "doi": "10.1103/lf9y-3h7h",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/lf9y-3h7h",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/lf9y-3h7h/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SI final three paragraphs",
+          "paraphrase": "End-to-end architecture question motivates a common comparison framework.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/c614-6qmg",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/c614-6qmg",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/c614-6qmg/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SI final paragraphs",
+          "paraphrase": "Quadrature-drive mechanism answers oscillatory-blockade limitation.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/lb5n-k56s",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/lb5n-k56s",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/lb5n-k56s/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SI final paragraphs",
+          "paraphrase": "Resource scaling motivates approximate-cat interferometry.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/7b9s-df6q",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/7b9s-df6q",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/7b9s-df6q/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SI pp1–2",
+          "paraphrase": "Missing zero-mean-field force description motivates formalism and sphere test.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/jkmy-8zwr",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/jkmy-8zwr",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/jkmy-8zwr/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SI p2",
+          "paraphrase": "Interaction-picture ambiguity leads to perturbative correction and three examples.",
+          "source_is_published_version": true
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/jkmy-8zwr",
+        "official_url": "https://journals.aps.org/pra/abstract/10.1103/jkmy-8zwr",
+        "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/jkmy-8zwr/fulltext",
+        "source_version": "Publisher version of record, CC BY4.0",
+        "location": "SI scope paragraph",
+        "paraphrase": "Keep time-independent-field scope; a concise gap does not justify universal applicability.",
+        "source_is_published_version": true
+      },
+      "feature_denominator_note": "Only the explicitly listed passages were coded for this rule; no prevalence estimate over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRA-C02",
+      "status": "Retrospective writing recommendation; no causal quality claim",
+      "principle": "Organize results by the dependencies between derivation, validation, and physical interpretation.",
+      "applicability": "Theory and numerical methods; experiments can use corresponding model, measurement, and control stages.",
+      "evidence": [
+        {
+          "doi": "10.1103/lf9y-3h7h",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/lf9y-3h7h",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/lf9y-3h7h/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SIII–V",
+          "paraphrase": "Assumptions and metrics precede architecture comparisons.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/c614-6qmg",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/c614-6qmg",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/c614-6qmg/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SII–IV",
+          "paraphrase": "Model and mechanism precede numerical performance.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/lb5n-k56s",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/lb5n-k56s",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/lb5n-k56s/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SII–IV",
+          "paraphrase": "State construction precedes sensitivity and resource analysis.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/7b9s-df6q",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/7b9s-df6q",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/7b9s-df6q/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SII–VI",
+          "paraphrase": "Formalism and limiting checks precede a material-specific prediction.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/jkmy-8zwr",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/jkmy-8zwr",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/jkmy-8zwr/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SII–IV",
+          "paraphrase": "Formal operator construction precedes comparison, validity and examples.",
+          "source_is_published_version": true
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/qj8s-j274",
+        "official_url": "https://journals.aps.org/pra/abstract/10.1103/qj8s-j274",
+        "reviewed_source_url": "https://arxiv.org/html/2601.08820v1",
+        "source_version": "arXiv author manuscript 2601.08820v1",
+        "location": "SV opening and six code subsections",
+        "paraphrase": "Parallel proof structures legitimately repeat steps across distinct code families.",
+        "source_is_published_version": false
+      },
+      "feature_denominator_note": "Only the explicitly listed passages were coded for this rule; no prevalence estimate over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRA-C03",
+      "status": "Retrospective writing recommendation; no causal quality claim",
+      "principle": "Keep conditions, scope, measurement accessibility, and noise assumptions close to the claims they qualify.",
+      "applicability": "Theorems, advantage claims, experimental feasibility, and robustness.",
+      "evidence": [
+        {
+          "doi": "10.1103/lf9y-3h7h",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/lf9y-3h7h",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/lf9y-3h7h/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SIVD; SVI",
+          "paraphrase": "Projected attenuation and undeveloped interfaces constrain deployment claims.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/c614-6qmg",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/c614-6qmg",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/c614-6qmg/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "Model; oscillation-free discussion",
+          "paraphrase": "Weak driving and allowed overshoot delimit oscillation-free behavior.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/yrfl-y3z8",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/yrfl-y3z8",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/yrfl-y3z8/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "Main discussion; note84",
+          "paraphrase": "Synchronization depends on initial coherence and temperature.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/7b9s-df6q",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/7b9s-df6q",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/7b9s-df6q/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SV; SVIB",
+          "paraphrase": "Mean-force equivalence and uncomputed fluctuations restrict quantum-noise claims.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/j9v5-fsbc",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/j9v5-fsbc",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/j9v5-fsbc/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SIVA–B; Fig6 and SV",
+          "paraphrase": "Conditional fidelity differs from efficiency; projections assume ideal control.",
+          "source_is_published_version": true
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/443f-cfgq",
+        "official_url": "https://journals.aps.org/pra/abstract/10.1103/443f-cfgq",
+        "reviewed_source_url": "https://arxiv.org/html/2503.21753v2",
+        "source_version": "arXiv author manuscript 2503.21753v2",
+        "location": "SIV.5; SVII",
+        "paraphrase": "Deleting transient and small-bin conditions falsely promotes N² scaling to asymptotic advantage.",
+        "source_is_published_version": false
+      },
+      "feature_denominator_note": "Only the explicitly listed passages were coded for this rule; no prevalence estimate over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRA-C04",
+      "status": "Retrospective writing recommendation; no causal quality claim",
+      "principle": "Specify the metric, resource accounting, comparison baseline, and test domain for every improvement claim.",
+      "applicability": "Algorithmic complexity, postselection, quantum metrology, and device performance.",
+      "evidence": [
+        {
+          "doi": "10.1103/lf9y-3h7h",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/lf9y-3h7h",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/lf9y-3h7h/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SIVC; SVC",
+          "paraphrase": "Per-use secret-key yield and repeater-count proxy are distinct metrics.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/3l9h-c367",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/3l9h-c367",
+          "reviewed_source_url": "https://arxiv.org/html/2505.08613v2",
+          "source_version": "arXiv author manuscript 2505.08613v2",
+          "location": "SII.4; SV.1",
+          "paraphrase": "Readout costs depend on preparation, conditioning and representability.",
+          "source_is_published_version": false
+        },
+        {
+          "doi": "10.1103/k7m2-vyqq",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/k7m2-vyqq",
+          "reviewed_source_url": "https://arxiv.org/html/2603.16214v2",
+          "source_version": "arXiv author manuscript 2603.16214v2",
+          "location": "SIII–V; SVII",
+          "paraphrase": "Subroutine query scaling excludes unresolved state-preparation overhead.",
+          "source_is_published_version": false
+        },
+        {
+          "doi": "10.1103/j9v5-fsbc",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/j9v5-fsbc",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/j9v5-fsbc/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SIVA–B; Fig6 and SV",
+          "paraphrase": "High conditional fidelity coexists with low backward retrieval efficiency.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/kpcf-b3q7",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/kpcf-b3q7",
+          "reviewed_source_url": "https://arxiv.org/html/2509.07855v2",
+          "source_version": "arXiv author manuscript 2509.07855v2",
+          "location": "Abstract; SV; SVII.1",
+          "paraphrase": "Cubic auxiliary routing leaves quartic rotations and baseline-dependent savings.",
+          "source_is_published_version": false
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/v55w-6x44",
+        "official_url": "https://journals.aps.org/pra/abstract/10.1103/v55w-6x44",
+        "reviewed_source_url": "https://arxiv.org/html/2511.09657v2",
+        "source_version": "arXiv author manuscript 2511.09657v2",
+        "location": "SIV final two paragraphs",
+        "paraphrase": "Asymptotically optimal interpolation can underperform a standard finite-size protocol.",
+        "source_is_published_version": false
+      },
+      "feature_denominator_note": "Only the explicitly listed passages were coded for this rule; no prevalence estimate over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRA-C05",
+      "status": "Retrospective writing recommendation; no causal quality claim",
+      "principle": "Remove defensive wording only if deletion preserves information, claim strength, and scientific boundaries.",
+      "applicability": "Editorial guidance; do not infer author psychology or prohibit necessary uncertainty words.",
+      "evidence": [
+        {
+          "doi": "10.1103/c614-6qmg",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/c614-6qmg",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/c614-6qmg/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SVI, single-pillar cross-Kerr paragraph",
+          "paraphrase": "Hypothetical-reader framing can shrink while the cross-Kerr boundary remains.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/7b9s-df6q",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/7b9s-df6q",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/7b9s-df6q/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SII–VI repeated evaluative framing",
+          "paraphrase": "Repeated rigor assurances add less than the stated derivation conditions.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/jkmy-8zwr",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/jkmy-8zwr",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/jkmy-8zwr/fulltext",
+          "source_version": "Publisher version of record, CC BY4.0",
+          "location": "SI scope; SIIE notation paragraph",
+          "paraphrase": "Apologetic framing can become direct scope and notation statements.",
+          "source_is_published_version": true
+        },
+        {
+          "doi": "10.1103/p9s3-hx21",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/p9s3-hx21",
+          "reviewed_source_url": "https://arxiv.org/html/2511.23081v3",
+          "source_version": "arXiv author manuscript 2511.23081v3",
+          "location": "SIII paragraphs8–9",
+          "paraphrase": "Repeated ideal-model boundary can merge if still locally explicit.",
+          "source_is_published_version": false
+        },
+        {
+          "doi": "10.1103/qj8s-j274",
+          "official_url": "https://journals.aps.org/pra/abstract/10.1103/qj8s-j274",
+          "reviewed_source_url": "https://arxiv.org/html/2601.08820v1",
+          "source_version": "arXiv author manuscript 2601.08820v1",
+          "location": "SI paragraph9; SVI paragraph1",
+          "paraphrase": "Foundational-step self-justification can shrink; loss exclusion remains.",
+          "source_is_published_version": false
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/qj2x-3l6n",
+        "official_url": "https://journals.aps.org/pra/abstract/10.1103/qj2x-3l6n",
+        "reviewed_source_url": "https://arxiv.org/html/2605.28162v3",
+        "source_version": "arXiv author manuscript 2605.28162v3",
+        "location": "SI paragraph3; SVI.2",
+        "paraphrase": "Proof-of-concept scope prevents general-code input support implying scalable fault tolerance.",
+        "source_is_published_version": false
+      },
+      "feature_denominator_note": "Only the explicitly listed passages were coded for this rule; no prevalence estimate over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R01",
+      "title": "Turn a specific gap into a checkable contribution",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "Use the opening to explain what cannot yet be inferred, computed, measured, or implemented, then name the result that changes that situation. Tie significance to this change rather than escalating generic importance language.",
+      "counterexample_or_boundary": "A gap can concern a representation, access model, or missing operational link; it need not be a claim that all prior approaches failed. Keep necessary prior-art attribution.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P001",
+          "doi": "10.1103/6n9v-b3b7",
+          "location": "I, pp.1–2",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/6n9v-b3b7",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P009",
+          "doi": "10.1103/8k5v-ddtw",
+          "location": "I, pp.1–3",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/8k5v-ddtw",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P013",
+          "doi": "10.1103/xysy-q3fp",
+          "location": "I–II, contribution list",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/xysy-q3fp",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P002",
+          "doi": "10.1103/7g63-nhl9",
+          "location": "I A–B",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/7g63-nhl9",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P073",
+          "doi": "10.1103/p7c9-x1m9",
+          "location": "I A, pp.1–2",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/p7c9-x1m9",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R02",
+      "title": "Give readers an overview before dense machinery",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "For a long theoretical contribution, use a results overview, worked example, theorem map, or route through the paper before detailed derivations. The overview should preserve the result’s domain while leaving proof mechanics for later.",
+      "counterexample_or_boundary": "Do not force a separate overview into a short, already transparent experiment. A long introduction is not intrinsically redundant when it teaches the necessary distinctions.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P008",
+          "doi": "10.1103/1bkz-7wf2",
+          "location": "I–II; Tables I–III",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/1bkz-7wf2",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P074",
+          "doi": "10.1103/1rtk-1jsn",
+          "location": "II, pp.2–6, before IV–X",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/1rtk-1jsn",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P076",
+          "doi": "10.1103/g5x4-jcsz",
+          "location": "II summaries and Table I, before III–IV",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/g5x4-jcsz",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P044",
+          "doi": "10.1103/t59v-8flk",
+          "location": "III, pp.5–7, before IV–VII",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/t59v-8flk",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P073",
+          "doi": "10.1103/p7c9-x1m9",
+          "location": "I B and II, pp.2–15, before III–V",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/p7c9-x1m9",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R03",
+      "title": "State the task and total cost model beside efficiency claims",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "Identify inputs, access model, precision, output, success criterion, and the resource being improved. Carry preparation, readout, postselection, memory, connectivity, and time costs into an end-to-end interpretation where relevant.",
+      "counterexample_or_boundary": "A query-complexity result remains valuable without a hardware crossover calculation, provided its scope is explicit. Do not relabel it an established runtime advantage.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P026",
+          "doi": "10.1103/91yq-swlv",
+          "location": "I C; Table I; III B–C",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/91yq-swlv",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P013",
+          "doi": "10.1103/xysy-q3fp",
+          "location": "VI B/D; VII–VIII",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/xysy-q3fp",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P091",
+          "doi": "10.1103/xm61-ytf7",
+          "location": "III–IV; VI",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/xm61-ytf7",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P076",
+          "doi": "10.1103/g5x4-jcsz",
+          "location": "II C2; IV E, Proposition18/Theorem8",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/g5x4-jcsz",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P045",
+          "doi": "10.1103/b2vn-zf6c",
+          "location": "II Eq.7/Table I; VI–VII",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/b2vn-zf6c",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R04",
+      "title": "Preserve the evidence level from body to abstract and conclusion",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "Use distinct language for an exact theorem, conditional theorem, bound, numerical trend, heuristic interpretation, and untested extension. Check that summaries do not strengthen the strongest supported statement.",
+      "counterexample_or_boundary": "The five cases include cautionary mismatches, not five endorsements of their summary wording. A rhetorical review does not independently adjudicate the underlying mathematical claims.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P099",
+          "doi": "10.1103/2tt3-yndr",
+          "location": "VI scaling discussion; VII conclusion",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/2tt3-yndr",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P044",
+          "doi": "10.1103/t59v-8flk",
+          "location": "III p.7; VII pp.45/49; IX opening",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/t59v-8flk",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P036",
+          "doi": "10.1103/97jv-13r6",
+          "location": "V A; VII",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/97jv-13r6",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P030",
+          "doi": "10.1103/lrqp-pnl1",
+          "location": "III B–D; IV A–B; VII",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/lrqp-pnl1",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P074",
+          "doi": "10.1103/1rtk-1jsn",
+          "location": "II F; VIII C, pp.42–43",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/1rtk-1jsn",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R05",
+      "title": "Make comparisons operationally matched",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "Report the exact metric, normalization, noise model, hardware or implementation, budget, and baseline. Include tails, failure cases, and baseline-winning regimes when they affect the practical conclusion.",
+      "counterexample_or_boundary": "A changed metric can be justified, but it must be named. An average, percentile, postselected subset, or fitted model should not silently become a worst-case or unconditional guarantee.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P068",
+          "doi": "10.1103/6k5x-ztqt",
+          "location": "III, Tables I–III",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/6k5x-ztqt",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P058",
+          "doi": "10.1103/sdlx-d3tn",
+          "location": "IV–V benchmark comparisons; VI",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/sdlx-d3tn",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P027",
+          "doi": "10.1103/69wc-gzl6",
+          "location": "III–IV experimental protocols; V",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/69wc-gzl6",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P080",
+          "doi": "10.1103/6yhz-9vr6",
+          "location": "III C; IV E/G and Table IV",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/6yhz-9vr6",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P086",
+          "doi": "10.1103/j8fm-24cf",
+          "location": "III–IV; V",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/j8fm-24cf",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R06",
+      "title": "Separate measured device performance from proposed system capability",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "Build the experimental narrative from apparatus and protocol to measured quantities, inference, and application. State which performance values are raw, corrected, conditional, best-case, or projected.",
+      "counterexample_or_boundary": "Future relevance belongs in the discussion; it does not have to be deleted. It needs a conditional bridge rather than the language of an already demonstrated system.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P061",
+          "doi": "10.1103/96bx-rjwz",
+          "location": "pp.1,4–5",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/96bx-rjwz",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P039",
+          "doi": "10.1103/45t1-vl5y",
+          "location": "II C; III–IV",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/45t1-vl5y",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P053",
+          "doi": "10.1103/m348-gy75",
+          "location": "III–V",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/m348-gy75",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P063",
+          "doi": "10.1103/fhf3-3nzb",
+          "location": "III Table I; V–VI",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/fhf3-3nzb",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P041",
+          "doi": "10.1103/j8xw-w72c",
+          "location": "III A/C/D/E; IV",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/j8xw-w72c",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R07",
+      "title": "Locate assumptions and breakdowns where the inference is made",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "Put a model condition near the result it supports, and explain what changes outside it. A useful limitation names a physical process, regime, metric, or unproved step; it is more informative than a generic caution paragraph.",
+      "counterexample_or_boundary": "Do not remove weak-coupling, Gaussianity, Markovianity, independence, finite-size, or low-energy conditions merely to make prose sound decisive.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P069",
+          "doi": "10.1103/wm5p-tjtg",
+          "location": "II–V",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/wm5p-tjtg",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P100",
+          "doi": "10.1103/pw51-tnsz",
+          "location": "III–IV; VI C–D; VII B–D",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/pw51-tnsz",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P071",
+          "doi": "10.1103/ylsw-t92p",
+          "location": "III; IV opening; V final paragraphs",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/ylsw-t92p",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P092",
+          "doi": "10.1103/l477-z8jr",
+          "location": "II C; III A–B; IV",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/l477-z8jr",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P031",
+          "doi": "10.1103/4kfd-kqdg",
+          "location": "I method comparison; III A2/B2; IV opening/A2; V",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/4kfd-kqdg",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R08",
+      "title": "Treat captions and tables as part of the claim",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "Keep simulation status, quantities, normalization, parameters, comparisons, and uncertainty interpretable at the figure or table. Check labels and captions against the surrounding prose; an accepted paper can still contain a mismatch.",
+      "counterexample_or_boundary": "The purpose is claim traceability, not mandatory caption length. A panel may remain concise when shared definitions are locally clear and the caption unambiguously points to them.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P072",
+          "doi": "10.1103/mhvv-pr5d",
+          "location": "Fig.7 caption versus discussion, p.12",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/mhvv-pr5d",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P032",
+          "doi": "10.1103/sdxb-v39h",
+          "location": "Figs.9–10, p.12",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/sdxb-v39h",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P057",
+          "doi": "10.1103/tz8f-6xwk",
+          "location": "Fig.9, p.13",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/tz8f-6xwk",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P052",
+          "doi": "10.1103/phk5-slkl",
+          "location": "VII Eq.119 and Table V",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/phk5-slkl",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P065",
+          "doi": "10.1103/nsjr-vnmg",
+          "location": "IV–VII; Table II, p.11",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/nsjr-vnmg",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRXQ-R09",
+      "title": "Choose the structure that serves the argument",
+      "status": "retrospective editorial inference grounded in reviewed passages; not an APS requirement",
+      "recommendation": "The corpus supports several workable structures: compact unsectioned narrative, many short topical sections, early discussion followed by proofs, example-first exposition, and theorem-driven papers without a conventional conclusion. Choose based on reader prerequisites and contribution type.",
+      "counterexample_or_boundary": "These are observed alternatives, not evidence that every alternative is equally effective. Neither a universal IMRaD template nor a fixed introduction length follows from this cohort.",
+      "minimum_distinct_supporting_papers": 5,
+      "evidence": [
+        {
+          "paper_evidence_id": "PRXQ-P061",
+          "doi": "10.1103/96bx-rjwz",
+          "location": "unsectioned main narrative, pp.1–5",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/96bx-rjwz",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P034",
+          "doi": "10.1103/j1ts-9nys",
+          "location": "I–VIII, pp.1–8",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/j1ts-9nys",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P074",
+          "doi": "10.1103/1rtk-1jsn",
+          "location": "III Discussion precedes IV–X",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/1rtk-1jsn",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P076",
+          "doi": "10.1103/g5x4-jcsz",
+          "location": "II C Discussion precedes III–IV; final main section IV",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/g5x4-jcsz",
+          "source_version": "publisher version of record"
+        },
+        {
+          "paper_evidence_id": "PRXQ-P015",
+          "doi": "10.1103/pxhd-9s9q",
+          "location": "main proof sequence ending without a separate conclusion",
+          "official_url": "https://journals.aps.org/prxquantum/abstract/10.1103/pxhd-9s9q",
+          "source_version": "publisher version of record"
+        }
+      ],
+      "frequency_claim": null,
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRB-R01",
+      "principle": "Organize the argument around the task gap and evidence dependencies.",
+      "status": "Retrospective editorial inference; not an APS requirement or causal quality claim",
+      "applicability": "Theory or experiment introductions and sections; short analytic Letters may proceed directly without a fixed template.",
+      "evidence": [
+        {
+          "doi": "10.1103/nsdt-mntf",
+          "official_url": "https://doi.org/10.1103/nsdt-mntf",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/nsdt-mntf/fulltext",
+          "source_version": "APS published VOR, CC BY 4.0",
+          "source_identity": "APS VOR DOI, title, authors and publication masthead; Crossref accepted-only Anonymous author record is stale",
+          "location": "Introduction; Secs.II–IV",
+          "paraphrase": "Preparation gap connects analytic mechanism and validation"
+        },
+        {
+          "doi": "10.1103/f744-f6bq",
+          "official_url": "https://doi.org/10.1103/f744-f6bq",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/f744-f6bq/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "publisher VOR DOI/title/authors",
+          "location": "Introduction",
+          "paraphrase": "Observable-centered question motivates the method"
+        },
+        {
+          "doi": "10.1103/r1gj-g99c",
+          "official_url": "https://doi.org/10.1103/r1gj-g99c",
+          "reviewed_source_url": "https://arxiv.org/pdf/2507.02853v1",
+          "source_version": "arXiv 2507.02853v1",
+          "source_identity": "title/authors match to publisher metadata; not DOI-linked",
+          "location": "Opening question",
+          "paraphrase": "A scrambling question structures the contribution"
+        },
+        {
+          "doi": "10.1103/f2d8-csrg",
+          "official_url": "https://doi.org/10.1103/f2d8-csrg",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/f2d8-csrg/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "publisher VOR DOI/title/authors",
+          "location": "Secs.II–IV",
+          "paraphrase": "Dimensional reduction precedes its tests"
+        },
+        {
+          "doi": "10.1103/q616-jr19",
+          "official_url": "https://doi.org/10.1103/q616-jr19",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/q616-jr19/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "publisher VOR DOI/title/authors",
+          "location": "Secs.II and IV",
+          "paraphrase": "State-preparation method is separated from validation"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/2cq3-66ny",
+        "official_url": "https://doi.org/10.1103/2cq3-66ny",
+        "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/2cq3-66ny/fulltext",
+        "source_version": "APS VOR",
+        "source_identity": "publisher VOR DOI/title/authors",
+        "location": "Main opening",
+        "paraphrase": "A compact exact-result Letter needs no generic importance paragraph"
+      },
+      "feature_denominator_note": "Only listed passages support this rule; no frequency claim over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRB-R02",
+      "principle": "Distinguish exact results, controlled approximations, and heuristic extrapolations.",
+      "status": "Retrospective editorial inference; not an APS requirement or causal quality claim",
+      "applicability": "Model and theory claims; one approximation does not cancel another.",
+      "evidence": [
+        {
+          "doi": "10.1103/m2gf-nrsn",
+          "official_url": "https://doi.org/10.1103/m2gf-nrsn",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/m2gf-nrsn/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "publisher VOR DOI/title/authors",
+          "location": "Sec.II",
+          "paraphrase": "Effective-action claims retain their model conditions"
+        },
+        {
+          "doi": "10.1103/498q-q4fx",
+          "official_url": "https://doi.org/10.1103/498q-q4fx",
+          "reviewed_source_url": "https://arxiv.org/pdf/2411.13661v2",
+          "source_version": "arXiv 2411.13661v2",
+          "source_identity": "title/authors match to publisher metadata; not DOI-linked",
+          "location": "Self-energy derivation",
+          "paraphrase": "Approximation hierarchy determines scope"
+        },
+        {
+          "doi": "10.1103/lp44-ll2f",
+          "official_url": "https://doi.org/10.1103/lp44-ll2f",
+          "reviewed_source_url": "https://arxiv.org/pdf/2607.25005v1",
+          "source_version": "arXiv 2607.25005v1",
+          "source_identity": "Title adds article a in publisher version; all three authors and arXiv DOI link match",
+          "location": "Sec.III",
+          "paraphrase": "Nonperturbative driving does not remove weak bath coupling"
+        },
+        {
+          "doi": "10.1103/cw3m-thsw",
+          "official_url": "https://doi.org/10.1103/cw3m-thsw",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/cw3m-thsw/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "publisher VOR DOI/title/authors",
+          "location": "Sec.V B",
+          "paraphrase": "Controlled and heuristic drive regimes remain distinct"
+        },
+        {
+          "doi": "10.1103/b6mc-w34s",
+          "official_url": "https://doi.org/10.1103/b6mc-w34s",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/b6mc-w34s/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "PDF masthead, DOI, title and authors checked against manifest and arXiv metadata.",
+          "location": "Efficiency discussion and numerical example",
+          "paraphrase": "Mixing-time condition and numerical illustration have different roles"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/cw3m-thsw",
+        "official_url": "https://doi.org/10.1103/cw3m-thsw",
+        "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/cw3m-thsw/fulltext",
+        "source_version": "APS VOR",
+        "source_identity": "publisher VOR DOI/title/authors",
+        "location": "Sec.V B",
+        "paraphrase": "Removing strong-drive limits promotes heuristic exponents to controlled predictions"
+      },
+      "feature_denominator_note": "Only listed passages support this rule; no frequency claim over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRB-R03",
+      "principle": "Preserve the meanings of metrics, conditioning, and averaging.",
+      "status": "Retrospective editorial inference; not an APS requirement or causal quality claim",
+      "applicability": "Quantum states, photon statistics, measurements, and correlations.",
+      "evidence": [
+        {
+          "doi": "10.1103/34vt-61w5",
+          "official_url": "https://doi.org/10.1103/34vt-61w5",
+          "reviewed_source_url": "https://arxiv.org/pdf/2606.11550v2",
+          "source_version": "arXiv 2606.11550v2",
+          "source_identity": "arXiv DOI link plus title/authors",
+          "location": "Sec.III B 2",
+          "paraphrase": "Normalized photon statistics differ from absolute counts"
+        },
+        {
+          "doi": "10.1103/wl4l-hyky",
+          "official_url": "https://doi.org/10.1103/wl4l-hyky",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/wl4l-hyky/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "publisher VOR DOI/title/authors",
+          "location": "Secs.III–IV",
+          "paraphrase": "Signal interpretation depends on the actual measured quantity"
+        },
+        {
+          "doi": "10.1103/f8jq-1cxh",
+          "official_url": "https://doi.org/10.1103/f8jq-1cxh",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/f8jq-1cxh/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "publisher VOR DOI/title/authors",
+          "location": "Model and conclusion",
+          "paraphrase": "Number probabilities are not complete phase-sensitive tomography"
+        },
+        {
+          "doi": "10.1103/k58k-tpy7",
+          "official_url": "https://doi.org/10.1103/k58k-tpy7",
+          "reviewed_source_url": "https://arxiv.org/pdf/2604.19333v2",
+          "source_version": "arXiv 2604.19333v2",
+          "source_identity": "arXiv DOI link plus title/authors",
+          "location": "Reset dynamics",
+          "paraphrase": "Concurrence depends on ensemble versus trajectory treatment"
+        },
+        {
+          "doi": "10.1103/2tvq-j6y1",
+          "official_url": "https://doi.org/10.1103/2tvq-j6y1",
+          "reviewed_source_url": "https://arxiv.org/pdf/2602.23484v1",
+          "source_version": "arXiv 2602.23484v1",
+          "source_identity": "title/authors match to publisher metadata; not DOI-linked",
+          "location": "Secs.I and VI",
+          "paraphrase": "Unrecorded measurement is part of the preparation channel"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/2tvq-j6y1",
+        "official_url": "https://doi.org/10.1103/2tvq-j6y1",
+        "reviewed_source_url": "https://arxiv.org/pdf/2602.23484v1",
+        "source_version": "arXiv 2602.23484v1",
+        "source_identity": "title/authors match to publisher metadata; not DOI-linked",
+        "location": "Secs.I and VI",
+        "paraphrase": "Removing unrecorded changes the protocol"
+      },
+      "feature_denominator_note": "Only listed passages support this rule; no frequency claim over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRB-R04",
+      "principle": "State the resource accounting behind advantage and limiting claims.",
+      "status": "Retrospective editorial inference; not an APS requirement or causal quality claim",
+      "applicability": "Algorithms, finite-size numerics, and phase behavior.",
+      "evidence": [
+        {
+          "doi": "10.1103/s2ds-5n5k",
+          "official_url": "https://doi.org/10.1103/s2ds-5n5k",
+          "reviewed_source_url": "https://arxiv.org/pdf/2602.14769v1",
+          "source_version": "arXiv 2602.14769v1",
+          "source_identity": "arXiv DOI link plus title/authors",
+          "location": "Secs.III and VI",
+          "paraphrase": "Represented subspace does not settle implementation cost"
+        },
+        {
+          "doi": "10.1103/2x7d-895g",
+          "official_url": "https://doi.org/10.1103/2x7d-895g",
+          "reviewed_source_url": "https://arxiv.org/pdf/2603.23163v1",
+          "source_version": "arXiv 2603.23163v1",
+          "source_identity": "title/authors match to publisher metadata; not DOI-linked",
+          "location": "Secs.II B 3 and III F",
+          "paraphrase": "Embedding performance requires component and total costs"
+        },
+        {
+          "doi": "10.1103/b6mc-w34s",
+          "official_url": "https://doi.org/10.1103/b6mc-w34s",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/b6mc-w34s/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "PDF masthead, DOI, title and authors checked against manifest and arXiv metadata.",
+          "location": "Efficiency discussion",
+          "paraphrase": "State preparation efficiency depends on mixing time"
+        },
+        {
+          "doi": "10.1103/lbw2-1f57",
+          "official_url": "https://doi.org/10.1103/lbw2-1f57",
+          "reviewed_source_url": "https://arxiv.org/pdf/2604.20419v2",
+          "source_version": "2604.20419v2",
+          "source_identity": "arXiv DOI link plus title/authors",
+          "location": "Sec.IV",
+          "paraphrase": "Time-doubling claim retains simulated time and size range"
+        },
+        {
+          "doi": "10.1103/l86m-q84h",
+          "official_url": "https://doi.org/10.1103/l86m-q84h",
+          "reviewed_source_url": "https://arxiv.org/pdf/2606.01116v1",
+          "source_version": "arXiv 2606.01116v1",
+          "source_identity": "title/authors match to publisher metadata; not DOI-linked",
+          "location": "Sec.III C",
+          "paraphrase": "Numerical signatures require size and geometry scope"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/1bht-9h21",
+        "official_url": "https://doi.org/10.1103/1bht-9h21",
+        "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/1bht-9h21/fulltext",
+        "source_version": "APS VOR",
+        "source_identity": "publisher VOR DOI/title/authors",
+        "location": "Fig.1; Sec.III",
+        "paraphrase": "Infinite cylinder length does not remove finite transverse circumference"
+      },
+      "feature_denominator_note": "Only listed passages support this rule; no frequency claim over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRB-R05",
+      "principle": "Compress repeated inferences while checking the strength of the abstract.",
+      "status": "Retrospective editorial inference; not an APS requirement or causal quality claim",
+      "applicability": "Redundancy and cross-paragraph consistency; listed examples include cautionary evidence, not an endorsement of every phrase.",
+      "evidence": [
+        {
+          "doi": "10.1103/1dch-gvb5",
+          "official_url": "https://doi.org/10.1103/1dch-gvb5",
+          "reviewed_source_url": "https://arxiv.org/pdf/2509.12572v3",
+          "source_version": "2509.12572v3",
+          "source_identity": "title/authors match to publisher metadata; not DOI-linked",
+          "location": "Sec.IV",
+          "paraphrase": "Adjacent energy-distance inference is a candidate for merging"
+        },
+        {
+          "doi": "10.1103/glbs-j4hl",
+          "official_url": "https://doi.org/10.1103/glbs-j4hl",
+          "reviewed_source_url": "https://arxiv.org/pdf/2603.25647v1",
+          "source_version": "arXiv 2603.25647v1",
+          "source_identity": "arXiv DOI link plus title/authors",
+          "location": "Sec.IV B",
+          "paraphrase": "Degeneracy explanation prevents apparent clustering contradiction"
+        },
+        {
+          "doi": "10.1103/d5f3-r8d2",
+          "official_url": "https://doi.org/10.1103/d5f3-r8d2",
+          "reviewed_source_url": "https://arxiv.org/pdf/2606.02743v2",
+          "source_version": "arXiv 2606.02743v2",
+          "source_identity": "arXiv DOI link plus title/authors",
+          "location": "Theorem1 and following prose",
+          "paraphrase": "Check upper-bound versus equality wording"
+        },
+        {
+          "doi": "10.1103/6v32-htrh",
+          "official_url": "https://doi.org/10.1103/6v32-htrh",
+          "reviewed_source_url": "https://arxiv.org/pdf/2605.01801v1",
+          "source_version": "arXiv 2605.01801v1",
+          "source_identity": "title/authors match to publisher metadata; not DOI-linked",
+          "location": "Sec.III versus abstract",
+          "paraphrase": "Align tomography claim with actual reconstruction scope"
+        },
+        {
+          "doi": "10.1103/sr8x-x2kr",
+          "official_url": "https://doi.org/10.1103/sr8x-x2kr",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/sr8x-x2kr/fulltext",
+          "source_version": "APS VOR",
+          "source_identity": "PDF masthead, DOI, title and authors checked against manifest and arXiv metadata.",
+          "location": "Optimization discussion",
+          "paraphrase": "Optimizing an upper bound differs from optimizing the target"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/glbs-j4hl",
+        "official_url": "https://doi.org/10.1103/glbs-j4hl",
+        "reviewed_source_url": "https://arxiv.org/pdf/2603.25647v1",
+        "source_version": "arXiv 2603.25647v1",
+        "source_identity": "arXiv DOI link plus title/authors",
+        "location": "Sec.IV B",
+        "paraphrase": "Apparent defensive explanation carries essential mechanism"
+      },
+      "feature_denominator_note": "Only listed passages support this rule; no frequency claim over100",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRL-R01",
+      "principle": "Move from a broad physical problem to a precise contribution; choose abstract and structure to support the inference.",
+      "status": "Editorial synthesis of PRL90 induction papers; held-out10 notes excluded; not APS requirement or causal effectiveness claim",
+      "applicability": "Introductions, abstracts, and body structure; no mandatory five-sentence abstract or uniform IMRaD template.",
+      "evidence": [
+        {
+          "doi": "10.1103/t2yx-9bqh",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/t2yx-9bqh",
+          "reviewed_source_url": "https://arxiv.org/pdf/2510.15730v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Author manuscript v2 dated 5 October 2026 links published DOI. Not verified identical to final typesetting.",
+          "location": "pp.1–5",
+          "paraphrase": "Broad superposition question narrows to reservoir-size crossover"
+        },
+        {
+          "doi": "10.1103/hpfg-ljzr",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/hpfg-ljzr",
+          "reviewed_source_url": "https://arxiv.org/pdf/2605.04546v1",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Prepublication v1 dated6May2026; APS title/authors and central result match, but final abstract wording differs. Final main-text form unverified.",
+          "location": "pp.1–5",
+          "paraphrase": "Failure of an existing witness motivates its replacement"
+        },
+        {
+          "doi": "10.1103/f7fz-6zsy",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/f7fz-6zsy",
+          "reviewed_source_url": "https://arxiv.org/pdf/2603.05429v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Author manuscript v2 dated 29 September 2026 explicitly links published DOI; not assumed identical to final typesetting.",
+          "location": "Abstract; p.4",
+          "paraphrase": "Abstract includes error-rate and postselection tradeoff"
+        },
+        {
+          "doi": "10.1103/v2ms-wmz1",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/v2ms-wmz1",
+          "reviewed_source_url": "https://arxiv.org/pdf/2508.15765v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "DOI-linked author v2 dated22September2026; not assumed identical to final typesetting.",
+          "location": "Abstract",
+          "paraphrase": "Two-sentence abstract is a counterexample to a mandatory sentence recipe"
+        },
+        {
+          "doi": "10.1103/n7tv-p5bp",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/n7tv-p5bp",
+          "reviewed_source_url": "https://arxiv.org/pdf/2511.22898v1",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Author prepublication version; APS title/author match; VOR identity not claimed",
+          "location": "pp.1–5",
+          "paraphrase": "Compilation mechanism leads to two demonstrations"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/hxzf-nmpx",
+        "official_url": "https://journals.aps.org/prl/abstract/10.1103/hxzf-nmpx",
+        "reviewed_source_url": "https://arxiv.org/pdf/2603.02334v1",
+        "source_version": "Pinned author arXiv manuscript",
+        "source_identity": "Pinned author manuscript 2603.02334v1; may differ in wording, data, authors and layout from final PRL article.",
+        "location": "pp.1–4",
+        "paraphrase": "Definitions of competing orthogonality notions are needed before the gap becomes meaningful"
+      },
+      "feature_denominator_note": "Qualitative examples and counterexamples; no feature-prevalence denominator",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRL-R02",
+      "principle": "Include figures, equations, and metric conditions in the main argument.",
+      "status": "Editorial synthesis of PRL90 induction papers; held-out10 notes excluded; not APS requirement or causal effectiveness claim",
+      "applicability": "Match captions to claims; do not impose a figure count or treat author-manuscript layout as publisher style.",
+      "evidence": [
+        {
+          "doi": "10.1103/9mb1-t3w4",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/9mb1-t3w4",
+          "reviewed_source_url": "https://arxiv.org/pdf/2506.19707v1",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Related prepublication v1 (24June2025), matched apparatus/results/overlapping authors, title Enhanced vs final Enhancing and final author list expanded. Does not establish final published wording/layout.",
+          "location": "pp.2–5; Fig.3",
+          "paraphrase": "Measured and simulated loss settings and evaluation protocols remain distinct"
+        },
+        {
+          "doi": "10.1103/qy4y-171h",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/qy4y-171h",
+          "reviewed_source_url": "https://arxiv.org/pdf/2509.09304v1",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Pinned author manuscript 2509.09304v1; may differ in wording, data, authors and layout from final PRL article. Published author list adds Jinbing Hu; final wording is unverified.",
+          "location": "pp.4–5; Figs.2–3",
+          "paraphrase": "Analytic approximations, simulations and experimental fringes have different status"
+        },
+        {
+          "doi": "10.1103/tjrz-slnm",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/tjrz-slnm",
+          "reviewed_source_url": "https://arxiv.org/pdf/2605.28968v3",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Author prepublication version; APS title/author match; VOR identity not claimed",
+          "location": "Abstract; p.5",
+          "paraphrase": "Raw fidelity, correction-dependent inference and lower bound are distinct"
+        },
+        {
+          "doi": "10.1103/k35f-7k9s",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/k35f-7k9s",
+          "reviewed_source_url": "https://arxiv.org/pdf/2603.01156v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Pinned author version may differ from final published wording; no VOR identity claim",
+          "location": "pp.2–5",
+          "paraphrase": "Projected network rate differs from measured memory lifetime and selected-subspace fidelity"
+        },
+        {
+          "doi": "10.1103/5wwp-rbpm",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/5wwp-rbpm",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/5wwp-rbpm/fulltext",
+          "source_version": "OA APS VOR",
+          "source_identity": "OA APS VOR with CC BY notice; acquired from public APS Harvest source, not arXiv",
+          "location": "pp.4–5",
+          "paraphrase": "Finite-block and asymptotic key rates support different distance statements"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/v2ms-wmz1",
+        "official_url": "https://journals.aps.org/prl/abstract/10.1103/v2ms-wmz1",
+        "reviewed_source_url": "https://arxiv.org/pdf/2508.15765v2",
+        "source_version": "Pinned author arXiv manuscript",
+        "source_identity": "DOI-linked author v2 dated22September2026; not assumed identical to final typesetting.",
+        "location": "TableI",
+        "paraphrase": "A scaling table can carry the argument without a main figure"
+      },
+      "feature_denominator_note": "Qualitative examples and counterexamples; no feature-prevalence denominator",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRL-R03",
+      "principle": "Preserve the truth conditions of claims before deleting rhetoric.",
+      "status": "Editorial synthesis of PRL90 induction papers; held-out10 notes excluded; not APS requirement or causal effectiveness claim",
+      "applicability": "Theorems, experiments, postselection, and resource advantage.",
+      "evidence": [
+        {
+          "doi": "10.1103/hpfg-ljzr",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/hpfg-ljzr",
+          "reviewed_source_url": "https://arxiv.org/pdf/2605.04546v1",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Prepublication v1 dated6May2026; APS title/authors and central result match, but final abstract wording differs. Final main-text form unverified.",
+          "location": "pp.4–5; Eq.5; Fig.4",
+          "paraphrase": "Entanglement lower bound is not the complete measure"
+        },
+        {
+          "doi": "10.1103/f7fz-6zsy",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/f7fz-6zsy",
+          "reviewed_source_url": "https://arxiv.org/pdf/2603.05429v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Author manuscript v2 dated 29 September 2026 explicitly links published DOI; not assumed identical to final typesetting.",
+          "location": "p.4; Fig.3(c); TableI",
+          "paraphrase": "Finite postselected zero-failure sampling yields an upper bound, not zero error"
+        },
+        {
+          "doi": "10.1103/k2cg-484h",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/k2cg-484h",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/k2cg-484h/fulltext",
+          "source_version": "OA APS VOR",
+          "source_identity": "OA version of record",
+          "location": "pp.4–5; Eq.3",
+          "paraphrase": "Deterministic phase evolution does not remove readout conditioning"
+        },
+        {
+          "doi": "10.1103/jlvb-t2xl",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/jlvb-t2xl",
+          "reviewed_source_url": "https://arxiv.org/pdf/2512.03659v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Pinned author version may differ from final published wording; no VOR identity claim",
+          "location": "p.2; pp.3–4; AppendixA conclusion",
+          "paraphrase": "Ideal proof assumes perfect verification and at least three honest parties"
+        },
+        {
+          "doi": "10.1103/993r-lzzm",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/993r-lzzm",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/993r-lzzm/fulltext",
+          "source_version": "OA APS VOR",
+          "source_identity": "OA APS VOR with CC BY notice; acquired from public APS Harvest source, not arXiv",
+          "location": "pp.4–5",
+          "paraphrase": "Exact-saturation self-testing is not a finite-noise robustness bound"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/y1nh-1b82",
+        "official_url": "https://journals.aps.org/prl/abstract/10.1103/y1nh-1b82",
+        "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/y1nh-1b82/fulltext",
+        "source_version": "OA APS VOR",
+        "source_identity": "OA version of record",
+        "location": "p.2; pp.4–6",
+        "paraphrase": "Scalar/CP and decay assumptions define the tested separable hypothesis"
+      },
+      "feature_denominator_note": "Qualitative examples and counterexamples; no feature-prevalence denominator",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "PRL-R04",
+      "principle": "Use established results to support qualified implications in the conclusion; remove repeated assurances.",
+      "status": "Editorial synthesis of PRL90 induction papers; held-out10 notes excluded; not APS requirement or causal effectiveness claim",
+      "applicability": "Conclusions, predictions, and calibration; examples distinguish essential boundaries from removable evaluations.",
+      "evidence": [
+        {
+          "doi": "10.1103/38vj-6fqc",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/38vj-6fqc",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/38vj-6fqc/fulltext",
+          "source_version": "OA APS VOR",
+          "source_identity": "OA version of record",
+          "location": "pp.3–4",
+          "paraphrase": "Cluster truncation and omitted processes precede proposed extensions"
+        },
+        {
+          "doi": "10.1103/syq9-z93n",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/syq9-z93n",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/syq9-z93n/fulltext",
+          "source_version": "OA APS VOR",
+          "source_identity": "OA version of record",
+          "location": "pp.2–5",
+          "paraphrase": "Finite-size superradiance, spectral collapse and open stabilization problem stay distinct"
+        },
+        {
+          "doi": "10.1103/k35f-7k9s",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/k35f-7k9s",
+          "reviewed_source_url": "https://arxiv.org/pdf/2603.01156v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Pinned author version may differ from final published wording; no VOR identity claim",
+          "location": "pp.2–5",
+          "paraphrase": "A prospective architecture does not become a demonstrated system"
+        },
+        {
+          "doi": "10.1103/4ts4-qj74",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/4ts4-qj74",
+          "reviewed_source_url": "https://arxiv.org/pdf/2510.05405v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "Pinned author manuscript 2510.05405v2; may differ in wording, data, authors and layout from final PRL article.",
+          "location": "pp.4–5",
+          "paraphrase": "Trim good-agreement reassurance but retain factor1.9 mismatch and calibration rationale"
+        },
+        {
+          "doi": "10.1103/v2ms-wmz1",
+          "official_url": "https://journals.aps.org/prl/abstract/10.1103/v2ms-wmz1",
+          "reviewed_source_url": "https://arxiv.org/pdf/2508.15765v2",
+          "source_version": "Pinned author arXiv manuscript",
+          "source_identity": "DOI-linked author v2 dated22September2026; not assumed identical to final typesetting.",
+          "location": "pp.1–2; TableI; Discussion",
+          "paraphrase": "Advantage is tied to the stated task and cost model"
+        }
+      ],
+      "counterexample_or_protected_boundary": {
+        "doi": "10.1103/4ts4-qj74",
+        "official_url": "https://journals.aps.org/prl/abstract/10.1103/4ts4-qj74",
+        "reviewed_source_url": "https://arxiv.org/pdf/2510.05405v2",
+        "source_version": "Pinned author arXiv manuscript",
+        "source_identity": "Pinned author manuscript 2510.05405v2; may differ in wording, data, authors and layout from final PRL article.",
+        "location": "pp.4–5",
+        "paraphrase": "A witness that is not an entanglement monotone cannot quantify more entanglement"
+      },
+      "feature_denominator_note": "Qualitative examples and counterexamples; no feature-prevalence denominator",
+      "evidence_group": "legacy400"
+    },
+    {
+      "rule_id": "APP-E01",
+      "title": "Connect application metrics to a testable physical evidence chain.",
+      "applicability": "Sensing, readout, device, or control papers centered on application performance.",
+      "recommendation": "Identify which application constraint requires which physical quantity; connect raw observations, calibration, inference, and the performance metric. Use an independent control that can change the proposed mechanism. Establish confidence in the measurement before claiming improved performance.",
+      "counterexample_or_boundary": "Theory papers need not supply experimental calibration; predicted performance must retain model assumptions. Strong wording in a cited paper does not upgrade the evidence level.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "paper_id": "APP-018",
+          "doi": "10.1103/vpnl-xpj7",
+          "source_version": "Pinned arXiv author manuscript 2603.06988v2",
+          "url": "https://arxiv.org/pdf/2603.06988v2",
+          "locator": "Sec.IV–V, pp.6–8; Fig.5 p.7"
+        },
+        {
+          "paper_id": "APP-029",
+          "doi": "10.1103/75bl-mm3b",
+          "source_version": "Pinned arXiv author manuscript 2409.09835v4",
+          "url": "https://arxiv.org/pdf/2409.09835v4",
+          "locator": "Secs.III–V, pp.3–7; Figs.3,6"
+        },
+        {
+          "paper_id": "APP-038",
+          "doi": "10.1103/c4zz-pbk4",
+          "source_version": "Pinned arXiv author manuscript 2512.19902v2",
+          "url": "https://arxiv.org/pdf/2512.19902v2",
+          "locator": "main pp.3–4; Fig.3(a–f) p.4"
+        },
+        {
+          "paper_id": "APP-050",
+          "doi": "10.1103/dbqj-qld5",
+          "source_version": "Pinned arXiv author manuscript 2501.07354v2",
+          "url": "https://arxiv.org/pdf/2501.07354v2",
+          "locator": "Secs.III–IV, pp.3–7; Table III p.6, Figs.3–5"
+        }
+      ]
+    },
+    {
+      "rule_id": "APP-E02",
+      "title": "Report task, cost boundaries, and conditional success with performance comparisons.",
+      "applicability": "Claims that algorithms, error mitigation, quantum control, or hardware outperform a baseline.",
+      "recommendation": "Match the task and quality target; distinguish measurements, calculations, estimates, and extrapolations. Include relevant readout, reset, sampling, classical processing, tuning, and postselection costs. Report conditional fidelity or success alongside end-to-end availability.",
+      "counterexample_or_boundary": "Choose costs relevant to the claimed benefit rather than demanding a commercial-system budget for every paper. Model and estimated results do not establish universal speed advantage.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "paper_id": "APP-003",
+          "doi": "10.1103/568y-4264",
+          "source_version": "Pinned arXiv author manuscript 2607.24722v2",
+          "url": "https://arxiv.org/pdf/2607.24722v2",
+          "locator": "Secs.IV–VI, pp.8–13; Tables II–III"
+        },
+        {
+          "paper_id": "APP-014",
+          "doi": "10.1103/y8ft-m61w",
+          "source_version": "Pinned arXiv author manuscript 2506.13241v1",
+          "url": "https://arxiv.org/pdf/2506.13241v1",
+          "locator": "Secs.III–IV, pp.4–7; Figs.2–3"
+        },
+        {
+          "paper_id": "APP-045",
+          "doi": "10.1103/y4nq-kcw1",
+          "source_version": "Pinned arXiv author manuscript 2509.10758v1",
+          "url": "https://arxiv.org/pdf/2509.10758v1",
+          "locator": "Secs.2.1–2.2, pp.5–11; Fig.2 p.10"
+        },
+        {
+          "paper_id": "APP-046",
+          "doi": "10.1103/gpsf-pn1x",
+          "source_version": "Pinned arXiv author manuscript 2510.06337v3",
+          "url": "https://arxiv.org/pdf/2510.06337v3",
+          "locator": "Secs.II–V, pp.2–9; Figs.1–5"
+        },
+        {
+          "paper_id": "APP-048",
+          "doi": "10.1103/r2pt-dzn8",
+          "source_version": "Pinned arXiv author manuscript 2503.13832v2",
+          "url": "https://arxiv.org/pdf/2503.13832v2",
+          "locator": "Sec.IV, pp.9–12; Figs.6–8"
+        }
+      ]
+    },
+    {
+      "rule_id": "APP-E03",
+      "title": "Develop derivations in the order needed to evaluate the claim.",
+      "applicability": "Mechanisms, protocols, or designs that require several conditions to work together.",
+      "recommendation": "Introduce the physical problem, a sufficiently small model, and the final observable. Develop the necessary conditions in sequence and explain which possible failure each step resolves. Place approximation domains at their point of use and technical calculations in an appropriate appendix.",
+      "counterexample_or_boundary": "This is a conditional editorial choice, not a fixed section order. A key observation can precede its explanation if definitions and evidence dependencies remain clear.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "paper_id": "APP-005",
+          "doi": "10.1103/8bkm-b48b",
+          "source_version": "Pinned arXiv author manuscript 2603.02106v2",
+          "url": "https://arxiv.org/pdf/2603.02106v2",
+          "locator": "Secs.II–V, pp.2–10; Figs.1–4"
+        },
+        {
+          "paper_id": "APP-020",
+          "doi": "10.1103/ksnb-vhsl",
+          "source_version": "Pinned arXiv author manuscript 2407.18895v2",
+          "url": "https://arxiv.org/pdf/2407.18895v2",
+          "locator": "Secs.II–VII, pp.2–12; Figs.2–7"
+        },
+        {
+          "paper_id": "APP-041",
+          "doi": "10.1103/kv28-r6w4",
+          "source_version": "Pinned arXiv author manuscript 2507.05377v1",
+          "url": "https://arxiv.org/pdf/2507.05377v1",
+          "locator": "Single-/Two-photon regime, pp.2–5; Eqs.6–10, Figs.2–4"
+        },
+        {
+          "paper_id": "APP-045",
+          "doi": "10.1103/y4nq-kcw1",
+          "source_version": "Pinned arXiv author manuscript 2509.10758v1",
+          "url": "https://arxiv.org/pdf/2509.10758v1",
+          "locator": "Sec.2.2, pp.7–11; Eqs.4–11"
+        }
+      ]
+    },
+    {
+      "rule_id": "APP-E04",
+      "title": "Use failure channels and distributions to establish reliability.",
+      "applicability": "Fabrication variation, noise, feedback, optimization, or repeated experiments for which an average is insufficient.",
+      "recommendation": "Show relevant distributions, failure channels, or tail metrics. Use the mechanism to guide a targeted modification and report any new limitation. State boundaries through specific domains, samples, and residual errors.",
+      "counterexample_or_boundary": "Material thresholds and parameter values are not cross-platform rules. Main-text failures should matter to the central conclusion.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "paper_id": "APP-007",
+          "doi": "10.1103/qwgc-mwzn",
+          "source_version": "Pinned arXiv author manuscript 2602.20740v2",
+          "url": "https://arxiv.org/pdf/2602.20740v2",
+          "locator": "Secs.III–IV, pp.6–10; Figs.5–6"
+        },
+        {
+          "paper_id": "APP-013",
+          "doi": "10.1103/zjgr-1cxw",
+          "source_version": "Pinned arXiv author manuscript 2510.25703v1",
+          "url": "https://arxiv.org/pdf/2510.25703v1",
+          "locator": "Secs.III–IV, pp.3–5; Figs.2–3"
+        },
+        {
+          "paper_id": "APP-037",
+          "doi": "10.1103/klgx-jff9",
+          "source_version": "Pinned arXiv author manuscript 2503.11437v2",
+          "url": "https://arxiv.org/pdf/2503.11437v2",
+          "locator": "Secs.III–IV, pp.4–6; Figs.6–7"
+        },
+        {
+          "paper_id": "APP-049",
+          "doi": "10.1103/wjfs-cgwc",
+          "source_version": "Pinned arXiv author manuscript 2511.20765v1",
+          "url": "https://arxiv.org/pdf/2511.20765v1",
+          "locator": "solidification sections, pp.4–6; Figs.4–5"
+        },
+        {
+          "paper_id": "APP-064",
+          "doi": "10.1103/25md-vv43",
+          "source_version": "Pinned arXiv author manuscript 2511.19702v1",
+          "url": "https://arxiv.org/pdf/2511.19702v1",
+          "locator": "Secs.III–V, pp.3–6; Figs.3–5"
+        }
+      ]
+    },
+    {
+      "rule_id": "APP-E05",
+      "title": "Make dense workflow diagrams carry scientific dependencies.",
+      "applicability": "Methods whose contribution lies in operation order, feedback, branches, or reused computation.",
+      "recommendation": "Retain the variables, operators, hardware or data flow, and criteria needed to understand the method. Use grouping and arrows to show dependencies, labeling training versus inference, implemented versus proposed elements, and quantum versus classical processing. Reduce unnecessary crossings and repeated modules before removing scientific content.",
+      "counterexample_or_boundary": "Three examples from six inspected pages support this recommendation, not a 100-paper image census. Do not copy a fixed density, palette, or column count; supplement color with text, shapes, or line styles.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "paper_id": "APP-045",
+          "doi": "10.1103/y4nq-kcw1",
+          "source_version": "Pinned arXiv author manuscript 2509.10758v1",
+          "url": "https://arxiv.org/pdf/2509.10758v1",
+          "locator": "Fig.2, actual PDF p.10; visually inspected"
+        },
+        {
+          "paper_id": "APP-036",
+          "doi": "10.1103/xkbl-ctwn",
+          "source_version": "Pinned arXiv author manuscript 2601.02149v4",
+          "url": "https://arxiv.org/pdf/2601.02149v4",
+          "locator": "Fig.1, actual PDF p.1; visually inspected"
+        },
+        {
+          "paper_id": "APP-032",
+          "doi": "10.1103/c8ss-8vyh",
+          "source_version": "Pinned arXiv author manuscript 2512.17148v2",
+          "url": "https://arxiv.org/pdf/2512.17148v2",
+          "locator": "Fig.7, actual PDF p.9; visually inspected"
+        }
+      ]
+    },
+    {
+      "rule_id": "APP-E06",
+      "title": "Use aligned axes and compact labels to connect layers of evidence.",
+      "applicability": "Comparisons across designs, parameters, baselines, or simulations and experiments.",
+      "recommendation": "Give rows and columns explicit comparison roles, retaining comparable ranges and consistent encodings. Put labels near their axes and share them only when valid. Place explanatory schematics or pulses beside the data they explain and inspect legibility at final size.",
+      "counterexample_or_boundary": "Compact side labels and centered bottom labels are configurable editorial preferences, not APS mandates. Shared axes must not hide differing conditions; small text requires an independent final-size check.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "paper_id": "APP-002",
+          "doi": "10.1103/pd5d-sddp",
+          "source_version": "Pinned arXiv author manuscript 2512.18064v2",
+          "url": "https://arxiv.org/pdf/2512.18064v2",
+          "locator": "Fig.3, actual PDF p.9; visually inspected"
+        },
+        {
+          "paper_id": "APP-013",
+          "doi": "10.1103/zjgr-1cxw",
+          "source_version": "Pinned arXiv author manuscript 2510.25703v1",
+          "url": "https://arxiv.org/pdf/2510.25703v1",
+          "locator": "Fig.2, actual PDF p.3; visually inspected"
+        },
+        {
+          "paper_id": "APP-038",
+          "doi": "10.1103/c4zz-pbk4",
+          "source_version": "Pinned arXiv author manuscript 2512.19902v2",
+          "url": "https://arxiv.org/pdf/2512.19902v2",
+          "locator": "Fig.3, actual PDF p.4; visually inspected"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRX-R01",
+      "title": "Let each layer of a central contribution resolve a real obstacle.",
+      "applicability": "Platform, method, or mechanism papers with many results.",
+      "recommendation": "State what can now be explained or achieved and on what evidence. Let experiments, theory, and benchmarks each resolve a necessary question. A complex system may need a results map; a short argument need not.",
+      "counterexample_or_boundary": "Convenience sampling supports conditional recommendations, not mandatory sections, figures, length, or causal comparisons between journals. Do not hide important conditions or force a long paper into a short template.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/9cwp-ppp2",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/9cwp-ppp2",
+          "location": "I–VI; Fig. 1; Table II; Figs. 4–8",
+          "paraphrase": "Stability, degeneracy, and scalability connect system performance to specific errors and control parameters.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/s5bn-z4jq",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/s5bn-z4jq",
+          "location": "I B–G; II–VI; Tables III–VII; Figs. 17–28",
+          "paraphrase": "A hybrid architecture is developed through model terms, primitives, errors, and observables.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/gl3r-hxtm",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/gl3r-hxtm",
+          "location": "II B–C; Figs. 2–4",
+          "paraphrase": "Favorable vacancies and accessible migration are insufficient without explaining sinks and the final destination.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/q2h3-58pz",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/q2h3-58pz",
+          "location": "I–III; Figs. 1–5",
+          "paraphrase": "A short chain connects target state, lossy optimum, apparatus timing, and staged correction.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRX-R02",
+      "title": "Organize proofs in the order a reader understands the problem and finds a solution.",
+      "applicability": "Constructive, classification, algorithmic, and multi-theorem papers.",
+      "recommendation": "Establish the problem and useful intuition before introducing definitions, constructions, and decisive proof steps. Check assumptions, norms, error types, and domains internally. Report and repair unsupported connections in editorial feedback rather than automatically adding an unproved-claim disclaimer to the manuscript. Preserve valid connections and needed explanations; locate detailed derivations precisely.",
+      "counterexample_or_boundary": "The selected examples support editorial judgments, not a fixed proof template or independent verification of every proof.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/jrn5-gv19",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/jrn5-gv19",
+          "location": "II B–C; III A–C; IV D; Figs. 2–3, 7; Table I",
+          "paraphrase": "Two failures motivate three repair requirements, a mixed-kernel guarantee, and remaining QGT failures and extensions.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/tb52-jxmx",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/tb52-jxmx",
+          "location": "II C; III B2",
+          "paraphrase": "A common lemma supports theorems, while a separate proposition handles additive error that does not satisfy a relative-error assumption.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/3bpt-f9pd",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/3bpt-f9pd",
+          "location": "II A; IV; V; Fig. 18",
+          "paraphrase": "Counterexamples for independent assumptions, stronger and weaker definitions, and local deformation sequences are separated.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/9qhy-ms2y",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/9qhy-ms2y",
+          "location": "III–IV; Algorithms 1–3",
+          "paraphrase": "A minimal repeated-element counterexample motivates a single-string repair; superposition introduces a new obstacle and a disentangling algorithm.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/vqfz-wzjg",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/vqfz-wzjg",
+          "location": "II C–VII; Definition 3 prime; Theorem 7",
+          "paraphrase": "Concrete processes and counterexamples stabilize the operational definition before general conclusions.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRX-R03",
+      "title": "Distinguish evidence levels in mechanism claims and retain serious alternatives.",
+      "applicability": "Spectroscopy, materials mechanisms, multiple probes, and inverse problems.",
+      "recommendation": "Separate observations, processing, model fitting, mechanism inference, and proposed tests. Establish sample identity and a reliable baseline, then choose interventions or complementary probes that distinguish explanations. Preserve resolution limits, model dependence, and ambiguity that affect the conclusion.",
+      "counterexample_or_boundary": "Do not promote a model fit into a unique mechanism. Unknowns unrelated to the central question need not be added to the outlook.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/qjt6-hj2k",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/qjt6-hj2k",
+          "location": "III–IV; Figs. 2–4",
+          "paraphrase": "Raw anomalies, background treatment, a qualitative Gaussian description, and an interband-pairing hypothesis remain distinct.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/3zmg-276c",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/3zmg-276c",
+          "location": "II A–D; Figs. 2–4",
+          "paraphrase": "An unsuccessful independent-particle baseline motivates envelope, phase, and structural contributions before dynamic inversion.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/z9qg-287y",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/z9qg-287y",
+          "location": "II–III; Figs. 1–3",
+          "paraphrase": "A screening intervention on one device first checks electronic decoupling, then constrains pairing while retaining several electronic candidates.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/bjq3-py7l",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/bjq3-py7l",
+          "location": "II A–B; Figs. 2–3",
+          "paraphrase": "Underconstrained wave-vector assignment and vector components motivate strain selection, polarized SANS, and SNP.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/8tdv-hgmb",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/8tdv-hgmb",
+          "location": "III–VI; Figs. 2–6",
+          "paraphrase": "Reverse processes, scan-speed changes, and charge controls test ionization while retaining relaxation and calibration uncertainty.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRX-R04",
+      "title": "Report costs, residual error, and the measured object with performance claims.",
+      "applicability": "Performance records, quantum hardware, computational methods, and parameter estimation.",
+      "recommendation": "Align the object, baseline, conditions, and errors before comparing. Check for error cancellation. Give rejection rates for postselection, correction stages for reconstruction, and separate fitted from derived quantities and future capacity from measured capability.",
+      "counterexample_or_boundary": "Statistical precision is not automatically model accuracy; a single operation cost is not end-to-end cost.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/h5m3-qrn9",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/h5m3-qrn9",
+          "location": "III–V; Figs. 3–5",
+          "paraphrase": "Single-router and two-layer network results report rejection and error budgets and compare component-product predictions with measured system performance.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/dtly-b2lp",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/dtly-b2lp",
+          "location": "II D; III A; Figs. 1–4",
+          "paraphrase": "Atomic and crystal phase errors are separated from pseudopotential error, exposing cancellation behind apparent agreement.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/tjv3-485v",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/tjv3-485v",
+          "location": "IV D–E; Figs. 6–7",
+          "paraphrase": "Channel identifiability and quantum-defect precision are distinguished from systematic bias.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/882y-w4zy",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/882y-w4zy",
+          "location": "II A–B; III B; Table I; Figs. 9–10",
+          "paraphrase": "Security assumptions, measured statistics, and assumed error-correction parameters qualify inferred key rates; error correction was not executed in the body study.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/ldbf-vbyp",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/ldbf-vbyp",
+          "location": "IV B; V C; VI; Figs. 5–7",
+          "paraphrase": "Exact state preservation and success improvement are separated from photon-saving approximation; local fidelity does not automatically guarantee postselected global fidelity.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRX-R05",
+      "title": "Use spatial organization to expose scientific correspondence.",
+      "applicability": "Composite figures joining structure, workflow, mathematical criteria, and diagnostics.",
+      "recommendation": "Align components with their diagnostics or criteria; use branches for parallel conditions. Keep formulas that determine the output. Assign color a semantic role and arrows a causal, temporal, or dependency role. Place data labels near the relevant axes.",
+      "counterexample_or_boundary": "Actual image evidence covers two papers and four figures only. Compact axis labeling is an editorial preference, not an APS requirement.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/9cwp-ppp2",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/9cwp-ppp2",
+          "location": "VOR PDF pp. 2, 4, 6; printed pp. 041009-2, 041009-4, 041009-6; Figs. 1, 2, 4",
+          "paraphrase": "Optical components align with sensitivity plots; images connect to shared-axis quantitative plots and a model. Architecture, measured array, and predicted performance occupy distinct regions.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        },
+        {
+          "doi": "10.1103/zy7s-j86r",
+          "source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/zy7s-j86r",
+          "location": "VOR PDF p. 2; printed p. 031038-2; Fig. 1",
+          "paraphrase": "Inputs pass through parallel group conditions and formulas to waveform criteria and outputs, with dashed groups and semantic color.",
+          "source_version": "APS version of record; body and main-caption review, with separately identified PDF image inspection"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRR-C01",
+      "title": "Let the central question determine the evidence chain and mechanism-specific controls.",
+      "applicability": "Mechanism explanations, learning methods, or multi-observable physics papers.",
+      "recommendation": "Assign results to establishing a phenomenon, explaining a mechanism, and excluding alternatives. Where a causal mechanism is claimed, add targeted ablations or controls without forcing these roles into three sections.",
+      "counterexample_or_boundary": "An ablation supports only its controlled domain. Model causality, device advantage, and out-of-distribution generalization are distinct. A central-claim workflow is a design choice, not a finding that all 100 papers use it.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/njcx-z6np",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/njcx-z6np",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/njcx-z6np",
+          "source_version": "APS version of record JATS",
+          "location": "II–III; Figs. 2–8",
+          "paraphrase": "Density, center of mass, entropy, and orbital occupancy distinguish spreading, mixing, and actual hole filling.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/l939-jglf",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/l939-jglf",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/l939-jglf",
+          "source_version": "APS version of record JATS",
+          "location": "III; Figs. 3–5",
+          "paraphrase": "Phase differences drive a multiple-scattering trajectory explanation; real and imaginary shifts and wavelength variation test it.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/ftdh-t3yg",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/ftdh-t3yg",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/ftdh-t3yg",
+          "source_version": "APS version of record JATS",
+          "location": "IV D; Fig. 8",
+          "paraphrase": "FiLM ablations hold the syndrome fixed while changing, shuffling, or disabling modulation to test adaptation.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/rwtt-bcw8",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/rwtt-bcw8",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/rwtt-bcw8",
+          "source_version": "APS version of record JATS",
+          "location": "III A, Fig. 3; III C, Fig. 9",
+          "paraphrase": "Removing normal embedding terms and switching off SOC isolate sources of phase-diagram and spectral changes.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRR-C02",
+      "title": "Plan performance claims with resource definitions, strong baselines, and evidence levels.",
+      "applicability": "Quantum algorithms, metrology, optimization, devices, and experimental comparisons.",
+      "recommendation": "Before choosing an advantage plot, list total and maximum per-run budgets, preparation, training, postselection, and the strongest feasible baseline. Label theorems, simulations, hardware measurements, and extrapolations separately.",
+      "counterexample_or_boundary": "Resources may not reduce to one scalar. Retain noise, data-access, oracle, and initial-state assumptions; not every paper needs a quantum-advantage claim.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/b7ck-8wh4",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/b7ck-8wh4",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/b7ck-8wh4",
+          "source_version": "APS version of record JATS",
+          "location": "IV; Figs. 3–4; Table II",
+          "paraphrase": "Quality, runtime, matched evaluation budgets, and problem distributions are compared separately.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/nh3b-1wv5",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/nh3b-1wv5",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/nh3b-1wv5",
+          "source_version": "APS version of record JATS",
+          "location": "III; Fig. 3; closing SaReduMIS comparison",
+          "paraphrase": "A hybrid method is compared with a strong classical alternative; universal success of that alternative does not support an achieved quantum-advantage claim.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/x7gn-pqzb",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/x7gn-pqzb",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/x7gn-pqzb",
+          "source_version": "APS version of record JATS",
+          "location": "III–V; Fig. 9",
+          "paraphrase": "Steady-state QFI scaling is considered with preparation time and fixed-total-time comparisons.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/zy63-92c4",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/zy63-92c4",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/zy63-92c4",
+          "source_version": "APS version of record JATS",
+          "location": "II D–F; III C, Figs. 4–5",
+          "paraphrase": "Deterministic error bounds, shot-noise simulations, and empirical scaling are separate; both total evolution cost and maximum duration are reported.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRR-C03",
+      "title": "Explain goals and conditions before constructing and validating the mathematical object.",
+      "applicability": "Constructive theorems, protocols, security proofs, approximations, and abstract representations.",
+      "recommendation": "Before a key equation, identify the obstacle it addresses. Keep assumptions, construction, validity conditions, and testable consequences close. Use small examples when they provide necessary intuition.",
+      "counterexample_or_boundary": "Readable ordering is not proof verification. Appendices were not comprehensively audited, and no universal proof template is required.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/2v9h-25qs",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/2v9h-25qs",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/2v9h-25qs",
+          "source_version": "APS version of record JATS",
+          "location": "IV; symmetric mass generation argument",
+          "paraphrase": "Charge neutrality, allowed interactions, and relevance precede ground-state uniqueness and numerical consequences.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/tkx1-23xz",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/tkx1-23xz",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/tkx1-23xz",
+          "source_version": "APS version of record JATS",
+          "location": "Finite-key protocol and phase-error derivation",
+          "paraphrase": "Allowed Gram information leads to partition bounds and finite-key interpretation; tail bounds serve a specific security task.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/26rt-yvpn",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/26rt-yvpn",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/26rt-yvpn",
+          "source_version": "APS version of record JATS",
+          "location": "III; Theorem 1 and proof",
+          "paraphrase": "Target constraints precede measurement parameters, recurrence, and probability-validity checks.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/5dks-395l",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/5dks-395l",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/5dks-395l",
+          "source_version": "APS version of record JATS",
+          "location": "II B–D; Figs. 2–4; Eqs. 18–27",
+          "paraphrase": "Two- and three-site examples distinguish triangular and local representations before arbitrary-N continuity equations.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRR-C04",
+      "title": "State claim strength and applicability together; distinguish ideal, noisy, and observable quantities.",
+      "applicability": "Approximations, noise budgets, proxy metrics, and generalizations from finite models.",
+      "recommendation": "State the additional evidence when moving from model to experiment, proxy to target, or finite numerics to universality. Say positively what was obtained, then state concise boundaries. Carry only supported evidence levels into the conclusion.",
+      "counterexample_or_boundary": "Do not insert a disclaimer into every sentence or adopt broad published outlooks automatically. Natural affirmative writing remains subordinate to necessary scientific negation and failure boundaries.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/npwb-yqln",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/npwb-yqln",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/npwb-yqln",
+          "source_version": "APS version of record JATS",
+          "location": "III–IV; Figs. 5–8",
+          "paraphrase": "Ideal steady states, finite-time heating peaks, individual errors, and combined errors are reported separately.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/z46h-mgh4",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/z46h-mgh4",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/z46h-mgh4",
+          "source_version": "APS version of record JATS",
+          "location": "IV–V; Figs. 4–8; Table I; VI",
+          "paraphrase": "Control is reoptimized after adding residual interactions before constructing the noise budget; 99.9 percent is a model prediction with a low-temperature lifetime assumption.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/5dks-395l",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/5dks-395l",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/5dks-395l",
+          "source_version": "APS version of record JATS",
+          "location": "III C; IV A, Figs. 11–12; V, Figs. 16–18",
+          "paraphrase": "Second-cumulant approximations, Gaussianity, and negativity-based entanglement evidence have distinct roles.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/gyqr-mv1h",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/gyqr-mv1h",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/gyqr-mv1h",
+          "source_version": "APS version of record JATS",
+          "location": "III–IV; Figs. 5, 8; V",
+          "paraphrase": "The 123-qubit hardware result, simulated-annealing results, and 900-qubit resource target remain distinct.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRR-C05",
+      "title": "Reuse panel organization for comparisons and make intermediate estimates traceable.",
+      "applicability": "Multiple mechanisms, methods, parameters, or transformations from raw to derived quantities.",
+      "recommendation": "Keep quantities, coordinates, normalization, and panel correspondence consistent; label needed range changes explicitly. When processing changes the interpretation, show the correspondence between raw data, processing or residuals, and final metrics.",
+      "counterexample_or_boundary": "Caption reading supports comparison roles, not color or alignment judgments. Visual claims are limited to five inspected papers; repeated panels are not a journal-wide layout rule.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/njcx-z6np",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/njcx-z6np",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/njcx-z6np",
+          "source_version": "APS version of record JATS",
+          "location": "Figs. 2–5 and 6–8",
+          "paraphrase": "Repeated density, center-of-mass, and mixing organization supports comparisons between drive conditions.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/p694-46xh",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/p694-46xh",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/p694-46xh",
+          "source_version": "APS version of record JATS",
+          "location": "IV A–B; Figs. 2–3",
+          "paraphrase": "S-matrix and MPS predictions use the same observables with difference diagnostics.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/cb7c-8df3",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/cb7c-8df3",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/cb7c-8df3",
+          "source_version": "APS version of record JATS",
+          "location": "V; Figs. 6–7",
+          "paraphrase": "Matched observables compare ordinary and extended Rabi dynamics and their ESQPT differences.",
+          "source_is_published_version": true,
+          "evidence_mode": "full_main_body_and_captions"
+        },
+        {
+          "doi": "10.1103/3n9q-lg8m",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/3n9q-lg8m",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/3n9q-lg8m/fulltext",
+          "source_version": "APS version of record PDF",
+          "location": "VOR PDF p. 5; printed p. 043013-5; Figs. 3–4",
+          "paraphrase": "Raw T1, binned enlargement, and quality factor form a traceable three-column sequence beside device and process distributions.",
+          "source_is_published_version": true,
+          "evidence_mode": "image_inspected"
+        },
+        {
+          "doi": "10.1103/z46h-mgh4",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/z46h-mgh4",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/z46h-mgh4/fulltext",
+          "source_version": "APS version of record PDF",
+          "location": "VOR PDF p. 12; printed p. 033269-12; Fig. 8",
+          "paraphrase": "Two noise rows and response, PSD, and error-contribution columns reuse the same relationship.",
+          "source_is_published_version": true,
+          "evidence_mode": "image_inspected"
+        }
+      ]
+    },
+    {
+      "rule_id": "PRR-C06",
+      "title": "Show transformations, constraints, and feedback of the same scientific object in workflow figures.",
+      "applicability": "Hybrid computation, encoding, compilation, interdisciplinary applications, or recursive experimental methods.",
+      "recommendation": "Use actual circuits, graphs, states, matrices, densities, or intermediate data as nodes. Explain what arrows transmit or transform; keep colors meaningful across representations and module boundaries tied to real responsibilities.",
+      "counterexample_or_boundary": "Three examples support traceable scientific diagrams, not fixed box counts, logos, or decorative icons. Dense readable layouts and compact labels are configurable preferences, not APS mandates.",
+      "status": "Conditional editorial recommendation from inherited review records; not an APS requirement",
+      "evidence_group": "added300",
+      "evidence": [
+        {
+          "doi": "10.1103/b7ck-8wh4",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/b7ck-8wh4",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/b7ck-8wh4/fulltext",
+          "source_version": "APS version of record PDF",
+          "location": "VOR PDF p. 6; printed p. 033360-6; Fig. 2",
+          "paraphrase": "Chip, circuit, DAG, mapping table, and encoding table retain one instance; the caption explains an encoding row.",
+          "source_is_published_version": true,
+          "evidence_mode": "image_inspected"
+        },
+        {
+          "doi": "10.1103/gyqr-mv1h",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/gyqr-mv1h",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/gyqr-mv1h/fulltext",
+          "source_version": "APS version of record PDF",
+          "location": "VOR PDF p. 10; printed p. 033344-10; Fig. 9",
+          "paraphrase": "Protein structure, density, grid, QUBO, and coordinate output have corresponding images; dashed lines delimit the solver.",
+          "source_is_published_version": true,
+          "evidence_mode": "image_inspected"
+        },
+        {
+          "doi": "10.1103/nh3b-1wv5",
+          "official_url": "https://journals.aps.org/prresearch/abstract/10.1103/nh3b-1wv5",
+          "reviewed_source_url": "https://harvest.aps.org/v2/journals/articles/10.1103/nh3b-1wv5/fulltext",
+          "source_version": "APS version of record PDF",
+          "location": "VOR PDF p. 6; printed p. 033296-6; Fig. 2",
+          "paraphrase": "A fixed-layout graph follows input, reduced kernel, quantum-assisted selection, and renewed reduction; local highlighting identifies new information.",
+          "source_is_published_version": true,
+          "evidence_mode": "image_inspected"
+        }
+      ]
+    }
+  ]
+}

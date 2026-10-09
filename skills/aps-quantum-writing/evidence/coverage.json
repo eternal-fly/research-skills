@@ -1,0 +1,61 @@
+{
+  "record_type": "Verified public index counts and inherited review-scope summary",
+  "metadata_index_count": 700,
+  "unique_doi_count": 700,
+  "journals": {
+    "PRL": 100,
+    "PRA": 100,
+    "PRB": 100,
+    "PRX Quantum": 100,
+    "Physical Review Applied": 100,
+    "PRX": 100,
+    "PRResearch": 100
+  },
+  "legacy400": {
+    "source_review_cutoff": "2026-10-06",
+    "metadata_records": 400,
+    "original_observation_snippets": 390,
+    "late_PRL_holdout_placeholders": 10,
+    "truncated_snippets": 128,
+    "publisher_versions_of_record": 171,
+    "author_manuscripts": 229,
+    "retained_recent_candidates": 338,
+    "older_substitutes": 62,
+    "status": "Inherited review archive; not reread for the English release",
+    "PRL_boundary": "The 10 late-reserved papers had already been seen by the synthesis writer. Not blind, independent-unseen, or preregistered validation."
+  },
+  "added300": {
+    "source_review_date": "2026-10-09",
+    "main_body_and_main_caption_review_records": 300,
+    "status": "Reviews newly added in the source expansion; inherited by this English release, not 300 additional readings during translation",
+    "Physical Review Applied": {
+      "papers": 100,
+      "source_versions": "Pinned arXiv author manuscripts",
+      "visual_papers": 6,
+      "visual_pages": 6
+    },
+    "Physical Review X": {
+      "papers": 100,
+      "source_versions": "Official APS version-of-record JATS",
+      "visual_papers": 2,
+      "visual_figures": 4
+    },
+    "Physical Review Research": {
+      "papers": 100,
+      "source_versions": "Official APS version-of-record JATS",
+      "regular_articles": 88,
+      "letters": 12,
+      "visual_papers": 5,
+      "visual_figures": 7
+    },
+    "visual_papers_total": 13,
+    "visual_scope_note": "Six Applied pages, four PRX figures, and seven Research figures are separate inspection units. Caption review is not image inspection."
+  },
+  "distribution_scope": "Metadata, public links, translated original rule-level observations and locators, compact audit summaries. Full per-paper historical notes, paper PDFs, JATS, complete abstracts, and source figure artwork are excluded.",
+  "limits": [
+    "No random or journal-wide representative sample.",
+    "No certified exhaustive latest-100 selection for each journal.",
+    "No fully coded per-feature denominator; no prevalence, acceptance-probability, or causal-writing-effect estimate.",
+    "No independent proof audit, experimental or numerical reproduction, or comprehensive visual audit."
+  ]
+}

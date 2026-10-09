@@ -1,0 +1,19 @@
+{
+  "record_type": "Current English-release provenance validation; not a new paper review or TeX compilation",
+  "checked_on": "2026-10-09",
+  "scope": "Owned provenance, notices, ledgers, curated evidence, unchanged license bytes, and hashes of retained source PDFs. Does not replace the complete release test suite.",
+  "checks": {
+    "english_owned_text_and_private_path_email_scan": true,
+    "700_unique_dois_100_per_journal_original_fields_preserved": true,
+    "390_snippets_10_placeholders_128_truncated_and_300_source_hashes": true,
+    "json_csv_metadata_parity": true,
+    "40_editorial_rules_184_located_references_to_147_papers": true,
+    "13_distinct_papers_in_separate_image_inventory": true,
+    "owned_markdown_local_targets_exist": true,
+    "three_license_files_byte_identical": true,
+    "10_retained_asset_pdf_hashes_and_53_font_resources_match": true,
+    "32_assertions_and_29_compilations_explicitly_inherited": true
+  },
+  "pass": true,
+  "owned_text_files_scanned": 14
+}

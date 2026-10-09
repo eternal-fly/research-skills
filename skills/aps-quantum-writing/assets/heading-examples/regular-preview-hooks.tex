@@ -1,0 +1,41 @@
+% Opt-in production-style font preview, tested with official REVTeX 4.2f.
+% Call ONLY for an explicitly selected APS Regular Article, after class loading.
+% Does not rewrite \section, \subsection, \subsubsection, or \paragraph.
+% No effect merely from loading this file.
+\RequirePackage{etoolbox}
+\makeatletter
+\newif\ifAPS@regularpreviewcompatible
+\newcommand{\EnableAPSRegularThirdLevelPreview}{%
+  \APS@regularpreviewcompatibletrue
+  \@ifclassloaded{revtex4-2}{}{\APS@regularpreviewcompatiblefalse}%
+  \@ifclasswith{revtex4-2}{aps}{}{\APS@regularpreviewcompatiblefalse}%
+  \@ifclasswith{revtex4-2}{prl}{\APS@regularpreviewcompatiblefalse}{}%
+  \@ifclasswith{revtex4-2}{reprint}{}{\APS@regularpreviewcompatiblefalse}%
+  \@ifundefined{@sect@ltx}{\APS@regularpreviewcompatiblefalse}{}%
+  \@ifundefined{@ssect@ltx}{\APS@regularpreviewcompatiblefalse}{}%
+  \@ifundefined{@hang@from}{\APS@regularpreviewcompatiblefalse}{}%
+  \@ifundefined{@hang@froms}{\APS@regularpreviewcompatiblefalse}{}%
+  % Existing dedicated hooks may belong to another template; do not replace them.
+  \@ifundefined{@hangfrom@subsubsection}{}{\APS@regularpreviewcompatiblefalse}%
+  \@ifundefined{@hangfroms@subsubsection}{}{\APS@regularpreviewcompatiblefalse}%
+  \ifAPS@regularpreviewcompatible
+    % Verify that the active numbered/starred dispatchers support these hooks.
+    \ifpatchable{\@sect@ltx}{\csname @hangfrom@}%
+      {}{\APS@regularpreviewcompatiblefalse}%
+    \ifpatchable{\@ssect@ltx}{\csname @hangfroms@}%
+      {}{\APS@regularpreviewcompatiblefalse}%
+  \fi
+  \ifAPS@regularpreviewcompatible
+    \def\@hangfrom@subsubsection##1##2##3{%
+      \bfseries\@hang@from{##1}{##2}{##3}}%
+    \def\@hangfroms@subsubsection##1##2{%
+      \bfseries\@hang@froms{##1}{##2}}%
+    \PackageInfo{aps-heading-preview}{Regular third-level bold font hooks enabled}%
+  \else
+    \PackageWarningNoLine{aps-heading-preview}{%
+      Regular third-level preview NOT enabled. Unsupported class, mode,\MessageBreak
+      PRL target, modified dispatcher, or existing hook. Inspect the template\MessageBreak
+      and rendered headings before using this preview}%
+  \fi
+}
+\makeatother

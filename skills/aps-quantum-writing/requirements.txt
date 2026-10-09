@@ -1,0 +1,5 @@
+# Optional: regenerating examples and running numerical tests.
+numpy
+scipy
+matplotlib
+cycler

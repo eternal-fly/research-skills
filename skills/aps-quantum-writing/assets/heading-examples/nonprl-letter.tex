@@ -1,0 +1,35 @@
+\documentclass[aps,pra,reprint]{revtex4-2}
+\input{heading-helpers.tex}
+\begin{document}
+\title{Synthetic layout examples: a non-PRL Letter}
+\author{Typography demonstration only}\noaffiliation
+\maketitle
+\noindent This synthetic example uses the PRA class option with explicitly selected Letter heading typography. The same helper was compiled with PRB, Physical Review Applied, and the generic physrev fallback for Physical Review Research. REVTeX4.2f has no letter option that activates this style.
+
+\apsletterrunin{Introduction}
+This optional heading is indented, unnumbered, and italic. A period and an ordinary word space precede the upright body text. There is no em dash.
+
+\apsletterrunin{Illustrative model}
+The paper chooses its own descriptive headings. These examples do not claim a research result or require this section to exist.
+
+\apssecondaryrunin{Global fit}
+An optional further level uses a roman heading, a colon, and an em space, with text on the same line.
+
+\apsletterrunin{Outlook}
+A closing title can be chosen to fit the actual argument or omitted. Its wording is not fixed by this formatting example.
+
+% Do not also invoke the native acknowledgments environment here:
+% its default standalone heading would duplicate the explicit run-in heading.
+\apsletterrunin{Acknowledgments}
+This illustrative placeholder follows the non-PRL Letter run-in style. It is not a claim of support from any person or organization.
+
+% Current PRA/PRResearch Letter VOR practice is run-in here.
+% The 2026 guide's broad DAS clause says principal heading for all except PRL.
+% This preview deliberately follows the cited current journal/article-type VORs,
+% not a claimed explicit exception in that broad guide clause.
+\apsletterrunin{Data availability}
+This illustrative placeholder follows the run-in presentation observed in 2026 PRA and Physical Review Research Letters. The guide's general data-statement wording differs; the accompanying report records that distinction.
+
+\apsletterrunin{Appendix: Illustrative derivation}
+This optional appendix title follows the same current Letter examples. Its content is a typography placeholder, not a scientific derivation. An appendix is not automatically added to a manuscript.
+\end{document}

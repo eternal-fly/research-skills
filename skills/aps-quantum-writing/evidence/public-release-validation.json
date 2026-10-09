@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "edition": "English public distribution",
+  "checked_on": "2026-10-09",
+  "distribution_test_suite": {
+    "passed": 7,
+    "total": 7,
+    "current_run": true
+  },
+  "numerical_tests": {
+    "passed": 2,
+    "total": 2,
+    "rerun_this_edition": true
+  },
+  "example_generation": {
+    "scripts_completed": 2,
+    "output_files": 24
+  },
+  "binary_assets": {
+    "verified_before_selection": 26,
+    "unchanged_retained": 21,
+    "redundant_eps_omitted": 5
+  },
+  "english_behavior_review": {
+    "status": "passed",
+    "scenario_areas": 7,
+    "method": "Qualitative non-blind application and source-equivalence review",
+    "report": "english-behavior-review.md"
+  },
+  "inherited_heading_verification": {
+    "tex_sources": 29,
+    "passes_per_source": 2,
+    "deliberately_invalid_option_controls": 4,
+    "assertions_passed": 32,
+    "preview_pages": 5,
+    "recompiled_in_current_packaging_environment": false
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "baseline_english_distribution_test": {
+    "tests": 5,
+    "failing_subtests": 69,
+    "cause": "Untranslated references and missing public documents/provenance before translation"
+  },
+  "scope": "Tests do not certify scientific novelty, mathematical correctness, publisher-identical layout or journal acceptance.",
+  "skill_frontmatter_validator": "passed",
+  "privacy_scan": "No private execution paths, account emails, or conversation identifiers found in public text.",
+  "language_scan": "English active instructions and public documentation; authoritative upstream copyright notice retained verbatim."
+}

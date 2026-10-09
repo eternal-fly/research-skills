@@ -1,0 +1,41 @@
+{
+  "record_type": "Hashes of source archive inputs; archival filenames are identifiers, not bundled file links",
+  "inputs": [
+    {
+      "archive_record": "evidence/revision12/seven_journal_index.json",
+      "sha256": "1611015f179e38c4896fae40bd3aa2f778a7fc8cc267543483ac2af1e820809c"
+    },
+    {
+      "archive_record": "evidence/rules.json",
+      "sha256": "8a28943d22024d72a15da7180b49bdb64af9a7d830fc1eb61a0f71652c4ea414"
+    },
+    {
+      "archive_record": "evidence/revision12/prapplied/rules.json",
+      "sha256": "b943995b7009ae9ac8615500973575d30cfc3bcd565a822f9ebd7e5ff3c2d04a"
+    },
+    {
+      "archive_record": "evidence/revision12/prx/rules.json",
+      "sha256": "17f18117c84b6b5dff63d050ed74bf58649aef3404f5bc8e9c3aecc07150860d"
+    },
+    {
+      "archive_record": "evidence/revision12/prresearch/rules.json",
+      "sha256": "883eb156212cf4c665b49c8d8675bc9b315babeb886707438f6a808af7f26591"
+    },
+    {
+      "archive_record": "evidence/legacy400_notes/paper_reviews400.csv",
+      "sha256": "0de015e80cc8f9ec6ca1efd1070376de67dfee5509141ac2b331e1f7a815a52c"
+    },
+    {
+      "archive_record": "evidence/release1/verification-checks.json",
+      "sha256": "6df6dcb20bf15fe8c789fac1046bf065a4a7fbcfda0a7ff6af38860c10432fd5"
+    },
+    {
+      "archive_record": "evidence/release1/compilation-results.json",
+      "sha256": "8df998c5d8a43f96a8ce651ceb5fc7c2ad3becf2b07e480fdf0e1b13530e2cb0"
+    },
+    {
+      "archive_record": "evidence/release1/embedded-font-license-audit.json",
+      "sha256": "982aa03f83d464bea97226403d2b2c4c5648a90dbce09fc212a2eeb686049377"
+    }
+  ]
+}

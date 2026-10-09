@@ -1,0 +1,17 @@
+{
+  "response_map.pdf": {
+    "width_mm": 178.0,
+    "height_mm": 69.0,
+    "text_blocks_outside_canvas": []
+  },
+  "dynamics.pdf": {
+    "width_mm": 178.0,
+    "height_mm": 68.0,
+    "text_blocks_outside_canvas": []
+  },
+  "pole_trajectory.pdf": {
+    "width_mm": 85.0,
+    "height_mm": 82.0,
+    "text_blocks_outside_canvas": []
+  }
+}

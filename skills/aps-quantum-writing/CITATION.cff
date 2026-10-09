@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If this skill materially supports your work and you choose to cite it, use this citation. Citation of ordinary outputs is not required by the license."
+type: software
+title: "APS Quantum Writing"
+authors:
+  - family-names: Wang
+    given-names: Luofei
+version: 1.0.0
+date-released: 2026-10-09
+abstract: "An agent skill for coherent scientific manuscript planning, writing, figures, and APS journal-specific typography."

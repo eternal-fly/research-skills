@@ -1,0 +1,23 @@
+{
+  "kind": "synthetic deterministic linear model",
+  "kappa_a": 1,
+  "kappa_b": 0.08,
+  "kappa_convention": "energy decay/full linewidth; amplitude decay kappa/2",
+  "response_g": 0.1,
+  "dynamics_g": 0.1,
+  "delta_dynamics": 0,
+  "initial_amplitudes": [
+    1,
+    0
+  ],
+  "exceptional_point": 0.23,
+  "amplitude_damping_g01": [
+    0.06287684822792021,
+    0.4771231517720801
+  ],
+  "amplitude_damping_g025": [
+    0.27000000000000024,
+    0.2700000000000001
+  ],
+  "no_measured_data": true
+}

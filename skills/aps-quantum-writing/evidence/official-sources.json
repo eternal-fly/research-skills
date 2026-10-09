@@ -1,0 +1,231 @@
+{
+  "record_type": "Inherited public-source metadata",
+  "sources": [
+    {
+      "id": "prapplied_authors",
+      "title": "Physical Review Applied — Information for Authors",
+      "url": "https://journals.aps.org/prapplied/authors",
+      "publisher": "American Physical Society",
+      "sections": "Article Types and Length Limits; Titles in references; Supplemental Material; Additional Materials",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "prx_authors",
+      "title": "Physical Review X — Information for Authors",
+      "url": "https://journals.aps.org/prx/authors",
+      "publisher": "American Physical Society",
+      "sections": "Article Types and Length Limits; Titles in references; Popular Summary",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "prresearch_authors",
+      "title": "Physical Review Research — Information for Authors",
+      "url": "https://journals.aps.org/prresearch/authors",
+      "publisher": "American Physical Society",
+      "sections": "Article Types and Length Limits; journal-specific formatting; Additional Materials",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "prapplied_about",
+      "title": "Physical Review Applied — About",
+      "url": "https://journals.aps.org/prapplied/about",
+      "publisher": "American Physical Society",
+      "sections": "Scope and Acceptance Criteria",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "prx_about",
+      "title": "Physical Review X — About",
+      "url": "https://journals.aps.org/prx/about",
+      "publisher": "American Physical Society",
+      "sections": "Scope and Acceptance Criteria",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "prresearch_about",
+      "title": "Physical Review Research — About",
+      "url": "https://journals.aps.org/prresearch/about",
+      "publisher": "American Physical Society",
+      "sections": "Scope and Acceptance Criteria",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "length_guide",
+      "title": "APS — Length Limits and Guidelines",
+      "url": "https://journals.aps.org/authors/length-guide",
+      "publisher": "American Physical Society",
+      "sections": "Article Length Limits; Word Count Procedure",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "style_basics",
+      "title": "APS — Style Basics",
+      "url": "https://journals.aps.org/authors/style-basics",
+      "publisher": "American Physical Society",
+      "sections": "Abstracts; Appendixes; Supplemental Material",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "sm_instructions",
+      "title": "APS — Supplemental Material Instructions",
+      "url": "https://journals.aps.org/authors/supplemental-material-instructions",
+      "publisher": "American Physical Society",
+      "sections": "Supplemental Material; Citation in Article",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "prl_authors",
+      "title": "Physical Review Letters — Information for Authors",
+      "url": "https://journals.aps.org/prl/authors",
+      "publisher": "American Physical Society",
+      "sections": "Length limit; End Matter",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "prxquantum_authors",
+      "title": "PRX Quantum — Information for Authors",
+      "url": "https://journals.aps.org/prxquantum/authors",
+      "publisher": "American Physical Society",
+      "sections": "Titles in references; Popular Summary",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "web_submission",
+      "title": "APS — Web Submission Guidelines",
+      "url": "https://journals.aps.org/authors/web-submission-guidelines-physical-review",
+      "publisher": "American Physical Society",
+      "sections": "Popular Summary",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "ai_policy",
+      "title": "APS — Appropriate Use of AI Tools",
+      "url": "https://journals.aps.org/authors/appropriate-use-ai-tools",
+      "publisher": "American Physical Society",
+      "sections": "Authors; Disclosure; FAQ",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "revtex_home",
+      "title": "APS — REVTeX Home Page",
+      "url": "https://journals.aps.org/revtex",
+      "publisher": "American Physical Society",
+      "sections": "Current version; Download; class-option release notes",
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "revtex_distribution",
+      "title": "APS REVTeX 4.2f official TDS distribution",
+      "url": "https://cdn.journals.aps.org/test/345f0cd4-cab7-4271-9a46-7331fb57618a/revtex-tds-2023-05-30.zip",
+      "publisher": "American Physical Society",
+      "sha256": "2e749b136da5a551acb2d150dc186182cd5ee28d98570acff017f604f398bfc9",
+      "member": "revtex-tds/tex/latex/revtex/aps4-2.rtx",
+      "member_sha256": "52d33501cae6dfdf339efeb2a79fda0a2780d1d39d96b61a1c6a6311da6ca05e",
+      "declared_journal_options": [
+        "pra",
+        "prb",
+        "prc",
+        "prd",
+        "pre",
+        "prl",
+        "prab",
+        "prper",
+        "rmp",
+        "prx",
+        "prapplied",
+        "prmaterials",
+        "prfluids",
+        "physrev"
+      ],
+      "source_archive_check_date": "2026-10-09",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "aps_style_2026",
+      "title": "APS Journals Style Guide for Authors, February 2026",
+      "url": "https://res.cloudinary.com/apsphysics/image/upload/APS_Journals_Style_Guide_Authors022326_guzwhx.pdf",
+      "source_archive_check_date": "2026-10-09",
+      "sections": "Printed pages 12–15, 19, 21, 23, 25: headings, Note added, declarations, data availability, and appendices",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "pra_authors",
+      "title": "Physical Review A — Information for Authors",
+      "url": "https://journals.aps.org/pra/authors",
+      "source_archive_check_date": "2026-10-06",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    },
+    {
+      "id": "prb_authors",
+      "title": "Physical Review B — Information for Authors",
+      "url": "https://journals.aps.org/prb/authors",
+      "source_archive_check_date": "2026-10-06",
+      "verification_status": "Inherited official-source audit; recheck before submission"
+    }
+  ],
+  "known_conflicts": [
+    {
+      "topic": "PRX Popular Summary",
+      "journal_specific_max_words": 150,
+      "generic_submission_max_words": 250,
+      "decision": "The source configuration uses the tighter journal-specific limit; recheck the current journal page and submission form."
+    },
+    {
+      "topic": "Non-PRL Letter data-availability and appendix headings",
+      "decision": "The 2026 general guide and observed current Letter production differ. Preserve the distinction between explicit general guidance and journal/article-type observations; do not claim an explicit exception or infer an unobserved journal format."
+    }
+  ],
+  "official_rule_summaries": [
+    {
+      "rule_id": "APP-O01",
+      "summary": "The inherited author-page check found no general word limit for Regular Articles and 4500 APS-equivalent words for Letters. Apply a Letter budget only when that article type is selected.",
+      "source_ids": [
+        "prapplied_authors",
+        "length_guide"
+      ]
+    },
+    {
+      "rule_id": "APP-O02",
+      "summary": "The inherited author-page check records a separate 100-word suitability justification for original research and Letters, and titles in published references.",
+      "source_ids": [
+        "prapplied_authors"
+      ]
+    },
+    {
+      "rule_id": "APP-O03",
+      "summary": "An appendix in the main manuscript is generally preferred; the paper must support its conclusions without using Supplemental Material to evade length limits.",
+      "source_ids": [
+        "prapplied_authors",
+        "sm_instructions"
+      ]
+    },
+    {
+      "rule_id": "APP-O04",
+      "summary": "Explain the connection between physical insight and application research, substantive progress, and relevant readers. This does not require commercialization or a complete final system in every paper.",
+      "source_ids": [
+        "prapplied_about"
+      ]
+    },
+    {
+      "rule_id": "APP-O05",
+      "summary": "Distinguish light editing from substantive AI research or writing use and disclose actual use when required. Natural prose does not replace disclosure.",
+      "source_ids": [
+        "ai_policy"
+      ]
+    }
+  ]
+}

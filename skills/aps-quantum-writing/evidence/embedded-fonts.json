@@ -1,0 +1,1242 @@
+{
+  "checked_on": "2026-10-09",
+  "scope": "Ten source-distribution asset PDFs and historical font-name checks for five EPS exports. The five EPS exports are not bundled in the lightweight public edition. No standalone font files are distributed. Replaced or regenerated assets require their own font check.",
+  "method": "Read actual PDF font resources and embedded TrueType name tables or Type1 cleartext license headers. Subsets are not claimed byte-identical to complete source fonts.",
+  "project_license": "Original project material: author-approved custom noncommercial source-available license; third-party terms apply only to their components",
+  "pdf_count": 10,
+  "font_resource_count": 53,
+  "unmatched_fonts": [],
+  "license_files": [
+    {
+      "path": "licenses/DEJAVU-LICENSE.txt",
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "path": "licenses/AMSFONTS-OFL-1.1.txt",
+      "sha256": "aa783fdd47e92743bafe79277ac4067d20339344dc5b64a09c2d0f869b2999dc"
+    }
+  ],
+  "pdfs": [
+    {
+      "pdf": "assets/figure-examples/compact_table.pdf",
+      "pdf_sha256": "0486e00db36b0d1a13caa5cb1ca45f5238a0d101248e59f7acdb82a532b616b6",
+      "pages": 1,
+      "fonts": [
+        {
+          "xref": 15,
+          "name": "EVICAO+DejaVuSans-Bold",
+          "base_name": "DejaVuSans-Bold",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "4c602bf24609aa6a2a970414b72151fc1180b8759ffd3cbeb4007c6ca0400036",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Bold"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Bold"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 22,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "9f57a1f7eadb313f682a1756ca50245ece22138e177d10268d14489a8def9ce9",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 29,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "b1580c7164042b9fae20e5af9c6773cb4d1d2244f0ede9e10b524354456e41eb",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    },
+    {
+      "pdf": "assets/figure-examples/pra_errorbars.pdf",
+      "pdf_sha256": "c32761fb08e6ef96a7ebc22746b092d8e085337e9d167666aa1c34ce6acefd4c",
+      "pages": 1,
+      "fonts": [
+        {
+          "xref": 18,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "d63c2de033f1fc8ccbc690dfebdc05fce5db2acd02b53118a40a45e2cd0b2391",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 25,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "f0cbe349ed1eac8b579d289298fe95d297d37366b612745ecfc7eb62dc69511a",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    },
+    {
+      "pdf": "assets/figure-examples/prb_heatmaps.pdf",
+      "pdf_sha256": "7223b80664001019be7a14a4ba002e2b91deebcba7206fd6dd085f589504ff90",
+      "pages": 1,
+      "fonts": [
+        {
+          "xref": 18,
+          "name": "EVICAO+DejaVuSans-Bold",
+          "base_name": "DejaVuSans-Bold",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "de809c1d5521bcdde6cc9b3ad707de7f22a3944a812adc3c17b6988fb3379b16",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Bold"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Bold"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 25,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "d615d3118efc852b355e6f4386839b8845cfce93b81535428c4f55b77ba9e04a",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 32,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "558e5fb4910b9bfb200df570493fd4a0f6a6d34ebd7749faaec970013027975f",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    },
+    {
+      "pdf": "assets/figure-examples/prl_compact.pdf",
+      "pdf_sha256": "a8e7058546593cf5025baec4e97186e824b59421b5ca97e7e1e4fc25e174058b",
+      "pages": 1,
+      "fonts": [
+        {
+          "xref": 17,
+          "name": "EVICAO+DejaVuSans-Bold",
+          "base_name": "DejaVuSans-Bold",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "de809c1d5521bcdde6cc9b3ad707de7f22a3944a812adc3c17b6988fb3379b16",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Bold"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Bold"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 24,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "f4be85822f74d15352716404a1a696c3c9ce23279d40254dbcb405409c0c3b09",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 31,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "399d182fdec06d2ecd1476ad4b0758beff8269380c8e5f6cb96ab618bdfad00b",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    },
+    {
+      "pdf": "assets/figure-examples/prx_quantum_multipanel.pdf",
+      "pdf_sha256": "b2b80b504a71e11ae6abee402615e617efdc432e92a4a25656695ae022fe8806",
+      "pages": 1,
+      "fonts": [
+        {
+          "xref": 20,
+          "name": "EVICAO+DejaVuSans-Bold",
+          "base_name": "DejaVuSans-Bold",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "648c496e59ba2cc8275b6f6f1f4f7abf3e13d353d6193fb7ba455e5b328750f1",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Bold"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Bold"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 27,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "7c7f1b2515c1c7d7a24d7a2ceac370dc7bf0d0fc4fd73d53a8173f3ba07d0fde",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 34,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "1a5bc05b325c5f5a46bb2862a73fff251695a86324b189a255d4959c9a514e94",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    },
+    {
+      "pdf": "assets/heading-examples/APS-heading-layout-examples.pdf",
+      "pdf_sha256": "c30f231055bf78655e6c1358695ab895972caa36f8338333d7975a4197d208cf",
+      "pages": 5,
+      "fonts": [
+        {
+          "xref": 5,
+          "name": "FWTNUC+CMBX12",
+          "base_name": "CMBX12",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "cea8ff02ebf6e5e248ad5a858e9e1c6db5a7b1edf206edbfb4a07b2536db3b9c",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMBX12 003.002\n%%Title: CMBX12\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMBX12.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 10,
+          "name": "FGYCOH+CMR10",
+          "base_name": "CMR10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "66748fb99eb6db7f7425239d9b5b6ded97b48ca31a98d698d9b7cd6f82194a0c",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMR10 003.002\n%%Title: CMR10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMR10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 15,
+          "name": "LKIDGR+CMTI10",
+          "base_name": "CMTI10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "ddd48b5747a5b6b3b217418815ed235686a223b1e3430384763ed1e57bdca6ad",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMTI10 003.002\n%%Title: CMTI10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMTI10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 23,
+          "name": "FWTNUC+CMBX12",
+          "base_name": "CMBX12",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "cea8ff02ebf6e5e248ad5a858e9e1c6db5a7b1edf206edbfb4a07b2536db3b9c",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMBX12 003.002\n%%Title: CMBX12\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMBX12.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 28,
+          "name": "GXMNFC+CMR10",
+          "base_name": "CMR10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "dcb7aa2e178ceccc4f49931402fa9d32ec2b8e34a4467fce9573cd98efccfaa2",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMR10 003.002\n%%Title: CMR10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMR10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 33,
+          "name": "KNOBQW+CMTI10",
+          "base_name": "CMTI10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "1813c90a194a5bc25644d2d2c492b0ab68539cbf555f7d617d68c2b832739ee3",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMTI10 003.002\n%%Title: CMTI10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMTI10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 41,
+          "name": "MVGBDU+CMBX12",
+          "base_name": "CMBX12",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "a8a1e60c6a4b018501293443252eb0a0ca200fe1867c4a549093a7213e918f60",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMBX12 003.002\n%%Title: CMBX12\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMBX12.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 46,
+          "name": "OFMVLW+CMR10",
+          "base_name": "CMR10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "7241cf067d8a0f41f03cd83041988e88fb8b7fdc7408eb1f38d9224a2e470a52",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMR10 003.002\n%%Title: CMR10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMR10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 51,
+          "name": "CBBPEU+CMTI10",
+          "base_name": "CMTI10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "39ad658243c79fcb2ce4cb379d4771d491723080908d1bd1f907e652ef81dc32",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMTI10 003.002\n%%Title: CMTI10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMTI10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 59,
+          "name": "TAGVUZ+CMBX12",
+          "base_name": "CMBX12",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "e9cb7ba0d25a0bcdbb480e543e39875c19d4e0a36dac7ed107796d2cf854736f",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMBX12 003.002\n%%Title: CMBX12\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMBX12.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 64,
+          "name": "PPYNUP+CMR10",
+          "base_name": "CMR10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "f0192d5bfcf26f416845075a727401fd1a7d22f2a598cb116d5ee9986612fd08",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMR10 003.002\n%%Title: CMR10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMR10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 69,
+          "name": "RPQTVM+CMBX9",
+          "base_name": "CMBX9",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "87fc2d9532490d0c2eae7abcc35f669e5dafe5dfedce2b7f7bfd4f3ab1a2be9c",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMBX9 003.002\n%%Title: CMBX9\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMBX9.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 74,
+          "name": "KHEJYG+CMBXTI10",
+          "base_name": "CMBXTI10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "70792644aa8c81f0890cb89517200f0101d55582be6ae3cc9ac2b41784f6a1eb",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMBXTI10 003.002\n%%Title: CMBXTI10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMBXTI10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 82,
+          "name": "QFUWXK+CMBX12",
+          "base_name": "CMBX12",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "2c8721c097f6ebf99559a6fd6b6708282a47b65035105d9fce0c6a5a7046ff1a",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMBX12 003.002\n%%Title: CMBX12\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMBX12.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 87,
+          "name": "PNQRJP+CMR10",
+          "base_name": "CMR10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "f96afe1ead387109c386458fb93d579f013eb0ac33226b9235c9f2d9322bc6da",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMR10 003.002\n%%Title: CMR10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMR10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 92,
+          "name": "LAOSOU+CMTI10",
+          "base_name": "CMTI10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "7fbcd6a168b2161194ad1616fa3b1663b8a4e1bba5aee119b39d0a5743a21baa",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMTI10 003.002\n%%Title: CMTI10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMTI10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        }
+      ]
+    },
+    {
+      "pdf": "assets/layout-example/layout.pdf",
+      "pdf_sha256": "329a8cc74e74f8fc65d5fab5bd8acceb95e62932cc25b772689532c1b368b938",
+      "pages": 2,
+      "fonts": [
+        {
+          "xref": 6,
+          "name": "OWJFZL+CMBX12",
+          "base_name": "CMBX12",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "0245480e55a79910a7030570bc7b060da5cf971a784891f3829a0d0234e0b6e4",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMBX12 003.002\n%%Title: CMBX12\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMBX12.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 7,
+          "name": "VPUUYO+CMR10",
+          "base_name": "CMR10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "5c66f590aabaf1f00bafe715cfbb200d2831bcf62ed8ab6275a9d6e12aba46fc",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMR10 003.002\n%%Title: CMR10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMR10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 8,
+          "name": "NBFFJS+CMTI9",
+          "base_name": "CMTI9",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "f86d39cd4ece81e50c0797f6b40a3d059d6f9e41cf68d719b2e1fe23b97f2e27",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMTI9 003.002\n%%Title: CMTI9\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMTI9.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 9,
+          "name": "ZKLPAD+CMR9",
+          "base_name": "CMR9",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "bafcdbd4bc1f193e2aaac1bd049b0ed4821cd5c0c5ba5b0ec4320aa784c3f711",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMR9 003.002\n%%Title: CMR9\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMR9.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 10,
+          "name": "XQMUNZ+CMTI10",
+          "base_name": "CMTI10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "9c2ea3f9d6bfa6bd8d7c6fb89c35a100b53d2f827d5f0d3cd8a22fdf894f172d",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMTI10 003.002\n%%Title: CMTI10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMTI10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 11,
+          "name": "LREXXF+CMMI10",
+          "base_name": "CMMI10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "cc9e14c38e89095f50b0e27a9cf7acdc6a556af9595abd0fa7c4ed45d9613a72",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMMI10 003.002\n%%Title: CMMI10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMMI10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 12,
+          "name": "BYKIDN+CMEX10",
+          "base_name": "CMEX10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "2dcc2f98b8148f1ae9d092c4f93787770bf615101e0866dc3fb48a9be86ad254",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMEX10 003.002\n%%Title: CMEX10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMEX10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 13,
+          "name": "JDUPKS+CMSY10",
+          "base_name": "CMSY10",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "756ad59779cf6ed73afe6cb8417ef7fa35345c6a4af1d2bfc4a8385e85d55470",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMSY10 003.002\n%%Title: CMSY10\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMSY10.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 14,
+          "name": "PWQGTI+CMMI7",
+          "base_name": "CMMI7",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "096d4a5e470f0335114f753031ef1305754a2948792cd374ec4879754d4fb644",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMMI7 003.002\n%%Title: CMMI7\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMMI7.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 15,
+          "name": "RKDUWA+CMR7",
+          "base_name": "CMR7",
+          "type": "Type1",
+          "format": "pfa",
+          "embedded_font_sha256": "4cbeef56ffd6c322dce2f20ad1b5ad7c96afdba68e7fef1b9d04474780896ed5",
+          "embedded_type1_header": "%!PS-AdobeFont-1.0: CMR7 003.002\n%%Title: CMR7\n%Version: 003.002\n%%CreationDate: Mon Jul 13 16:17:00 2009\n%%Creator: David M. Jones\n%Copyright: Copyright (c) 1997, 2009 American Mathematical Society\n%Copyright: (<http://www.ams.org>), with Reserved Font Name CMR7.\n% This Font Software is licensed under the SIL Open Font License, Version 1.1.\n% This license is in the accompanying file OFL.txt, and is also\n% available with a FAQ at: http://scripts.sil.org/OFL.\n%%EndComments",
+          "license_file": "licenses/AMSFONTS-OFL-1.1.txt",
+          "reserved_font_name_present_in_license": true
+        },
+        {
+          "xref": 18,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "92d401ad8bea07df96245b0d2383af834594f675378aaaa90d463f86cee437cf",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 19,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "c81fc319aedcc8682187aa8ae8e367d8656f707b0d65ba984ce6a02f51ca88f9",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 37,
+          "name": "EVICAO+DejaVuSans-Bold",
+          "base_name": "DejaVuSans-Bold",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "de809c1d5521bcdde6cc9b3ad707de7f22a3944a812adc3c17b6988fb3379b16",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Bold"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Bold"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 38,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "8a2885254799402b637e340ebca00825ee054297abfde5a8d417d659d119a834",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 39,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "778ebdd9f92994adec13a6faddf1880c2b4f19a8abc11f1cc394349520e72bfa",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    },
+    {
+      "pdf": "assets/mechanism-examples/dynamics.pdf",
+      "pdf_sha256": "4e5baaf96dafe80bc8a7376451a86b3ab70928ff558695f84bf5ae352b5fab22",
+      "pages": 1,
+      "fonts": [
+        {
+          "xref": 15,
+          "name": "EVICAO+DejaVuSans-Bold",
+          "base_name": "DejaVuSans-Bold",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "de809c1d5521bcdde6cc9b3ad707de7f22a3944a812adc3c17b6988fb3379b16",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Bold"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Bold"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 22,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "ec650b6eb6b8cb063dfc771bf7da914df8d40b364fc9b8c127fcd8cd08ac1865",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 29,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "4f45c93a28bf173f5480349e31a10d66cbcae4c1a98330f2a6ada1686cbf79dd",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    },
+    {
+      "pdf": "assets/mechanism-examples/pole_trajectory.pdf",
+      "pdf_sha256": "f504440efb43fd6540eea06c2a2abe7e9989643bd69748a42d14c25b80519135",
+      "pages": 1,
+      "fonts": [
+        {
+          "xref": 16,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "92d401ad8bea07df96245b0d2383af834594f675378aaaa90d463f86cee437cf",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 23,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "c81fc319aedcc8682187aa8ae8e367d8656f707b0d65ba984ce6a02f51ca88f9",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    },
+    {
+      "pdf": "assets/mechanism-examples/response_map.pdf",
+      "pdf_sha256": "7f56867bd56dbd61242674e146420ec0eb9ce9ff24f24e421ec748d548a6d7ac",
+      "pages": 1,
+      "fonts": [
+        {
+          "xref": 17,
+          "name": "EVICAO+DejaVuSans-Bold",
+          "base_name": "DejaVuSans-Bold",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "de809c1d5521bcdde6cc9b3ad707de7f22a3944a812adc3c17b6988fb3379b16",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Bold"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Bold"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 24,
+          "name": "GCWXDV+DejaVuSans-Oblique",
+          "base_name": "DejaVuSans-Oblique",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "8a2885254799402b637e340ebca00825ee054297abfde5a8d417d659d119a834",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Oblique"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans-Oblique"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        },
+        {
+          "xref": 31,
+          "name": "BMQQDV+DejaVuSans",
+          "base_name": "DejaVuSans",
+          "type": "Type0",
+          "format": "ttf",
+          "embedded_font_sha256": "778ebdd9f92994adec13a6faddf1880c2b4f19a8abc11f1cc394349520e72bfa",
+          "embedded_name_records": [
+            {
+              "name_id": 0,
+              "text": "Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.\nCopyright (c) 2006 by Tavmjong Bah. All Rights Reserved.\nDejaVu changes are in public domain\n"
+            },
+            {
+              "name_id": 1,
+              "text": "DejaVu Sans"
+            },
+            {
+              "name_id": 2,
+              "text": "Book"
+            },
+            {
+              "name_id": 5,
+              "text": "Version 2.35"
+            },
+            {
+              "name_id": 6,
+              "text": "DejaVuSans"
+            }
+          ],
+          "license_file": "licenses/DEJAVU-LICENSE.txt",
+          "identification": "Embedded DejaVu 2.35 names and copyright records match the fonts bundled with the generating Matplotlib 3.10.8 environment."
+        }
+      ]
+    }
+  ],
+  "record_type": "Inherited source-asset font audit; unchanged asset hashes establish applicability"
+}

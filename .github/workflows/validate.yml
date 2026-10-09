@@ -1,0 +1,24 @@
+name: Validate APS skill
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: skills/aps-quantum-writing
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install optional test dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Test numerical examples and distribution
+        run: python -m unittest discover -s tests -v

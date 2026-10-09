@@ -1,0 +1,39 @@
+# PLANNING: Manuscript Development and Organization
+
+Whether headings are used and what they are called depend on the manuscript's argument; an Outlook or an unsectioned main text may be appropriate. When typesetting matters, consult [heading microtypography](microtypography.md) using `journal + article_type + heading_role`. After choosing the headings, check type style, numbering, run-in versus displayed placement, and punctuation. Do not turn the rhetorical work of an introduction or closing discussion into a mandatory menu of section titles.
+
+Use this branch for complete-manuscript planning, structural revision, target-journal selection, titles and abstracts, whole-manuscript layout, continuous progress, and final assessment. For wording and proof exposition, read [WRITING](branch-writing.md); for figure design and generation, read [FIGURES](branch-figures.md). Load the [manuscript-format reference](branch-format.md) only when needed; it belongs within PLANNING.
+
+## Complete-manuscript tasks: continue from the available materials
+
+First read the existing manuscript, data, model, figures, and literature. Resume from their current state and retain valid choices already made. For a new manuscript, follow the dependencies: **research background and recent work → target journal/article type → central question, claim, and conceptual unity → argumentative outline → working title → figure-set plan → complete first draft → title/abstract revision → compilation and visual checks → substantive assessment**. Adopt an already specified target, explaining any fit concerns when necessary. If the target is unspecified, choose a working option based on scientific scope and evidence maturity; submission eligibility still requires checking current rules and the complete results.
+
+Before outlining, use [conceptual unity](conceptual-unity.md) to check for one clear question and central claim, with each major result contributing through a necessary dependency or complementary evidence. Shared keywords establish neither unity nor a lack of novelty. The outline should identify the question each part answers and the evidence it needs. Preserve the manuscript's suitable section order and file organization: PRL may use continuous prose, while longer articles may use sections ordered to help readers understand the problem and the path to discovery. Check technical dependencies internally without letting them mechanically dictate reading order. Treat the working title as provisional; the completed manuscript's actual results determine the final title and abstract. Refine the figure plan and argument together. Implement the plan as sourced figures, explanatory text, and captions rather than stopping at prompts the user must copy elsewhere.
+
+When materials suffice, continue writing, drawing, assembling, and revising. Perform routine checks without requesting approval at each stage, requiring a new collection of planning files, or assigning one agent per section. Use reversible working choices for missing noncritical preferences. If an experiment, definition, authorization, or source dataset needed to determine a conclusion is missing, ask only about that specific gap while completing independent portions. Put requests for missing scientific information in the delivery note; the manuscript itself should state only what the available evidence supports. Local tasks require only the relevant steps.
+
+**Completion criteria:** Within the requested scope, the text, references, captions, source files, and figures that can actually be generated must agree. The title, abstract, and conclusion must address the same supported claim. Compile in the available environment, inspect the final pages, and correct substantive problems. At the end of a complete-manuscript task, provide a separate brief substantive assessment: A–D unity, the one sentence worth remembering, a principal judgment on whether the paper solves an important problem or mainly presents results, upgrade priorities, and evidence-supported journal positioning. Separately identify scientific inputs that remain blocking and checks not completed. If the necessary environment is unavailable, deliver the source manuscript and clearly identify unverified items; do not treat a plan, an existing file, or an old example as proof that the new manuscript compiled. Stop when the requested scope is complete or only indispensable user-provided inputs remain. Do not expand the task into new experiments or submit the paper on the user's behalf.
+
+## Route explicitly by journal and article type
+
+Use the user's chosen target. If none is specified and drafting can proceed, choose a working target labeled provisional and reassess it at the final review. If the user must make a choice that would materially alter the manuscript, ask only for that decision rather than repeating questions already answered. Do not collapse the different targets into a generic APS template:
+
+| Target | Writing reference | Formatting entry point |
+|---|---|---|
+| PRL Letter | [PRL](prl.md) | PRL length, End Matter, and current author instructions |
+| PRA Regular Article / Letter | [PRA](pra.md) | Distinguish Regular Articles from Letters |
+| PRB Regular Article / Letter | [PRB](prb.md) | Distinguish Regular Articles from Letters |
+| PRX Quantum Research Article | [PRX Quantum](prx-quantum.md) | Technical abstract, Popular Summary, and approved templates |
+| Physical Review Applied Regular Article / Letter | [Physical Review Applied](prapplied.md) | Type-specific length, 100-word suitability statement, and appendix organization |
+| Physical Review X Research Article | [Physical Review X](prx.md) | This journal's Popular Summary of up to 150 words; a broad physics readership |
+| Physical Review Research Regular Article / Letter | [Physical Review Research](prresearch.md) | Distinguish Regular Articles from Letters with a 4500-equivalent-word limit |
+
+PRA means Physical Review A. Use the full name Physical Review Applied or PR Applied for that journal. Load PRX and PRX Quantum separately. PRR means Physical Review Research. Journal profiles remain within PLANNING, WRITING, and FIGURES; they do not create additional top-level workflows.
+
+Verify current requirements through the official links in [APS format](aps-format.md) and the [manuscript-format reference](branch-format.md), and record the check date. Other article types require their own rules. Historical samples inform reader expectations only. The configurable default of 30–40 references is not a formatting requirement. Choose PRL's concision, PRA/PRB's technical development, or PRX Quantum's cross-disciplinary entry point according to the science; do not convert observed manuscript lengths into universal quotas.
+
+## Plan text, figures, and space together
+
+Use the outline to plan key equations, each figure's claim and first substantive discussion, single- or double-column dimensions, and the space needed for the introduction and conclusion. Do not defer layout decisions until every figure is finished. Refine the figure set and prose together, then correct floats and readability using the actual compiled pages. For journal/article type, REVTeX, abstracts, and equivalent-length calculations, consult the [manuscript-format reference](branch-format.md) and [APS format](aps-format.md).
+
+The final review must answer two questions: is the scientific core worthwhile and supported, and is the manuscript clear and usable? For the first, give the brief substantive assessment described in [conceptual unity](conceptual-unity.md). For the second, check the prose, notation, text–figure agreement, citations, and actual compilation results. Neither review substitutes for the other.
