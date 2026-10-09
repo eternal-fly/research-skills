@@ -1,0 +1,89 @@
+name: Publish frozen APS 1.0.0
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-v1.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: aps-release-v1.0.0
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'eternal-fly/research-skills'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_REPO: eternal-fly/research-skills
+      RELEASE_COMMIT: b3bde106545d33608e5948929b3330fcd68a4e84
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: b3bde106545d33608e5948929b3330fcd68a4e84
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and verify frozen archives
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, shutil, subprocess, zipfile
+          root = pathlib.Path.cwd()
+          tracked = sorted(subprocess.check_output(['git', 'ls-files', '-z']).decode().rstrip('\0').split('\0'))
+          assert len(tracked) == 102
+          out = root / 'dist'
+          out.mkdir()
+          def archive(name, prefix, entries):
+              with zipfile.ZipFile(out / name, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
+                  for disk, relative in entries:
+                      info = zipfile.ZipInfo(prefix + '/' + relative, (2026, 10, 9, 0, 0, 0))
+                      info.compress_type = zipfile.ZIP_DEFLATED
+                      info.external_attr = 0o100644 << 16
+                      z.writestr(info, (root / disk).read_bytes(), compress_type=zipfile.ZIP_DEFLATED, compresslevel=6)
+          prefix = 'skills/aps-quantum-writing/'
+          archive('aps-quantum-writing-1.0.0.zip', 'aps-quantum-writing', [(p, p[len(prefix):]) for p in tracked if p.startswith(prefix)])
+          archive('research-skills-1.0.0-source.zip', 'research-skills', [(p, p) for p in tracked])
+          shutil.copyfile(root / prefix / 'assets/heading-examples/APS-heading-layout-examples.pdf', out / 'APS-heading-layout-examples.pdf')
+          expected = {
+              'aps-quantum-writing-1.0.0.zip': '29b550d14fc02a45a6e84349bff8f4b176ea70ad86e2cf0315af98eb2ec641d2',
+              'research-skills-1.0.0-source.zip': 'a66d752a6892eb37930afe7d659276fbb534b50fbf745d7e296b80482e629b55',
+              'APS-heading-layout-examples.pdf': 'c30f231055bf78655e6c1358695ab895972caa36f8338333d7975a4197d208cf',
+          }
+          for name, digest in expected.items():
+              actual = hashlib.sha256((out / name).read_bytes()).hexdigest()
+              assert actual == digest, (name, actual)
+          (out / 'SHA256SUMS').write_text(''.join(f'{digest}  {name}\n' for name, digest in sorted(expected.items())))
+          PY
+      - name: Publish only verified assets
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh release view v1.0.0 >/dev/null 2>&1; then
+            echo 'Release v1.0.0 already exists; no overwrite attempted.'
+            exit 1
+          fi
+          tag_sha=$(gh api "repos/$GH_REPO/git/matching-refs/tags/v1.0.0" --jq '.[] | select(.ref == "refs/tags/v1.0.0") | .object.sha')
+          if [ -n "$tag_sha" ] && [ "$tag_sha" != "$RELEASE_COMMIT" ]; then
+            echo 'Existing tag differs from frozen source; stopping.'
+            exit 1
+          fi
+          cat > release-notes.md <<'NOTES'
+          Initial English release by Luofei Wang.
+
+          Three branches cover manuscript planning, academic writing, and scientific figures across seven APS journals. Includes detailed installation instructions, examples, provenance, and validation records.
+
+          The custom noncommercial source-available license permits noncommercial use and private modification. Commercial use and public redistribution or repackaging require permission, subject to the exceptions in LICENSE. Ordinary publication of research outputs is permitted.
+
+          Download aps-quantum-writing-1.0.0.zip and follow docs/INSTALL.md inside the archive. SHA256SUMS covers both ZIP archives and the heading-layout preview PDF. These assets reproduce the validated frozen source commit byte for byte. Automated tests passed for that commit; historical manuscript-format checks are documented separately in docs/VALIDATION.md.
+          NOTES
+          gh release create v1.0.0 dist/* --draft --target "$RELEASE_COMMIT" --title 'APS Quantum Writing v1.0.0' --notes-file release-notes.md
+          mkdir downloaded
+          gh release download v1.0.0 --dir downloaded
+          (cd downloaded && sha256sum --check SHA256SUMS)
+          cmp dist/SHA256SUMS downloaded/SHA256SUMS
+          gh release edit v1.0.0 --draft=false --latest
