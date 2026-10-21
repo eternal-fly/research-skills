@@ -1,5 +1,9 @@
 # Physical Review X: carry an important new insight through multiple layers of evidence
 
+## Abstract focus
+
+For abstract drafting or revision, read [Abstract narrative](abstract-narrative.md): route by journal, article type, and contribution; connect the supported physical answer to its evidence and meaning; check both sentence continuity and the whole argument. Follow the matching profile there; the present file retains its other manuscript guidance.
+
 For headings, consult [Heading microtypography](microtypography.md) using `journal=Physical Review X + article_type=Research Article + heading_role`. Use a displayed, numbered body hierarchy, and identify appendix levels separately. Outlook and other appropriate names are acceptable; do not fill out a fixed set of sections or offer a Letter run-in route.
 
 Load this reference as needed when the target is Physical Review X (PRX), and configure it separately from PRX Quantum. Use the Research Article route in [APS formatting](aps-format.md); the journal does not currently offer a Letter type. Research Articles have no general word limit, but their length should still be determined by what is needed to explain the central problem completely.

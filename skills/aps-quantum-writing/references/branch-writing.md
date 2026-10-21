@@ -14,6 +14,12 @@ Experiments, theorems, methods, and observations whose mechanisms remain unresol
 
 Before outlining, use [conceptual unity](conceptual-unity.md) to select and prioritize results. State each major result's assumptions, conclusion, and role in the central question. Distinguish genuine technical dependencies, independent complementary evidence, and a merely shared topic. Deletion and splitting tests help establish priorities; do not assemble results by inventing a connecting theorem. Check mathematical novelty, scientific importance, and correctness separately. Compare the closest literature at the level of questions, assumptions, and conclusions; crowded keywords do not establish a lack of novelty.
 
+## Abstract: develop the physical answer into a continuous argument
+
+Require the core contribution, core method, and core reasoning to remain visible and logically connected in the final paragraph. Narrative fluency cannot compensate for a missing central method. Compress routine steps, not the decisive scientific idea or the evidence and reasoning connecting it to the result. Check both scientific rigor and natural information order.
+
+For abstract drafting or revision, read [Abstract narrative](abstract-narrative.md): route by journal, article type, and contribution; connect the supported physical answer to its evidence and meaning; check both sentence continuity and the whole argument. Read this reference before treating the abstract as a list of required ingredients. A local edit need not rewrite valid surrounding prose.
+
 ## Introduction: develop the problem fully, rather than expanding the abstract
 
 The introduction performs connected tasks. Let the content determine paragraph count and length; combine or expand as needed instead of imposing three paragraphs or a fixed word count.

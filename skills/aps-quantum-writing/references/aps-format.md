@@ -26,6 +26,10 @@ PRX's journal-specific Popular Summary limit of 150 words differs from the 250-w
 
 The technical abstract is a self-contained single paragraph, without displayed equations, tables, or numbered citations. General abstract guidance is approximately 5% of the main text and fewer than 500 words; this is not a hard PRL limit of 250 words. Use section headings where they help the argument, without imposing a uniform IMRaD structure. Appendices normally precede the references; PRL End Matter is an exception. Keep essential reasoning in the article, with supplementary material carrying additional detail. See [APS Style Basics](https://journals.aps.org/authors/style-basics).
 
+## Abstract guidance update, 2026-10-21
+
+Use [Abstract narrative](abstract-narrative.md) for the story and article-type distinctions. The February 2026 APS Style Guide, E. Abstract, additionally states PRL abstracts should not exceed 600 characters, in tension with observed published abstracts. Preserve this unresolved source conflict and verify the current journal page/submission system before asserting length compliance. Do not silently interpret characters as words or replace an official limit with a sample-based limit. This update does not revalidate the unrelated formatting rules above.
+
 ## REVTeX: select the correct class options first
 
 The publicly available APS version checked for this reference is REVTeX 4.2f; the class name remains `revtex4-2`. The `prl`, `pra`, and `prb` options correspond to those journals; the distribution also supports `prapplied` and `prx`. The `reprint` option provides a journal-like layout; `preprint` provides a single-column, double-spaced review layout. An internal two-column draft can start with the following, replacing `prb` as appropriate:

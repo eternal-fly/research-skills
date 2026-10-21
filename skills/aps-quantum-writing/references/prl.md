@@ -1,5 +1,9 @@
 # PRL: bring the central result into view for a broad physics readership
 
+## Abstract focus
+
+For abstract drafting or revision, read [Abstract narrative](abstract-narrative.md): route by journal, article type, and contribution; connect the supported physical answer to its evidence and meaning; check both sentence continuity and the whole argument. Follow the matching profile there; the present file retains its other manuscript guidance.
+
 Once section headings are chosen, consult [Heading microtypography](microtypography.md) using `journal=PRL + article_type=Letter + heading_role`. The current principal body heading is italic and run-in, `Heading—`, without a period before the dash; handle `Note added.—` as a separate exception. Headings may be renamed or omitted to suit the argument. Handle acknowledgments, DAS, and End Matter/appendices separately, without globally rewriting section commands.
 
 For a complete introduction or conclusion, first use the [WRITING branch](branch-writing.md) to develop the problem, closest literature, and central physical proposition. [PLANNING](branch-planning.md) coordinates the title/abstract and layout.

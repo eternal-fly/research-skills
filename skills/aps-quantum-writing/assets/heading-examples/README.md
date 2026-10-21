@@ -56,4 +56,8 @@ The first two also support run-in Letter appendix headings. This is an evidence-
 - [APS REVTeX page and official 4.2f download](https://journals.aps.org/revtex)
 - [APS Journals Style Guide, February 2026](https://res.cloudinary.com/apsphysics/image/upload/APS_Journals_Style_Guide_Authors022326_guzwhx.pdf), printed pp. 12–15, 19, 23
 
-Verified with pdfTeX 1.40.26, LaTeX2e 2024-11-01 patch level 2, and official REVTeX4.2f. Fonts in these previews are Computer Modern; publisher font families, final page geometry, and exact publication pagination are not reproduced. These are microtypography previews, not final length certification.
+Historically verified with pdfTeX 1.40.26, LaTeX2e 2024-11-01 patch level 2, and official REVTeX4.2f. These were inherited results at the English v1.0.0 release, not a new compilation in its packaging environment.
+
+On 2026-10-20, the five exact v1.0.0 public examples were independently recompiled twice with pdfTeX 1.40.24, LaTeX2e 2021-11-15 patch level 1, and official REVTeX 4.2f. All five fresh PDFs passed visual inspection and 120 new PDF/log checks; a clean script replay passed too. No source changes were needed. See the [revalidation report](../../docs/HEADING-REVALIDATION-2026-10-20.md) for logs, evidence, reproduction instructions, and the explicit list of historical tests not rerun.
+
+Fonts in these previews are Computer Modern; publisher font families, final page geometry, and exact publication pagination are not reproduced. These are microtypography previews, not final length certification.

@@ -1,5 +1,9 @@
 # PRB: show how a model becomes observable physics
 
+## Abstract focus
+
+For abstract drafting or revision, read [Abstract narrative](abstract-narrative.md): route by journal, article type, and contribution; connect the supported physical answer to its evidence and meaning; check both sentence continuity and the whole argument. Follow the matching profile there; the present file retains its other manuscript guidance.
+
 For headings, consult [Heading microtypography](microtypography.md) using `journal=PRB + article_type + heading_role`. Regular Articles use a displayed, numbered body hierarchy; a Letter's principal body headings use italic run-in `Heading.`. Do not require Introduction or Conclusion headings. PRB Letter DAS/appendices were not directly visually verified in this review; follow the evidence-based routes in the guide.
 
 Connect the concrete question in a model or material to observables, then make the phenomenon intelligible through mechanisms, controls, and limits. Methods need not all be introduced at once; bring them in where a result requires them. A longer article can develop a hierarchy of approximations and the physical distinctions between parameter regimes, while a short analytical Letter may proceed quickly to the key relationship.

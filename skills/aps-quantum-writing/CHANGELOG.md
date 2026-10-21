@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 — Abstract narrative and reproducible heading evidence (2026-10-21)
+
+- Integrate the supplied revision-3 abstract supplement through WRITING and PLANNING, keeping the existing three branches.
+- Connect the core contribution, indispensable method, and warranted reasoning in a continuous scientific argument; preserve conditions and evidence levels.
+- Add seven journal profiles, PRA Letter-specific guidance, and distinct routes for technical abstracts and Popular Summaries.
+- Add the supplied 29-abstract evidence ledger and 16 editorial acceptance scenarios with explicit provenance and execution limits.
+- Include the independent 2026-10-20 REVTeX 4.2f revalidation of all five public heading examples, 120 new checks, and a clean replay. Historical 29-source/32-assertion results remain separate.
+- Preserve the unresolved PRL character-limit source conflict; no new length-compliance claim.
+- Update version metadata, installation instructions, checksums, and verified release packaging. License terms and TeX helpers are unchanged.
+
 ## 1.0.0 — Initial public English edition
 
 - English instructions and detailed installation, usage, contribution, and provenance documentation.

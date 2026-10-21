@@ -4,7 +4,7 @@
 
 APS Quantum Writing is an English-language agent skill for planning, writing, and illustrating quantum and related physics research. It keeps the scientific argument, evidence, prose, and final layout connected throughout a manuscript workflow.
 
-**Author:** Luofei Wang · **Version:** 1.0.0 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
+**Author:** Luofei Wang · **Version:** 1.1.0 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
 
 > This project is source-available, not OSI-approved open-source software. Noncommercial use and private modifications are permitted. Commercial use and public redistribution/repackaging require separate permission, subject to the license's platform and third-party exceptions. Ordinary research outputs are treated separately.
 
@@ -51,6 +51,8 @@ PRL, PRA, PRB, PRX Quantum, Physical Review Applied, Physical Review X, and Phys
 
 ## Examples
 
+- [Abstract narrative guide](references/abstract-narrative.md): contribution, core method, reasoning, and journal/article-type choices; [evidence and scope](references/abstract-evidence.md).
+- [1.1.0 validation](docs/RELEASE-1.1.0.md): current release checks, supplied review provenance, and inherited results.
 - [Five-page heading PDF](assets/heading-examples/APS-heading-layout-examples.pdf): optional PRL headings, unheaded openings, no main-text headings, Regular hierarchy, and non-PRL Letter typography.
 - [Editable heading sources](assets/heading-examples/README.md).
 - [Synthetic data-plot captions](assets/figure-examples/CAPTIONS.md) and [mechanism example captions](assets/mechanism-examples/captions.md).

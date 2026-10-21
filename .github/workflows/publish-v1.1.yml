@@ -1,0 +1,59 @@
+name: Publish APS 1.1.0
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/publish-v1.1.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: aps-release-v1.1.0
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'eternal-fly/research-skills'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_REPO: eternal-fly/research-skills
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test current sources
+        run: |
+          python -m pip install -r skills/aps-quantum-writing/requirements.txt
+          cd skills/aps-quantum-writing
+          python -m unittest discover -s tests -v
+      - name: Build and independently check installable archive
+        run: |
+          python scripts/build_release.py --out dist
+          python -m zipfile -e dist/aps-quantum-writing-1.1.0.zip smoke
+          cd smoke/aps-quantum-writing
+          sha256sum --check SHA256SUMS
+          python -m unittest discover -s tests -v
+      - name: Publish verified assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$(cat skills/aps-quantum-writing/VERSION)" = '1.1.0'
+          if gh release view v1.1.0 >/dev/null 2>&1; then
+            echo 'Release v1.1.0 exists; no overwrite attempted.'
+            exit 1
+          fi
+          tag_sha=$(gh api "repos/$GH_REPO/git/matching-refs/tags/v1.1.0" --jq '.[] | select(.ref == "refs/tags/v1.1.0") | .object.sha')
+          if [ -n "$tag_sha" ] && [ "$tag_sha" != "$GITHUB_SHA" ]; then
+            echo 'Existing tag differs from this source commit; stopping.'
+            exit 1
+          fi
+          gh release create v1.1.0 dist/* --draft --target "$GITHUB_SHA" --title 'APS Quantum Writing v1.1.0' --notes-file skills/aps-quantum-writing/docs/RELEASE-NOTES-1.1.0.md
+          mkdir downloaded
+          gh release download v1.1.0 --dir downloaded
+          (cd downloaded && sha256sum --check SHA256SUMS)
+          cmp dist/SHA256SUMS downloaded/SHA256SUMS
+          gh release edit v1.1.0 --draft=false --latest

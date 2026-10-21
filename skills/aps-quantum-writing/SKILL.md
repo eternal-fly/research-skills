@@ -19,6 +19,12 @@ This is one skill with three task-dependent branches. Do not load every referenc
 
 PLANNING coordinates WRITING and FIGURES for a complete manuscript. These are the only three top-level branches. The user's existing choices of journal, language, data, structure, and layout take precedence.
 
+## Abstract tasks: use the dedicated writing reference
+
+The abstract must communicate the core contribution, core method, and core reasoning in a coherent, rigorous narrative that follows natural reading and writing habits. Preserve the decisive scientific idea rather than replacing it with a generic method label or omitting it for a smoother “physical story.” Distinguish necessary reasoning from full proof or implementation detail. Apply this through the manuscript's own scientific relationships, not a template copied from a particular example. Treat this as this skill's editorial standard, not a universal APS sentence template.
+
+For any substantive abstract task, load [Abstract narrative](references/abstract-narrative.md) and the selected journal/article-type profile. Establish the physical question or organizing contribution, preserve the evidence and conditions, and connect findings to their scientific meaning. Check local transitions and the whole-paragraph answer. This remains part of WRITING, coordinated by PLANNING; it is not a new top-level branch. Keep Technical Abstract, Popular Summary, and suitability statement separate.
+
 ## Headings: decide whether they are needed before checking their form
 
 Whether headings exist and what they are called depend on the manuscript's argument. Content-specific headings, an Outlook, or an unsectioned main text may all be appropriate. Do not require Introduction or Conclusion headings, or add a heading to every paragraph. When heading format matters, consult [heading microtypography](references/microtypography.md) using `journal + article_type + heading_role`; check type style, numbering, display versus run-in placement, and punctuation. The current PRL main-level form is italic run-in `Heading—`; treat `Note added.—` as a separate special case. Non-PRL Letters use italic run-in `Heading.` at the main level. Regular/Research articles use displayed `I.` / `A.` / `1.` levels. Distinguish acknowledgments, data availability statements (DAS), and appendices by role rather than rewriting every `\section` globally. Load detailed exceptions and optional helpers only when needed.

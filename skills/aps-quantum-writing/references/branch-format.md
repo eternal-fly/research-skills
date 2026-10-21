@@ -10,6 +10,9 @@ Consult [APS article types and REVTeX](aps-format.md) for the target: PRL Letter
 
 ## The narrative jobs of the title and abstract
 
+For abstract drafting or revision, read [Abstract narrative](abstract-narrative.md): route by journal, article type, and contribution; connect the supported physical answer to its evidence and meaning; check both sentence continuity and the whole argument. This format reference controls presentation; the dedicated writing reference controls the scientific narrative.
+
+
 The title should foreground the actual subject and central relationship or finding, distinguishing a physical mechanism from a method name. Avoid vague importance claims and unsupported universality or priority. When useful, offer a small number of substantively different candidates rather than a list of synonymous rewrites.
 
 The abstract should stand on its own: state the necessary element of the problem or context, the main answer, the key means of obtaining it, and its physical significance. Let the research type determine the content; do not impose a fixed sentence count. An abstract condenses established results, whereas an introduction develops the reasoning from prior work to the unresolved problem. Retain the conditions, nature of the evidence, and credible orders of magnitude needed to understand the main result. A standard APS technical abstract is a single paragraph without displayed equations, tables, or numbered citations; check the official page for article-specific requirements. Write the PRX Quantum Popular Summary separately rather than relabeling the technical abstract.

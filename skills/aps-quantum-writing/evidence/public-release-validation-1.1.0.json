@@ -1,0 +1,152 @@
+{
+  "version": "1.1.0",
+  "checked_on": "2026-10-21",
+  "timezone": "America/Denver",
+  "record_type": "Current integration and local release checks; historical results explicitly separate",
+  "attachment": {
+    "name": "APS Abstract Narrative Revision 3",
+    "sha256": "a9e03ffb46c17162ec98707b3e2bc022e0d9960dccff23bc629d1d93191d3ecc",
+    "checksums_verified": 20,
+    "skill_files_merged": 15,
+    "baseline_reconciliation": [
+      {
+        "path": "SKILL.md",
+        "repository_sha256": "99d64e4e0c358d84788c04b38cc15396576c5c0f68e9ba9056294a33aedbea0d",
+        "supplied_baseline_sha256": "0b76e41d7158001fb73a4441f2d287d6c3e35d799ca2a5e00944c27c604b4648",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/aps-format.md",
+        "repository_sha256": "a49e486930933832793d673b335ad1d59fe329f84896da734c03bf05ccaaec92",
+        "supplied_baseline_sha256": "82fc1e2e3898ebc95c232f321ded0b7a8d0c271e7f745c7470ad9d557721ba29",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/branch-format.md",
+        "repository_sha256": "f84e3a48604db3f2bd4dbc711a683d73baebdc063ea17ef116efd6124f495194",
+        "supplied_baseline_sha256": "59d2d6401376cbd22fda8fb856e877b329aaabce1232338f61ebc38bd3a46b34",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/branch-planning.md",
+        "repository_sha256": "cd6443a0d08f5c07b6cec8b33081c850cfd3a86480fa881eb261e30efccd811e",
+        "supplied_baseline_sha256": "65f978fad92414a26917247dc416e00e333bda1f2b9b684460d91189876f4dcf",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/branch-writing.md",
+        "repository_sha256": "e53690783ccc4e7abfb5b55c272defe4898acc7fb7317e63f625547bd806ac70",
+        "supplied_baseline_sha256": "fe180770bfcf2d961cfec74676c81b64b66e87cac9833b95886f97bf42ac78ea",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/pra.md",
+        "repository_sha256": "0eecffaf82e14ebf4e115296aee0ee6e765d9385ddcdd8aff5355040c9c01945",
+        "supplied_baseline_sha256": "d2b5b9623ae2926b81f7226fe88f1696d6984305d9ce3da929acce0a2a24e88c",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/prapplied.md",
+        "repository_sha256": "088f71791ce88e221f1519bbb223e405dff353f9e2338de806db32a70017cb97",
+        "supplied_baseline_sha256": "93e12d1cb2dcef84e6a8d80d49e5b9ee2d7f0af61f061ffab79ae06763af87fc",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/prb.md",
+        "repository_sha256": "f0ece277dd6fe4c93f4b533fcc8881eb57a8459932b4fa50d97d496b7cf327e4",
+        "supplied_baseline_sha256": "30d39443055f6902fbeb1e26bdf3d0563d4019ff05fbd26303705de033b53e8e",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/prl.md",
+        "repository_sha256": "535f0f97b8c063fd0226f07613c52ddaf5dd39a509d126f22a6d44d55a6c360b",
+        "supplied_baseline_sha256": "c70583e73ba137889ab5c5317ded80fbfe6de4d0f519e27f56c22588aa5fc11e",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/prresearch.md",
+        "repository_sha256": "3c170d6bb1922ce23b1c4ee462012f29e56729535e7084ddb358f3b42898ba64",
+        "supplied_baseline_sha256": "77858ca2863de50adcd357f31973eb19c190778f96a9d8d89d0b88ed47d84494",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/prx-quantum.md",
+        "repository_sha256": "6b51d621982466d5cd8716e3c5d70d5a74d5012b6e5c2245382fb83f6210be03",
+        "supplied_baseline_sha256": "a58a7e26c2f9495478ec3b83d2fe4432233a4a79a7281570dc3b159c0d31419b",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      },
+      {
+        "path": "references/prx.md",
+        "repository_sha256": "3b5a706f14d9ec8c01b71ef4ddb99e0a3075f1a45d0ec521d487b3a43df40daf",
+        "supplied_baseline_sha256": "906ce6ea1b9eeab785501706a9f28474187392c5ec8a2e24970aab7ab4004658",
+        "difference": "After LF normalization, supplied baseline adds exactly one terminal newline; content otherwise identical."
+      }
+    ]
+  },
+  "automated_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 7,
+    "total": 7,
+    "distribution_methods": 5,
+    "mechanism_test_methods": 2,
+    "mechanism_details": "One file-presence method and one substantive numerical-model method"
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.16.0",
+    "matplotlib": "3.8.0"
+  },
+  "skill_frontmatter_validation": {
+    "status": "passed",
+    "mode": "Python -X utf8"
+  },
+  "behavior": {
+    "baseline_drafts": 5,
+    "revised_drafts": 5,
+    "critical_violations_observed": 0,
+    "method": "Single application per brief per skill version; qualitative non-blind manual review",
+    "statistical_improvement_claim": false,
+    "all_16_supplied_scenarios_executed": false,
+    "report": "abstract-behavior-review-1.1.0.md"
+  },
+  "official_requirements_rechecked": [
+    "PRA author-page Letter routing",
+    "PRA 2023 abstract editorial",
+    "PRX Quantum Popular Summary distinction",
+    "February 2026 APS style guide abstract section"
+  ],
+  "imported_review": {
+    "abstracts_reported_reviewed": 29,
+    "independently_reread_this_integration": false,
+    "source": "User-supplied revision-3 supplement"
+  },
+  "heading_revalidation": {
+    "completed_on": "2026-10-20",
+    "examples": 5,
+    "new_checks_passed": 120,
+    "freshly_recompiled_for_1_1_0": false,
+    "tex_content_unchanged": true,
+    "record": "heading-revalidation-2026-10-20.json"
+  },
+  "not_rerun": [
+    "Historical 29-source/32-assertion heading matrix and four invalid-option controls",
+    "700-paper review",
+    "Figure generation"
+  ],
+  "release_archive_validation": {
+    "status": "passed",
+    "source_archive_readback": "All members match packaged source bytes",
+    "skill_archive_readback": "All members match packaged source bytes",
+    "internal_manifest_files": 109,
+    "extracted_skill_tests_passed": 7,
+    "extracted_skill_tests_total": 7,
+    "public_evidence_path_scan": "passed"
+  },
+  "historical_records_preserved": [
+    "public-release-validation.json",
+    "v1.0.0-SHA256SUMS"
+  ],
+  "publication": "Verify the actual GitHub Actions run and downloadable asset hashes; workflow existence alone is not success",
+  "limits": "No submission-length certification, publisher-identical layout, acceptance-rate prediction, or scientific-correctness certification"
+}

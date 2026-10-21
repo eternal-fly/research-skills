@@ -32,6 +32,10 @@ PRA means Physical Review A. Use the full name Physical Review Applied or PR App
 
 Verify current requirements through the official links in [APS format](aps-format.md) and the [manuscript-format reference](branch-format.md), and record the check date. Other article types require their own rules. Historical samples inform reader expectations only. The configurable default of 30–40 references is not a formatting requirement. Choose PRL's concision, PRA/PRB's technical development, or PRX Quantum's cross-disciplinary entry point according to the science; do not convert observed manuscript lengths into universal quotas.
 
+## Route abstract work into WRITING
+
+For abstract drafting or revision, read [Abstract narrative](abstract-narrative.md): route by journal, article type, and contribution; connect the supported physical answer to its evidence and meaning; check both sentence continuity and the whole argument. After a complete draft, revise the abstract from the established central results rather than from the original work plan.
+
 ## Plan text, figures, and space together
 
 Use the outline to plan key equations, each figure's claim and first substantive discussion, single- or double-column dimensions, and the space needed for the introduction and conclusion. Do not defer layout decisions until every figure is finished. Refine the figure set and prose together, then correct floats and readability using the actual compiled pages. For journal/article type, REVTeX, abstracts, and equivalent-length calculations, consult the [manuscript-format reference](branch-format.md) and [APS format](aps-format.md).

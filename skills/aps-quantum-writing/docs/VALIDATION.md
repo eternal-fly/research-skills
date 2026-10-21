@@ -1,5 +1,7 @@
 # Validation and reproducibility
 
+For the current 1.1.0 release, see [the dated release report](RELEASE-1.1.0.md) and [machine-readable validation](../evidence/public-release-validation-1.1.0.json). The 1.0.0 release-time record remains unchanged; the sections below retain its historical context.
+
 ## What is tested
 
 The English edition is a translation and public-packaging pass on the existing 1.0 skill. It does not claim that translating the documentation reran the literature review or every historical visual experiment.
@@ -17,7 +19,7 @@ Run the complete automated suite from the skill root:
 python -m unittest discover -s tests -v
 ```
 
-## Current English-release checks
+## English-release checks (2026-10-09)
 
 The untranslated baseline failed the new distribution checks as expected: Chinese instructions and missing public documentation/provenance were detected. The release process then translated the active rules, supplied public documentation, and reran the checks. Final results are recorded in [release validation](../evidence/public-release-validation.json).
 
@@ -29,7 +31,13 @@ All 26 input PDF, PNG, and EPS assets matched their verified input bytes before 
 
 The original 1.0 audit compiled 29 standalone TeX sources twice. Four intentionally invalid-option controls still generated PDFs while emitting warnings; they are not supported journal configurations. Thirty-two font, baseline, punctuation, and guard checks passed. Five portable example sources were rebuilt and their final pages visually inspected.
 
-The English edition retains the same five-page heading PDF and sources. The current packaging environment did not provide a discoverable REVTeX class, so those historical TeX results are recorded as inherited, not claimed as a fresh compile in this environment. Use the [heading README](../assets/heading-examples/README.md) to rebuild in a working LaTeX installation.
+The English edition retained the same five-page heading PDF and sources. The 2026-10-09 packaging environment did not provide a discoverable REVTeX class, so those historical TeX results remain recorded as inherited, not as a fresh compile during release packaging.
+
+## Independent five-example revalidation (2026-10-20)
+
+The exact v1.0.0 sources were subsequently compiled with official REVTeX 4.2f and pdfTeX 1.40.24. All five public examples passed two compilation passes, 120 newly defined PDF/log checks, and full-page visual inspection. A clean replay of the final reproduction script also passed. No TeX fixes were needed. See the [detailed report](HEADING-REVALIDATION-2026-10-20.md), [machine-readable record](../evidence/heading-revalidation-2026-10-20.json), and [reproduction evidence bundle](../evidence/heading-revalidation-2026-10-20.zip).
+
+This fresh result does not rerun or replace the historical 29-source/32-assertion matrix or its invalid-option controls. The original release-validation JSON remains unchanged as a dated metadata record. Its reported seven distribution and two numerical tests must not be confused with the checked-in v1.0.0 suite, which contains five distribution methods and two mechanism methods, seven total. See the heading report for this distinction and the current release report for newly executed checks.
 
 The helpers cover explicit run-in labels and an opt-in Regular third-level font preview. They do not reproduce proprietary publisher fonts, certify article length, or implement a publisher-identical PRL End Matter container. Consult [microtypography](../references/microtypography.md) for these boundaries and the official/observed Letter DAS distinction.
 

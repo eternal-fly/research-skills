@@ -1,0 +1,92 @@
+{
+  "record_type": "Independent post-release revalidation; not a release-time result",
+  "checked_on": "2026-10-20",
+  "timezone": "America/Denver",
+  "source": {
+    "repository": "https://github.com/eternal-fly/research-skills",
+    "tag": "v1.0.0",
+    "commit": "b3bde106545d33608e5948929b3330fcd68a4e84",
+    "tex_and_helpers_modified": false,
+    "checkout_line_endings": "Compiled input text matches tag; Windows checkout converted LF to CRLF. No other source changes."
+  },
+  "environment": {
+    "os": "Windows",
+    "pdftex": "1.40.24 (TeX Live 2022)",
+    "latex": "2021-11-15 patch level 1",
+    "revtex": "2022/06/05 4.2f",
+    "poppler": "26.07.0",
+    "pdfplumber": "0.11.9",
+    "upstream_url": "https://mirrors.ctan.org/macros/latex/contrib/revtex.zip",
+    "upstream_archive_sha256": "5a5ebc9831ae219b2bcf2f8b408dc07a55a9e244af1317f1f25ca187daa40d82",
+    "isolation": "Process-local TEXINPUTS; class and APS files confirmed in recorder logs"
+  },
+  "fresh_run": {
+    "examples": 5,
+    "passes_per_source": 2,
+    "successful_compiler_invocations": 10,
+    "new_automated_checks_passed": 120,
+    "new_automated_checks_total": 120,
+    "visually_inspected_fresh_pages": 5,
+    "visual_result": "passed"
+  },
+  "clean_script_replay": {
+    "examples": 5,
+    "successful_compiler_invocations": 10,
+    "checks_passed": 120,
+    "checks_total": 120,
+    "counts_as_additional_distinct_coverage": false
+  },
+  "logs": {
+    "first_pass_rerun_warnings_per_run": 5,
+    "second_pass_warnings": 0,
+    "second_pass_overfull_underfull_boxes": 0,
+    "regular_font_hook_enabled": true,
+    "informational_missing_bbl": "One per example per pass; no citation/bibliography content"
+  },
+  "not_rerun": {
+    "historical_tex_sources": 29,
+    "historical_assertions": 32,
+    "historical_invalid_option_controls": 4,
+    "other_suites": [
+      "figure generation",
+      "behavior review",
+      "literature/policy review",
+      "other journal option variants",
+      "starred third-level and guard controls"
+    ],
+    "release_time_metadata_reports": {
+      "distribution_tests": 7,
+      "numerical_tests": 2,
+      "status": "Inherited metadata only; not reconstructed as executions"
+    },
+    "checked_in_v1_0_0_suite": {
+      "distribution_methods": 5,
+      "mechanism_methods": 2,
+      "total_methods": 7,
+      "status": "Full suite not run in the heading audit; separate distribution-only check recorded below"
+    }
+  },
+  "distribution_documentation_check": {
+    "status": "passed",
+    "passed": 5,
+    "total": 5,
+    "command": "python -m unittest discover -s tests -p test_release_layout.py -v",
+    "suite": "test_release_layout.py (five tests, separate from historical seven)"
+  },
+  "corrections": {
+    "tex": "None required",
+    "documentation": "Date historical results and add fresh evidence separately"
+  },
+  "report": "../docs/HEADING-REVALIDATION-2026-10-20.md",
+  "bundle": {
+    "file": "heading-revalidation-2026-10-20.zip",
+    "sha256": "3b6c5b0425b806a667bd50f4cc5a0c9a66e56b16c2d245d0e8506ccab1cf8257",
+    "manifest": "SHA256SUMS.json",
+    "public_export": {
+      "prepared_on": "2026-10-21",
+      "text_logs": "Local paths replaced by placeholders; originals retained locally",
+      "upstream_runtime": "Downloaded separately using the recorded official URL and archive hash; not included in this public bundle"
+    }
+  },
+  "limits": "Five synthetic examples in the recorded environment; not publisher-identical layout, all guard cases, all journals, or current editorial-policy verification."
+}

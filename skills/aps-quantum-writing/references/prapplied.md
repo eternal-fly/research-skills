@@ -1,5 +1,9 @@
 # Physical Review Applied: connect application capabilities to testable physical insight
 
+## Abstract focus
+
+For abstract drafting or revision, read [Abstract narrative](abstract-narrative.md): route by journal, article type, and contribution; connect the supported physical answer to its evidence and meaning; check both sentence continuity and the whole argument. Follow the matching profile there; the present file retains its other manuscript guidance.
+
 For headings, consult [Heading microtypography](microtypography.md) using `journal=Physical Review Applied + article_type + heading_role`. Regular Articles use a displayed, numbered body hierarchy; a Letter's principal body headings use italic run-in `Heading.`. Let the argument determine heading names and their presence. For Letter DAS/appendices, follow the guide's distinct official-requirement and published-appearance routes.
 
 Load this reference as needed when the target is Physical Review Applied (PR Applied); do not confuse it with Physical Review A (PRA). Reuse the planning, writing, and figure branches. Handle Regular Articles and Letters separately under [APS formatting](aps-format.md). For original research, also prepare a 100-word suitability statement explaining the application problem, physical advance, and relevant readership.
