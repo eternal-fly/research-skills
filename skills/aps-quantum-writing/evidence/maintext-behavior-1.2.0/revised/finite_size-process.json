@@ -1,0 +1,43 @@
+{
+  "input_brief": "evaluation/briefs/finite_size.md",
+  "output": "evaluation/revised/finite_size/OUTPUT.md",
+  "target": "Physical Review B Regular Article",
+  "consulted_skill_paths": [
+    "skill-final/SKILL.md",
+    "skill-final/references/branch-planning.md",
+    "skill-final/references/branch-writing.md",
+    "skill-final/references/abstract-narrative.md",
+    "skill-final/references/prb.md",
+    "skill-final/references/conceptual-unity.md",
+    "skill-final/references/physics-narrative.md",
+    "skill-final/references/prl-direct-prose.md",
+    "skill-final/references/microtypography.md"
+  ],
+  "execution_limits": {
+    "evidence": "Only the supplied synthetic brief and elementary derivations from its model and sampling design were used.",
+    "sources_not_read": [
+      "baseline",
+      "other outputs",
+      "grading rules",
+      "other writing skills",
+      "intake"
+    ],
+    "browsing": "Not performed; prohibited for this exercise.",
+    "references": "Omitted as allowed; no references invented or externally verified.",
+    "simulations": "Not performed. Numerical convergence is stipulated in the brief, not independently reproduced.",
+    "raw_data": "No raw trajectories, paired realization means, run logs, or window covariance were supplied.",
+    "statistical_inference": "No paired significance test or asymptotic fit was performed. The independent-size contrast is arithmetic propagation using supplied SEMs and independent size ensembles.",
+    "compilation_and_figures": "No TeX compilation, rendering, or figure generation performed; output is Markdown.",
+    "skill_modifications": "None.",
+    "publishing": "None.",
+    "agents": "No other agents used."
+  },
+  "checks": {
+    "main_whitespace_words": 1202,
+    "supplement_whitespace_words": 481,
+    "all_eight_table_rows_match_supplied_values": true,
+    "inline_and_display_math_delimiters_balanced": true,
+    "independent_size_contrast_sem": 0.03330165161069343,
+    "scientific_readback": "Checked model, normalization, 32 independent realization means, within-point pairing, independent size samples, variance and covariance formulas, and finite-domain conclusion."
+  }
+}

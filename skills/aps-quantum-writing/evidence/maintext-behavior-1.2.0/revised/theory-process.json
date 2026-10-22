@@ -1,0 +1,54 @@
+{
+  "task": "Synthetic editorial test: two-qubit differential-field encoding",
+  "language": "English",
+  "target": "Physical Review A Regular Article",
+  "source_brief": "evaluation/briefs/theory.md",
+  "consulted_skill_paths": [
+    "skill-final/SKILL.md",
+    "skill-final/references/branch-planning.md",
+    "skill-final/references/branch-writing.md",
+    "skill-final/references/abstract-narrative.md",
+    "skill-final/references/prl-direct-prose.md",
+    "skill-final/references/conceptual-unity.md",
+    "skill-final/references/physics-narrative.md",
+    "skill-final/references/pra.md",
+    "skill-final/references/microtypography.md"
+  ],
+  "artifacts": [
+    "evaluation/revised/theory/OUTPUT.md",
+    "evaluation/revised/theory/PROCESS.json"
+  ],
+  "checks": {
+    "main_prose_words": 1073,
+    "supplement_prose_words": 438,
+    "word_count_method": "English word tokens in prose and headings; inline and displayed mathematics excluded.",
+    "equation_tags": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "equation_numbering": "Sequential main and supplemental tags checked in saved Markdown.",
+    "scientific_review": "Analytical derivation checked for invariant support, zero collective action, opposite differential energies, two independent dissipators, factor-four coherence decay, and the row-0 column-1 negative phase convention.",
+    "saved_markdown_readback": true,
+    "output_sha256": "F45029AF21DE8B9CABA4BB3FF1C602ABBD1A4A902F7D17259CFB62833F32AA9C"
+  },
+  "execution_limits": {
+    "scientific_material": "Only the stipulated facts in the assigned theory brief and direct algebraic consequences were used.",
+    "literature": "No browsing or literature verification; references omitted as permitted for the synthetic exercise.",
+    "novelty": "No novelty or discovery claim asserted or assessed.",
+    "typesetting": "Markdown source only; no TeX compilation, rendered-page inspection, or journal-submission compliance certification.",
+    "figures_and_data": "No figure generation, simulations, experimental data, or supplied table.",
+    "access_scope": "No baseline, other output, grading rules, other writing skills, or intake material inspected.",
+    "external_actions": "No publishing, additional agents, or skill edits."
+  }
+}

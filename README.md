@@ -8,7 +8,7 @@ This public repository collects file-based agent skills for scientific work. Eac
 
 | Skill | What it covers | Version | License |
 |---|---|---|---|
-| [APS Quantum Writing](skills/aps-quantum-writing/README.md) | Manuscript planning, scientific writing, figures, and journal-specific typography for seven APS journals | 1.1.0 | [Noncommercial source-available](skills/aps-quantum-writing/LICENSE) |
+| [APS Quantum Writing](skills/aps-quantum-writing/README.md) | Manuscript planning, scientific writing, figures, and journal-specific typography for seven APS journals | 1.2.0 | [Noncommercial source-available](skills/aps-quantum-writing/LICENSE) |
 
 **Publicly readable does not mean unrestricted open source.** APS Quantum Writing permits noncommercial use and private modifications, with restrictions on commercial use and redistribution/repackaging. Its research-output, third-party, and platform exceptions are described in the license. Future skills may use different terms.
 

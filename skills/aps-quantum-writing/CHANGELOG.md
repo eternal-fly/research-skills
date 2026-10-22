@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.2.0 — Figure planning, main-text narrative and supporting prose (2026-10-22)
+
+- Integrate the supplied 1.2.0-rc1 figure-planning records, conditional quantum routes and structural validator. Attribute its source-review evidence separately from release integration.
+- Consolidate the main-text question, obstacle, key idea, proof/evidence and physical-answer progression without imposing section templates.
+- Apply direct scientific prose to appendices, End Matter, Supplemental Material and captions; preserve scientific assumptions, uncertainties and negative results.
+- Add complete synthetic manuscript/Supplement applications, short supporting-prose controls, a rendered analytic figure smoke test and auditable validation records.
+- Preserve historical records and examples; publish versioned, checksum-verified archives.
+
+## 1.2.0-rc1 — Quantum figure planning review package (2026-10-22)
+
+- Combine physical discrimination with flexible panel roles and fixed, reusable planning fields.
+- Start single-column, widening for essential mechanism/comparison, geometry or final-size readability; retain near-square scalar axes and scientific exceptions.
+- Add quantum-domain evidence routes with fresh review provenance and precise review-depth boundaries.
+- Add an optional structural plan validator, explicit draft/ready states and negative tests; this is not a scientific or aesthetic evaluator.
+- Preserve licenses, three branches, previous abstract guide, typography helpers and example assets. Not pushed or publicly released.
+
+
 ## 1.1.0 — Abstract narrative and reproducible heading evidence (2026-10-21)
 
 - Integrate the supplied revision-3 abstract supplement through WRITING and PLANNING, keeping the existing three branches.

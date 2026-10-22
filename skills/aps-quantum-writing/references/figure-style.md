@@ -8,6 +8,10 @@ Applies to PRL, PRA, PRB, PRX Quantum, Physical Review Applied, Physical Review 
 2. **Observations from published figures:** the review sampled five version-of-record (VOR) PDFs per journal, 20 in total. Figure organization, typography, and colors vary even within a journal. This is not an image census of all 400 papers; the 400-paper writing evidence remains unchanged. See the [public provenance record](../docs/PROVENANCE.md).
 3. **Package defaults:** the fonts, colors, line-width margins, tick directions, and canvas heights below are adjustable practical choices, not mandatory APS standards. Do not claim that PRL requires blue/red or PRB requires a particular font.
 
+## Planning and column preference
+
+Use the [fixed planning record](figure-planning-record.md) to connect the physical discrimination, panel roles, data lineage and visual choices. Unless specified otherwise by the user, start at single-column width. Move to double column only when an essential mechanism/comparison, scientific geometry, or final-size legibility cannot be retained after reasonable layout repair; record that decision and recheck the actual export/insertion size. This is a configurable workflow preference, not an APS requirement. Multiple panels can fit one column, and even two coupled panels can need both columns. Near-square scalar plotting areas and the exceptions below remain in force.
+
 ## Shared baseline: inspect the generated appearance
 
 | Item | Package default or check |

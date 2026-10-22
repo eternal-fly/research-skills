@@ -1,0 +1,31 @@
+test_complete_record (test_figure_plan.FigurePlanTests.test_complete_record) ... ok
+test_double_column_requires_assessment (test_figure_plan.FigurePlanTests.test_double_column_requires_assessment) ... ok
+test_draft_missing_can_be_recorded (test_figure_plan.FigurePlanTests.test_draft_missing_can_be_recorded) ... ok
+test_duplicate_ids_rejected (test_figure_plan.FigurePlanTests.test_duplicate_ids_rejected) ... ok
+test_huge_json_integer_is_an_error_not_crash (test_figure_plan.FigurePlanTests.test_huge_json_integer_is_an_error_not_crash) ... ok
+test_journal_type_is_required (test_figure_plan.FigurePlanTests.test_journal_type_is_required) ... ok
+test_malformed_types_do_not_crash (test_figure_plan.FigurePlanTests.test_malformed_types_do_not_crash) ... ok
+test_nested_bad_types_and_nonfinite_sizes (test_figure_plan.FigurePlanTests.test_nested_bad_types_and_nonfinite_sizes) ... ok
+test_no_panel_count_width_rule (test_figure_plan.FigurePlanTests.test_no_panel_count_width_rule) ... ok
+test_ready_missing_or_mock_rejected (test_figure_plan.FigurePlanTests.test_ready_missing_or_mock_rejected) ... ok
+test_ready_rejects_explicit_template_sentinels (test_figure_plan.FigurePlanTests.test_ready_rejects_explicit_template_sentinels) ... ok
+test_ready_unchecked_layout_rejected (test_figure_plan.FigurePlanTests.test_ready_unchecked_layout_rejected) ... ok
+test_required_blank_is_rejected (test_figure_plan.FigurePlanTests.test_required_blank_is_rejected) ... ok
+test_template_is_valid_draft (test_figure_plan.FigurePlanTests.test_template_is_valid_draft) ... ok
+test_model (test_mechanism_examples.MechanismTests.test_model) ... ok
+test_script_exists (test_mechanism_examples.MechanismTests.test_script_exists) ... ok
+test_partition_and_identity (test_quantum_review_links.QuantumReviewLinksTests.test_partition_and_identity) ... ok
+test_pixel_claims_have_locators (test_quantum_review_links.QuantumReviewLinksTests.test_pixel_claims_have_locators) ... ok
+test_recipe_anchors_are_substantive (test_quantum_review_links.QuantumReviewLinksTests.test_recipe_anchors_are_substantive) ... ok
+test_substantive_records_have_extent_and_primary_source (test_quantum_review_links.QuantumReviewLinksTests.test_substantive_records_have_extent_and_primary_source) ... ok
+test_summary_is_derived (test_quantum_review_links.QuantumReviewLinksTests.test_summary_is_derived) ... ok
+test_active_instructions_are_english (test_release_layout.ReleaseLayoutTests.test_active_instructions_are_english) ... ok
+test_evidence_index_is_unique_and_balanced (test_release_layout.ReleaseLayoutTests.test_evidence_index_is_unique_and_balanced) ... ok
+test_local_markdown_targets_exist (test_release_layout.ReleaseLayoutTests.test_local_markdown_targets_exist) ... ok
+test_release_documents_exist (test_release_layout.ReleaseLayoutTests.test_release_documents_exist) ... ok
+test_three_primary_branches_exist (test_release_layout.ReleaseLayoutTests.test_three_primary_branches_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.462s
+
+OK

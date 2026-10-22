@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-22",
+  "cases": [
+    "theory",
+    "finite_size",
+    "estimator"
+  ],
+  "criteria": [
+    "one physical question connects introduction, results and conclusion",
+    "core idea and obstacle explicit before substantial technical detail",
+    "proof/evidence roadmap explains why steps or controls are needed",
+    "each major result advances central answer; no forced causal link",
+    "equations/tables interpreted physically",
+    "claim conditions and uncertainty preserved",
+    "supplement states purpose and connection to main text",
+    "supplement technical details complete and traceable",
+    "supplement directly states scientific conditions/results; avoids author-defense and irrelevant omissions"
+  ],
+  "limits": "Qualitative, non-blind synthetic full-manuscript evaluation; not new physics, statistical efficacy, external replication, or acceptance prediction. Baseline uses unchanged supplied rc1; revised cases use final writing rules. Five short no-skill controls and five revised micro-applications are distinct from full manuscripts."
+}

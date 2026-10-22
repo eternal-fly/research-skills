@@ -1,0 +1,56 @@
+{
+  "case": "finite_size",
+  "status": "completed",
+  "synthetic_editorial_test": true,
+  "language": "English",
+  "target": {
+    "journal": "Physical Review B",
+    "article_type": "Regular Article"
+  },
+  "source_brief": "evaluation/briefs/finite_size.md",
+  "output": "evaluation/baseline/finite_size/OUTPUT.md",
+  "skill_version": "1.2.0-rc1",
+  "consulted_skill_paths": [
+    "skill-rc1/SKILL.md",
+    "skill-rc1/references/branch-planning.md",
+    "skill-rc1/references/branch-writing.md",
+    "skill-rc1/references/abstract-narrative.md",
+    "skill-rc1/references/prb.md",
+    "skill-rc1/references/conceptual-unity.md",
+    "skill-rc1/references/physics-narrative.md",
+    "skill-rc1/references/prl-direct-prose.md",
+    "skill-rc1/references/microtypography.md"
+  ],
+  "consulted_metadata_paths": [
+    "skill-rc1/VERSION"
+  ],
+  "delivered_content": [
+    "Complete main manuscript with title, short abstract, introduction, model and statistical method, developed numerical interpretation, and conclusion.",
+    "All 16 supplied window means and 16 SEMs in one eight-row table.",
+    "Substantive Supplement deriving the sample mean and SEM, paired-difference covariance, attainable marginal-SEM bounds, and independent-size difference uncertainty."
+  ],
+  "execution_limits": {
+    "scientific_inputs": "Only the synthetic facts and numerical summaries supplied in the case brief were used as scientific evidence.",
+    "numerical_evolution": "Convergence is a stipulation of the input. No simulation, convergence study, raw-trajectory inspection, or run-log verification was performed.",
+    "statistics": "No covariance or raw paired realization values were supplied. No paired significance test, p-value, or confidence interval was invented. Descriptive differences and independent-size SEMs were calculated from the stipulated summaries.",
+    "asymptotics": "No extrapolation model was fitted or assumed; no thermodynamic or infinite-time plateau, phase, mechanism, or novelty claim was asserted.",
+    "references": "No references were invented or added. Literature coverage and current journal submission rules were not checked because browsing was prohibited.",
+    "compilation_and_figures": "No TeX compilation, document rendering, or figure generation was requested or performed.",
+    "scope": "The specified skill files were read only. No other cases, other output, revised rules, or other writing skills were inspected. No agents were run; nothing was published.",
+    "assessment": "A separate editorial grade or author-advice report was omitted to follow the request for finished manuscript prose and a paths-and-limits delivery note."
+  },
+  "verification": {
+    "text_readback": true,
+    "table_rows_checked_against_brief": 8,
+    "supplied_means_checked": 16,
+    "supplied_sems_checked": 16,
+    "initial_imbalance_normalization_checked": true,
+    "sample_and_paired_sem_derivations_reviewed": true,
+    "independent_size_sem_arithmetic_checked": true,
+    "synthetic_marker_checked": true,
+    "balanced_display_math_pairs": 10,
+    "balanced_inline_math_pairs": 63,
+    "word_targets": "Main text and Supplement fall within the requested approximate 1000-1500 and 400-700 word ranges, respectively; equations and the numerical table are excluded from prose counts.",
+    "manuscript_is_compiled": false
+  }
+}

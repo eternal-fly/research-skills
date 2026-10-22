@@ -1,0 +1,59 @@
+{
+  "artifact_type": "synthetic editorial test",
+  "case": "theory",
+  "status": "complete",
+  "target": {
+    "journal": "Physical Review A",
+    "article_type": "Regular Article",
+    "language": "English",
+    "format": "Markdown manuscript with substantive Supplemental Material"
+  },
+  "input": "evaluation/briefs/theory.md",
+  "output": "evaluation/baseline/theory/OUTPUT.md",
+  "skill_version": "1.2.0-rc1",
+  "consulted_skill_paths": [
+    "skill-rc1/SKILL.md",
+    "skill-rc1/VERSION",
+    "skill-rc1/references/branch-planning.md",
+    "skill-rc1/references/branch-writing.md",
+    "skill-rc1/references/abstract-narrative.md",
+    "skill-rc1/references/pra.md",
+    "skill-rc1/references/conceptual-unity.md",
+    "skill-rc1/references/physics-narrative.md",
+    "skill-rc1/references/prl-direct-prose.md",
+    "skill-rc1/references/microtypography.md"
+  ],
+  "execution_limits": [
+    "Used only the stipulated synthetic model and deductions from it; no claim of research novelty or experimental evidence was made.",
+    "No browsing, external literature verification, or current journal-policy verification was performed, as instructed; references were omitted.",
+    "No TeX compilation, PDF rendering, or figure generation was requested or performed; Markdown source formatting only was checked.",
+    "No other writing skill, later or revised case output, or intended answer was consulted.",
+    "No subagents were launched, no publishing action was taken, and no skill file or other case was edited.",
+    "The requested final delivery was limited to paths and execution limits, so no separate editorial grading or author-advice document was added."
+  ],
+  "scientific_scope": {
+    "initial_support": "span{|01>, |10>}",
+    "parameter_conditions": "Constant Omega and delta; constant gamma and epsilon with gamma, epsilon >= 0; hbar = 1.",
+    "evidence": "Exact analytical restriction and integration of the supplied Markovian master equation.",
+    "central_result": "The restricted generator is -i[delta Z_L, rho_L] + 2 epsilon D[Z_L]rho_L; the coherence is c(0) exp(-4 epsilon t - 2 i delta t).",
+    "independent_noise_boundary": "Independent dephasing preserves the logical support but decays its coherence at rate 4 epsilon.",
+    "source_note_handling": "Retained the independent-dephasing term and supported-initial-state condition. Omitted unrelated defensive statements about universal noise protection, fault-tolerant processors, and unperformed experiments."
+  },
+  "checks": {
+    "main_prose_words_approximately": 1129,
+    "supplement_prose_words_approximately": 433,
+    "word_count_method": "Whitespace-delimited words after removing displayed equations and headings; inline mathematical symbols remain counted.",
+    "displayed_equations": 16,
+    "mathematical_review": [
+      "Collective-coupling eigenvalues on both logical basis states are zero.",
+      "Logical Hamiltonian eigenvalues are +delta and -delta, giving the stated negative phase for rho_01,10.",
+      "Each independent dissipator contributes -2 times the off-diagonal matrix unit; the two channels give -4 epsilon.",
+      "The encoded populations are constant and the |+_L> logical-X signal is exp(-4 epsilon t) cos(2 delta t)."
+    ],
+    "artifact_checks": [
+      "Manuscript and Supplement saved together under the requested OUTPUT.md path.",
+      "Displayed equation delimiters are balanced.",
+      "JSON process record parses successfully."
+    ]
+  }
+}

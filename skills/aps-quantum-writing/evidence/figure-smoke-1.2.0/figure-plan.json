@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "figure_id": "Synthetic-F1",
+  "status": "ready",
+  "claim": "At z=0, exact known-channel correction has variance overhead R(p)=(1-2p)^-2 at equal independent shot count.",
+  "discrimination": "Compare corrected noisy measurement variance with ideal measurement variance under the same z and N.",
+  "evidence_sequence": [
+    "Known-channel inversion fixes the mean.",
+    "Analytic variance quantifies the cost of inversion."
+  ],
+  "main_text_location": "Synthetic estimator example, sampling-cost discussion near the overhead table.",
+  "journal_article_type": "PRX Quantum Research Article (synthetic test)",
+  "layout": {
+    "column": "single",
+    "width_mm": 85,
+    "height_mm": 76,
+    "single_column_check": "passes",
+    "reason": "Final 85 x 76 mm PDF and PNG inspected: labels/markers legible, no clipping, near-square axes retain the scalar comparison."
+  },
+  "style_semantics": "Blue solid curve: exact theory. Open circles: four specified theory evaluations. Black dashed line: ideal ratio 1. Logarithmic y axis.",
+  "open_checks": [],
+  "deliverables": [
+    "variance-overhead.pdf",
+    "variance-overhead.png",
+    "values.csv",
+    "generate.py",
+    "caption.md"
+  ],
+  "panels": [
+    {
+      "id": "a",
+      "claim": "Correction overhead increases as p approaches one half.",
+      "role": "finding",
+      "secondary_roles": [],
+      "observable_units": "Dimensionless variance ratio at z=0, same shot count N.",
+      "conditions": "Known fixed 0<=p<1/2; independent identically prepared single-qubit Z measurements; displayed range 0<=p<=.45.",
+      "data_kind": "theory",
+      "data_status": "available",
+      "raw_source": "Synthetic estimator premise and R(p)=(1-2p)^-2.",
+      "processed_source": "values.csv: 451 evenly spaced p values and exact formula evaluations.",
+      "transforms": "Analytic evaluation; no smoothing, fit or aggregation.",
+      "script_parameters": "generate.py; p=np.linspace(0,.45,451); four markers at .05,.10,.20,.40.",
+      "comparison": "Ideal same-N estimator at z=0 has ratio 1.",
+      "uncertainty": "Not applicable: analytic variance ratio, not sampled observations; no invented error bars.",
+      "challenge": "Known p and independent shots are necessary; the ratio shown is for z=0, not a state-independent variance ratio.",
+      "visual_encoding": "Near-square scalar axes; logarithmic overhead axis resolves 1 to100; dashed ideal baseline."
+    }
+  ]
+}

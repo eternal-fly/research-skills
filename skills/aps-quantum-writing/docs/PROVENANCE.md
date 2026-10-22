@@ -1,5 +1,11 @@
 # Provenance and evidence boundaries
 
+## 1.2.0 integration provenance
+
+The supplied `aps-quantum-writing-1.2.0-rc1.zip` extends the 1.1.0 source with figure planning and a [quantum figure review ledger](../evidence/quantum-figure-review/README.md). Its reported 432 substantive source revisits and 29 pixel-inspected papers belong to that supplied revision; release integration checks its hashes, bookkeeping and links without repeating those source reads. The original ledger and dated validation files are preserved.
+
+The [1.2.0 report](RELEASE-1.2.0.md) records fresh synthetic manuscript/Supplement applications and one analytic figure smoke test separately. Synthetic premises, generated prose and qualitative judgments are retained for inspection; they do not establish research novelty, model success rates or journal acceptance. Historical TeX/abstract checks keep their original dates and scopes.
+
 This is the stable provenance record for the public English edition of APS Quantum Writing. It summarizes the source archive faithfully while excluding private working material and paper content. It does not certify publication or APS endorsement.
 
 ## What the numbers mean

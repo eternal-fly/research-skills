@@ -1,0 +1,83 @@
+{
+  "task": "Synthetic estimator manuscript and Supplement",
+  "target": "PRX Quantum Research Article",
+  "language": "English",
+  "skill_version": "1.2.0-rc1",
+  "inputs": [
+    "evaluation/briefs/micro.md",
+    "evaluation/briefs/estimator.md"
+  ],
+  "outputs": {
+    "control_rewrites": "evaluation/micro-control/OUTPUT.md",
+    "manuscript_and_supplement": "evaluation/baseline/estimator/OUTPUT.md",
+    "process_record": "evaluation/baseline/estimator/PROCESS.json"
+  },
+  "control_sequence": {
+    "completed_before_any_writing_skill_was_read": true,
+    "writing_skills_used_for_control": [],
+    "numbered_rewrites": 5
+  },
+  "consulted_skill_paths": [
+    "skill-rc1/SKILL.md",
+    "skill-rc1/VERSION",
+    "skill-rc1/references/branch-planning.md",
+    "skill-rc1/references/branch-writing.md",
+    "skill-rc1/references/abstract-narrative.md",
+    "skill-rc1/references/prl-direct-prose.md",
+    "skill-rc1/references/prx-quantum.md",
+    "skill-rc1/references/conceptual-unity.md",
+    "skill-rc1/references/physics-narrative.md",
+    "skill-rc1/references/microtypography.md"
+  ],
+  "execution_limits": {
+    "scientific_evidence": "Only the stipulated synthetic estimator premises and algebraic consequences needed to develop their derivations were used.",
+    "other_writing_skills_used": false,
+    "other_cases_or_revised_rules_read": false,
+    "other_agents_outputs_read": false,
+    "skill_modified": false,
+    "subagents_spawned": false,
+    "browsing_performed": false,
+    "references_added": false,
+    "novelty_asserted": false,
+    "experimental_or_benchmark_data_added": false,
+    "hardware_execution_performed": false,
+    "publication_or_submission_performed": false,
+    "tex_compilation_performed": false,
+    "figures_generated": false,
+    "rendered_layout_inspected": false,
+    "current_journal_requirements_verified_online": false,
+    "submission_readiness_claimed": false,
+    "scope": "Finished Markdown manuscript and substantive Supplement; no Popular Summary, submission declarations, literature comparison, or journal-fit assessment was requested or produced.",
+    "statistical_bound": "The Hoeffding shot count is sufficient, not a claim of optimal sample complexity.",
+    "calibration": "The unbiased estimator and its concentration bound assume the true fixed p is known. The mismatch formula assumes a fixed p0. No model or uncertainty calculation for estimated calibration was supplied or invented.",
+    "clipping": "The Supplement proves that clipping loses unbiasedness as a general property; it does not assert that clipping biases every individual input state.",
+    "unperformed_extensions": "Defensive source remarks about hardware, comparisons with every mitigation method, and quantum advantage were omitted from the manuscript. The supported single-observable, known-channel domain is stated directly."
+  },
+  "validation": {
+    "count_method": "Whitespace-delimited tokens after removal of displayed equations; headings, table entries, and inline mathematics remain included.",
+    "main_text_count": 1202,
+    "supplement_count": 422,
+    "requested_length_ranges": {
+      "main_text": [1000, 1500],
+      "supplement": [400, 700]
+    },
+    "synthetic_label_present": true,
+    "display_math_pairs": 15,
+    "table_values_checked_against_inverse_square_formula": true,
+    "maximum_table_rounding_difference": 3.4567904094728874e-11,
+    "derivations_checked": [
+      "Observable attenuation using XZX = -Z",
+      "Exact unbiasedness under known fixed p",
+      "Exact variance using independent binary outcomes",
+      "Hoeffding exponent and sufficient integer shot count",
+      "Fixed calibration mismatch bias",
+      "Out-of-range finite estimates and clipping bias at z = 1"
+    ],
+    "unverified_items": [
+      "Rendered typography and pagination",
+      "Current journal submission requirements",
+      "Prior-art comparisons and novelty",
+      "Any empirical interpretation beyond the synthetic premises"
+    ]
+  }
+}

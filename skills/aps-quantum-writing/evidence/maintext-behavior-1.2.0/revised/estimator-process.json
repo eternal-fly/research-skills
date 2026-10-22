@@ -1,0 +1,78 @@
+{
+  "task": "Synthetic editorial test: five short Supplement revisions, followed by a compact estimator manuscript and substantive Supplement",
+  "target": "PRX Quantum Research Article",
+  "source_material_paths": [
+    "evaluation/briefs/micro.md",
+    "evaluation/briefs/estimator.md"
+  ],
+  "consulted_skill_paths": [
+    "skill-final/SKILL.md",
+    "skill-final/references/branch-writing.md",
+    "skill-final/references/prl-direct-prose.md",
+    "skill-final/references/branch-planning.md",
+    "skill-final/references/conceptual-unity.md",
+    "skill-final/references/abstract-narrative.md",
+    "skill-final/references/prx-quantum.md",
+    "skill-final/references/physics-narrative.md",
+    "skill-final/references/microtypography.md"
+  ],
+  "output_paths": [
+    "evaluation/micro-revised/OUTPUT.md",
+    "evaluation/revised/estimator/OUTPUT.md",
+    "evaluation/revised/estimator/PROCESS.json"
+  ],
+  "execution_limits": {
+    "source_scope": "Only the two supplied briefs, the designated APS Quantum Writing skill and its consulted references, and this agent's own output files were read.",
+    "baseline_or_control_outputs_read": false,
+    "evaluation_rubrics_read": false,
+    "other_agents_outputs_read": false,
+    "other_writing_skills_read": false,
+    "intake_material_read": false,
+    "browsing_performed": false,
+    "external_references_added": false,
+    "current_journal_requirements_verified": false,
+    "compilation_performed": false,
+    "figures_generated": false,
+    "visual_rendering_performed": false,
+    "publishing_performed": false,
+    "subagents_used": false,
+    "skill_files_modified": false,
+    "evidence_scope": "Analytic exposition and direct consequences of fully stipulated synthetic inputs; no hardware execution, empirical data, benchmark results, priority claim, or optimal-sample-complexity claim.",
+    "delivery_format": "Markdown manuscript with Supplement and supplied table; no typeset submission package."
+  },
+  "checks_performed": {
+    "short_revisions_count": 5,
+    "main_text_approximate_prose_words": 1207,
+    "supplement_approximate_prose_words": 430,
+    "word_count_method": "Display equations removed; inline mathematical expressions counted as one token; headings and table labels included.",
+    "table_arithmetic": [
+      {
+        "p": 0.05,
+        "supplied_value": 1.2345679012,
+        "calculated_value": 1.2345679012345678,
+        "agrees_to_supplied_precision": true
+      },
+      {
+        "p": 0.1,
+        "supplied_value": 1.5625,
+        "calculated_value": 1.5624999999999998,
+        "agrees_to_supplied_precision": true
+      },
+      {
+        "p": 0.2,
+        "supplied_value": 2.7777777778,
+        "calculated_value": 2.7777777777777777,
+        "agrees_to_supplied_precision": true
+      },
+      {
+        "p": 0.4,
+        "supplied_value": 25,
+        "calculated_value": 25.000000000000014,
+        "agrees_to_supplied_precision": true
+      }
+    ],
+    "mathematical_readthrough": "Checked observable response, unbiasedness, independent-shot variance, Hoeffding constant, sufficient shot-count inequality, fixed-parameter calibration bias, p=1/2 identifiability, and the clipping counterexample.",
+    "scope_readthrough": "Retained known fixed p, independent shots, the z=0 comparison baseline, and sufficient-bound status. Treated fixed miscalibration separately from an estimated random channel parameter.",
+    "own_output_readback": true
+  }
+}

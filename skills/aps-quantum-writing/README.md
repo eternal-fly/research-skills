@@ -4,13 +4,15 @@
 
 APS Quantum Writing is an English-language agent skill for planning, writing, and illustrating quantum and related physics research. It keeps the scientific argument, evidence, prose, and final layout connected throughout a manuscript workflow.
 
-**Author:** Luofei Wang · **Version:** 1.1.0 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
+**Author:** Luofei Wang · **Version:** 1.2.0 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
 
 > This project is source-available, not OSI-approved open-source software. Noncommercial use and private modifications are permitted. Commercial use and public redistribution/repackaging require separate permission, subject to the license's platform and third-party exceptions. Ordinary research outputs are treated separately.
 
+Release record: [1.2.0 validation](docs/RELEASE-1.2.0.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
+
 ## Start here
 
-1. Download the versioned skill ZIP from this repository's **Releases** page, or clone the repository.
+1. Download `aps-quantum-writing-1.2.0.zip` and its checksum from the [v1.2.0 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.0).
 2. Keep the complete `aps-quantum-writing` folder together. Read [installation](docs/INSTALL.md) for project-local, personal, and manual use.
 3. Ask your agent to read [SKILL.md](SKILL.md), then provide the manuscript, derivations/data, intended journal, and article type.
 
@@ -49,10 +51,17 @@ PRL, PRA, PRB, PRX Quantum, Physical Review Applied, Physical Review X, and Phys
 - Compact data panels with properly aligned y-axis content, centered bottom labels, readable final-size typography, and near-square scalar axes when the science permits.
 - Journal/type/role-aware heading checks, including PRL run-in dashes, other Letters' periods, independent numbered headings, and special end-matter roles.
 
+## Figure planning and full-manuscript narrative
+
+Version 1.2.0 integrates the supplied fixed [figure planning record](references/figure-planning-record.md), conditional [quantum-domain recipes](references/quantum-figure-recipes.md), and single-column-first decision process. Main-text guidance connects the central question, obstacle, key idea, proof or evidence, and physical answer. Appendices and Supplemental Material follow the same direct scientific style while retaining necessary assumptions, uncertainty and negative results.
+
+The [release validation](docs/RELEASE-1.2.0.md) separates newly executed manuscript/figure checks from the supplied literature-review records and historical heading validation. The narrative cases are complete synthetic short manuscripts with Supplements, not real research or a statistical efficacy benchmark.
+
 ## Examples
 
 - [Abstract narrative guide](references/abstract-narrative.md): contribution, core method, reasoning, and journal/article-type choices; [evidence and scope](references/abstract-evidence.md).
-- [1.1.0 validation](docs/RELEASE-1.1.0.md): current release checks, supplied review provenance, and inherited results.
+- [1.2.0 validation](docs/RELEASE-1.2.0.md): full-manuscript and Supplement behavior checks, figure smoke test, and execution boundaries.
+- [1.1.0 validation](docs/RELEASE-1.1.0.md): preserved earlier abstract and heading evidence.
 - [Five-page heading PDF](assets/heading-examples/APS-heading-layout-examples.pdf): optional PRL headings, unheaded openings, no main-text headings, Regular hierarchy, and non-PRL Letter typography.
 - [Editable heading sources](assets/heading-examples/README.md).
 - [Synthetic data-plot captions](assets/figure-examples/CAPTIONS.md) and [mechanism example captions](assets/mechanism-examples/captions.md).

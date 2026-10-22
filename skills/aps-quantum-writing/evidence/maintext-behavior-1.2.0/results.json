@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-22",
+  "kind": "non-blind qualitative synthetic editorial evaluation",
+  "full_manuscripts": {
+    "rc1": 3,
+    "revised": 3,
+    "supplements_per_manuscript": 1,
+    "critical_failures_observed": {
+      "rc1": 0,
+      "revised": 0
+    }
+  },
+  "short_supplement_cases": {
+    "no_skill_control": 5,
+    "revised": 5,
+    "independent_agents_per_arm": 1,
+    "clear_unrelated_omission_retention_cases_control": [
+      1,
+      3,
+      5
+    ],
+    "clear_unrelated_omission_retention_cases_revised": []
+  },
+  "causal_or_statistical_improvement_claim": false,
+  "raw_outputs_edited": false,
+  "case_names": [
+    "theory",
+    "finite_size",
+    "estimator"
+  ],
+  "report": "review.md"
+}

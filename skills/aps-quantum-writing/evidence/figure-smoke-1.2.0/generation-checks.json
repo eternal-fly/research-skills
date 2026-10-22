@@ -1,0 +1,14 @@
+{
+  "canvas_mm": [
+    85,
+    76
+  ],
+  "axes_mm": [
+    62.05,
+    57.0
+  ],
+  "font_pt": 9,
+  "bounding_box_check": "passed",
+  "numerical_table_comparison": "passed (four specified values)",
+  "visual_inspection": "not established by this script"
+}

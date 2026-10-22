@@ -33,7 +33,11 @@ After drafting, check whether readers understand why the problem is difficult, h
 
 Concision removes synonymous repetition, irrelevant history, and self-evaluation; it does not remove the literature and explanation needed to understand the science. Address PRL's short format through an evidence hierarchy and a whole-manuscript space budget, rather than sacrificing the introduction's logical chain first.
 
-## Main text: each paragraph completes an inference
+## Main text: sustain the question-to-answer argument
+
+Organize the full body around the central question, the obstacle to answering it, the decisive idea, the proof or evidence that makes that idea work, and the resulting physical understanding. These are reasoning relationships, not required headings or a fixed chronology. Make the key construction or mechanism understandable before its technical expansion. Give readers a short account of why the necessary proof steps, measurements, or controls establish the answer; a method name alone does not explain the idea. Independent complementary results can jointly answer the question without a fabricated dependency.
+
+At each substantial transition, identify what has been established and which unresolved part of the same question the next result addresses. Interpret equations, tables, and figures at the point where they change the answer. Keep the central idea, decisive conditions, and enough of the reasoning in the main text for its argument to be understood; use appendices or Supplemental Material for extended derivations and supporting detail. Check the introduction-to-conclusion progression after drafting, in addition to checking individual paragraphs.
 
 Build paragraphs around a judgment, evidence, and explanation. An equation should show which term or limit produces a phenomenon; a figure should show which trend discriminates between explanations. A parameter sweep alone is not a mechanism. Causal language requires an intervention, control, or derivation. Negative results, counterexamples, and limits of applicability can be central findings.
 
@@ -44,6 +48,12 @@ Remove repeated qualifications already established locally. Keep necessary appro
 First explain what is to be proved, where the difficulty lies, and how the key idea resolves it. Before introducing a lemma, make clear why it is needed. Where helpful, build intuition with a simple example or limit before presenting the general proof. Exposition need not follow the proof-dependency graph mechanically: a precisely stated, defined result may be introduced first, with an explicit forward reference and its proof later. Internally, still check every dependency and assumption for circular reasoning. Every use requires an accurate statement and a traceable proof.
 
 Prefer standard, concrete, readily understandable terminology. When a new mathematical object is necessary, provide a clear definition, notation, and an illustrative example rather than substituting an invented abstract label for explanation. Define symbols before or at first use; keep meanings, units, indices, and quantifiers consistent throughout. Figures and standalone abstracts also need sufficient definitions. Natural, elegant, readable prose comes from clear reasoning and rhythm. Restrained wit may occasionally help understanding, but do not force jokes or sacrifice precision.
+
+## Appendices and Supplemental Material: extend the same argument
+
+Apply the main text's direct scientific style to appendices, End Matter, Supplemental Material, supplementary captions, and technical notes. Introduce a supporting derivation or check through the result it establishes and its connection to the main text, then develop the definitions, assumptions, steps, and interpretation needed to use it. Preserve traceable equation and section references. An independently readable derivation may restate its own assumptions.
+
+State approximation orders, noise models, finite sizes, sampling units, convergence evidence, proof boundaries, and genuine negative results where they affect the inference. Convert author-centered caveats into those scientific statements and omit unrelated unperformed extensions. Removed self-defense does not become a supplementary limitations list. Internal figure-plan challenges and delivery audit notes do not automatically belong in the scientific prose. Use [direct scientific prose](prl-direct-prose.md#appendices-and-supplemental-material) for the same retain/rewrite/delete decisions across all these locations.
 
 ## Conclusion: central question → supported physical claim → significance
 

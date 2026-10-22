@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "date_utc": "2026-10-22",
+  "base_commit": "36979d40c0023d2dde07b774e1195db86cbf7c0f",
+  "package_version": "1.2.0-rc1",
+  "baseline_suite": {
+    "tests": 7,
+    "result": "passed before modification"
+  },
+  "current_suite": {
+    "tests": 26,
+    "result": "passed",
+    "breakdown": {
+      "existing_distribution": 5,
+      "existing_mechanism_methods": 2,
+      "figure_plan_structure": 14,
+      "review_bookkeeping_and_links": 5
+    }
+  },
+  "skill_frontmatter_validator": "passed",
+  "preserved_baseline_assets_and_license_files": 40,
+  "preserved_bytes_verified": true,
+  "review_coverage": {
+    "date": "2026-10-22",
+    "baseline_commit": "36979d40c0023d2dde07b774e1195db86cbf7c0f",
+    "metadata_screened": 700,
+    "fresh_sources_accessed": 604,
+    "substantive_review": 432,
+    "full_main_text_review": 4,
+    "pixel_inspected_papers": 29,
+    "review_tiers": {
+      "targeted_local_inference": 428,
+      "metadata_only": 191,
+      "full_main_text": 4,
+      "limited_definition": 3,
+      "excerpt_screening": 74
+    },
+    "by_journal": {
+      "PRL": {
+        "targeted_local_inference": 29,
+        "metadata_only": 70,
+        "full_main_text": 1
+      },
+      "PRA": {
+        "targeted_local_inference": 100
+      },
+      "PRB": {
+        "targeted_local_inference": 69,
+        "metadata_only": 25,
+        "full_main_text": 3,
+        "limited_definition": 3
+      },
+      "PRX Quantum": {
+        "targeted_local_inference": 100
+      },
+      "Physical Review Applied": {
+        "excerpt_screening": 40,
+        "targeted_local_inference": 45,
+        "metadata_only": 15
+      },
+      "PRX": {
+        "targeted_local_inference": 49,
+        "metadata_only": 51
+      },
+      "PRResearch": {
+        "metadata_only": 30,
+        "excerpt_screening": 34,
+        "targeted_local_inference": 36
+      }
+    },
+    "limits": "Counts distinguish metadata/excerpt screening, selected complete local inference-chain review, complete main-text review and pixel inspection. None is a claim of scientific reproduction, exhaustive proof checking, a style-frequency census or model-output improvement. Supplements were not comprehensively reviewed. Fresh source hashes identify fetched bytes only."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "checks_not_performed": [
+    "No new scientific figure generated or visually evaluated",
+    "No new TeX compilation",
+    "No model-output benchmark or causal efficacy estimate",
+    "No scientific reproduction or complete proof verification",
+    "No GitHub push or release",
+    "No user-computer skill installation"
+  ],
+  "independent_audit": "Source-level review of planning rules and validator; oversized integer and explicit missing-placeholder readiness bugs plus journal/type field mismatch corrected with regression tests.",
+  "archive_verification": "Extraction, byte/hash comparison and tests run separately; see archive-verification.json in the delivery record."
+}

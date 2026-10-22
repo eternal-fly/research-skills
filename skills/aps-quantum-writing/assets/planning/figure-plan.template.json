@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "figure_id": "F1",
+  "status": "draft",
+  "claim": "Replace with the supported claim and conditions",
+  "discrimination": "Replace with alternatives, regimes, or definitions to distinguish",
+  "evidence_sequence": [
+    "Replace with actual evidence relationship"
+  ],
+  "main_text_location": "Replace with first substantive manuscript discussion",
+  "layout": {
+    "column": "single",
+    "width_mm": 85,
+    "height_mm": 75,
+    "single_column_check": "not_checked",
+    "reason": "Single-column starting design; verify actual target width and rendered comparison"
+  },
+  "style_semantics": "Replace with stable object/color/marker/line/scale mappings",
+  "open_checks": [
+    "Scientific inputs and final-size layout not yet checked"
+  ],
+  "deliverables": [
+    "figure.pdf",
+    "reproducible source and caption"
+  ],
+  "panels": [
+    {
+      "id": "a",
+      "claim": "Replace with panel inference",
+      "role": "finding",
+      "secondary_roles": [],
+      "observable_units": "missing: observable and units",
+      "conditions": "missing: system/model and conditions",
+      "data_kind": "theory",
+      "data_status": "missing",
+      "raw_source": "missing: original dataset or defining model/version",
+      "processed_source": "missing: processed table or arrays",
+      "transforms": "missing: selection, aggregation, normalization, fit or explicit none",
+      "script_parameters": "missing: generator and parameters",
+      "comparison": "missing: matched comparison or justified non-applicability",
+      "uncertainty": "missing: statistical/numerical/systematic meaning or justified non-applicability",
+      "challenge": "Replace with interpretation-threatening alternative or scope limit",
+      "visual_encoding": "Replace with data-to-visual encoding and relation to adjacent panels"
+    }
+  ],
+  "journal_article_type": "Replace with journal and article type"
+}

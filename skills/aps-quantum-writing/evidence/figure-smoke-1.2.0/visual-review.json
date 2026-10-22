@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-22",
+  "reviewer": "release integrator",
+  "kind": "manual synthetic figure smoke test, not an independent model-output benchmark",
+  "artifacts_inspected": [
+    "variance-overhead.png",
+    "variance-overhead.pdf rendered by Poppler"
+  ],
+  "physical_canvas_mm": [
+    85,
+    76
+  ],
+  "axes_box_mm": [
+    62.05,
+    57.0
+  ],
+  "font_pt": 9,
+  "result": "passed after one label-position correction",
+  "observations": [
+    "Axes, units, log scale, markers and fixed-z condition readable and unclipped.",
+    "Dashed ideal reference is labeled R=1 next to its baseline; an initial label placed too far above it was corrected.",
+    "No empirical data or uncertainty is represented; theory points match four stipulated values."
+  ],
+  "limits": [
+    "One single-column scalar plot; complex mechanism layouts and double-column escape cases not exercised.",
+    "Visual inspection is a qualitative judgment, not a readability benchmark.",
+    "No TeX manuscript insertion or compilation performed."
+  ]
+}

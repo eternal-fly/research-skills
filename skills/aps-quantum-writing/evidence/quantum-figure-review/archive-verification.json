@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "date_utc": "2026-10-22",
+  "files_in_archive": 129,
+  "hash_manifest_entries": 128,
+  "byte_comparison_to_source": "passed",
+  "zip_crc": "passed",
+  "safe_single_root": "passed",
+  "extracted_suite_tests": 26,
+  "extracted_suite_result": "passed",
+  "extracted_skill_frontmatter": "passed",
+  "scope": "Package integrity and structural tests, not a scientific or visual efficacy benchmark."
+}

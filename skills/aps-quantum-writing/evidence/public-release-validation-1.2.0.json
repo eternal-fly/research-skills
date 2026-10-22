@@ -1,0 +1,159 @@
+{
+  "version": "1.2.0",
+  "date": "2026-10-22",
+  "base_commit": "36979d40c0023d2dde07b774e1195db86cbf7c0f",
+  "input": {
+    "archive": "aps-quantum-writing-1.2.0-rc1.zip",
+    "sha256": "ac7cf4f06e007863a488a529e01feab48daf6e8b2630d1b34af7c4844cf8a0bc",
+    "checksums_verified": 128,
+    "new_files_relative_to_1_1": 19,
+    "changed_files_relative_to_1_1": 10,
+    "missing_files_relative_to_1_1": 0
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.16.0",
+    "matplotlib": "3.8.0",
+    "platform": "Windows; ordinary Python encoding for final repository tests"
+  },
+  "fresh": {
+    "source_skill_suite": {
+      "methods": 27,
+      "status": "passed",
+      "breakdown": {
+        "distribution": 6,
+        "mechanism": 2,
+        "figure_plan_structure": 14,
+        "review_bookkeeping": 5
+      },
+      "command": "python -B -m unittest discover -s tests -v"
+    },
+    "source_builder_suite": {
+      "methods": 2,
+      "status": "passed",
+      "red_before_fix_observed": true
+    },
+    "skill_frontmatter": {
+      "status": "passed",
+      "mode": "Python -X utf8; external skill-creator validator"
+    },
+    "extracted_skill_suite": {
+      "methods": 27,
+      "status": "passed",
+      "scope": "Extracted installable ZIP; same methods, not new test cases"
+    },
+    "full_manuscript_behavior": {
+      "baseline_rc1": 3,
+      "revised": 3,
+      "supplements": 6,
+      "critical_failures_observed": 0,
+      "review": "maintext-behavior-1.2.0/review.md",
+      "causal_improvement_claim": false
+    },
+    "short_supplement_rewrites": {
+      "control": 5,
+      "revised": 5,
+      "distinct_agents_per_arm": 1,
+      "clear_unrelated_omission_retention_control": [
+        1,
+        3,
+        5
+      ],
+      "clear_unrelated_omission_retention_revised": []
+    },
+    "figure_smoke": {
+      "figures": 1,
+      "formats": [
+        "PDF",
+        "PNG"
+      ],
+      "canvas_mm": [
+        85,
+        76
+      ],
+      "pdf_render_inspected": true,
+      "plot_values": 451,
+      "specified_table_values_checked": 4,
+      "record": "figure-smoke-1.2.0/visual-review.json",
+      "manual_execution": true
+    },
+    "independent_readback": {
+      "public_manuscripts_unedited": 6,
+      "micro_output_files_unedited": 2,
+      "exact_binomial_mean_variance_cases": 60,
+      "analytic_figure_values": 451,
+      "scope": "Local records and stipulated elementary formulas; supplied source-read counts only rederived from ledger."
+    }
+  },
+  "fixes": [
+    {
+      "issue": "Windows GBK default read of UTF-8 review ledger fails before tests run",
+      "reproduction": "python -B -m unittest discover -s tests -p test_quantum_review_links.py -v",
+      "observed_error": "UnicodeDecodeError at byte38077 in setup",
+      "fix": "Explicit UTF-8 for four ledger/source and two template reads",
+      "recheck": "Same plain command:5/5passed"
+    },
+    {
+      "issue": "Local release builder includes unstaged root README despite indexed-file contract",
+      "reproduction": "scripts/test_build_release_1_2.py uses real Git fixture and ZIP readback",
+      "before": "dirty-source test failed:ValueError not raised",
+      "fix": "Reject unstaged tracked changes before archive creation",
+      "after": "two regression methods passed"
+    },
+    {
+      "issue": "Distribution link scanner mistakes TeX D[A](...) for a Markdown link in unedited raw evidence",
+      "reproduction": "test_local_link_scanner_preserves_prose_links_and_ignores_math_code failed before fix",
+      "fix": "Skip fenced/inline code and supported TeX math contexts while retaining real prose link checks",
+      "after": "targeted scanner regression passes; raw outputs unchanged"
+    }
+  ],
+  "supplied_or_inherited_not_rerun": {
+    "rc1_literature_review": {
+      "claimed_substantive_sources": 432,
+      "claimed_pixel_inspected_papers": 29,
+      "integration_action": "hash and bookkeeping checks only; source reads not repeated"
+    },
+    "heading_revalidation": "2026-10-20 five examples with REVTeX4.2f and120checks carried unchanged; not recompiled for1.2.0",
+    "historical_heading_matrix": "29sources/32assertions and invalid-option controls not rerun",
+    "abstract_1_1": "five paired abstracts and16scenario corpus not rerun",
+    "official_APS_policies": "not newly rechecked"
+  },
+  "publication": {
+    "local_archive_check": "passed; builder byte-readback and separate extracted-skill tests",
+    "workflow": "publish-v1.2.yml",
+    "workflow_existence_is_not_success": true,
+    "new_tag_must_match_workflow_source_commit": true,
+    "git_source_files": 175,
+    "skill_manifest_entries": 163
+  },
+  "limits": [
+    "Synthetic compact full-main-text applications, not submission-ready real manuscripts",
+    "Non-blind qualitative evaluation; no statistical efficacy or acceptance estimate",
+    "No spin-chain simulation rerun, new TeX compile or comprehensive proof/literature reproduction",
+    "One simple figure does not validate all layouts or quantum-domain recipes"
+  ],
+  "preservation_checks": [
+    {
+      "scope": "1.1.0/assets",
+      "files": 38,
+      "byte_identical": true
+    },
+    {
+      "scope": "1.1.0/licenses",
+      "files": 3,
+      "byte_identical": true
+    },
+    {
+      "scope": "1.1.0/evidence",
+      "files": 19,
+      "byte_identical": true
+    }
+  ],
+  "independent_review": {
+    "status": "no unresolved blocking findings",
+    "fixed_defects": 3,
+    "source_suite_verified": 27,
+    "scope": "Source, raw narrative outputs, elementary stipulated formula checks and local provenance bookkeeping"
+  }
+}

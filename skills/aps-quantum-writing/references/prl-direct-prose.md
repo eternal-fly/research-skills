@@ -14,6 +14,12 @@ Decide where a boundary belongs by asking whether readers need it to interpret t
 
 A standalone abstract, principal result, and independently readable caption each require enough conditions to be understood correctly. Necessary restatement across those locations is not mechanical repetition.
 
+## Appendices and Supplemental Material
+
+The same standard applies to supporting proofs, methods, convergence checks, End Matter, and supplementary captions. Their purpose is to establish or reproduce a specific result. State the relevant model and conditions, carry out the derivation or comparison, and explain its consequence for the main text. Keep information needed to interpret a null result or a proof's domain; remove author-centered defenses and unrelated inventories of work not performed. A deleted main-text caveat must not reappear merely because the Supplement has more space.
+
+For example, when the supplied calculation gives a decay under a constant Markovian generator, state that generator and the decay law. A list of unstudied devices or noise environments adds no support. When shared disorder realizations determine a comparison's uncertainty, retain the pairing and covariance requirement: that changes the statistical inference. These are scientific decisions, not a ban on negative sentences. Apply the same check to independently read supporting sections, with enough local definitions and assumptions to make each derivation usable.
+
 ## Delete, rewrite, or retain
 
 First determine what scientific information the sentence adds, then choose the action. The categories and checklist need not be delivered to the user.
