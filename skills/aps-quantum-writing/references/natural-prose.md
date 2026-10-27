@@ -2,6 +2,8 @@
 
 Use this reference when prose is templated, awkwardly translated, inflated, or excessively compressed. It does not require a separate style report for every manuscript. Making prose sound less machine-generated means improving scientific writing, not hiding tool use, evading detection, or promising a detector score. Handle any required author disclosure according to actual tool use and current journal requirements.
 
+For main-text and supporting-prose punctuation and citation introductions, apply [prose conventions](prose-conventions.md), even when the original sentence is otherwise natural. Preserve mathematical, heading and reference roles while rewriting narrative colons, explanatory dashes, preprint identifiers and publication-status labels into connected scientific statements.
+
 ## Repair the logic before changing the voice
 
 Identify the judgment readers should gain from the paragraph: what is known, which evidence changes the understanding, and how far the resulting claim can reach. Let each sentence take up a physical object, contradiction, quantity, or question from the preceding one. Connectives mark genuine relationships; they cannot replace reasoning. Causal words require causal evidence. A paragraph may include definitions, explanations, counterexamples, or turns in the argument; it need not always resolve into the same three-sentence rhythm.

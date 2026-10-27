@@ -1,0 +1,2 @@
+\prlrunin{Noise-selective coherence}
+Ellis et al. \cite{old2024} established that common-mode noise leaves the encoded coherence unchanged. In their online preprint, Chen and Rao \cite{chen2026} consider local Markovian dephasing. For a fixed generator, the logical coherence is $c(t)=c(0)e^{-4\epsilon t}$, so its decay rate is set by local noise. The comparison identifies local dephasing as the channel that limits the protected degree of freedom.

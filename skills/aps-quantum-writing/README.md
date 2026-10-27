@@ -4,15 +4,15 @@
 
 APS Quantum Writing is an English-language agent skill for planning, writing, and illustrating quantum and related physics research. It keeps the scientific argument, evidence, prose, and final layout connected throughout a manuscript workflow.
 
-**Author:** Luofei Wang · **Version:** 1.2.0 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
+**Author:** Luofei Wang · **Version:** 1.2.1 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
 
 > This project is source-available, not OSI-approved open-source software. Noncommercial use and private modifications are permitted. Commercial use and public redistribution/repackaging require separate permission, subject to the license's platform and third-party exceptions. Ordinary research outputs are treated separately.
 
-Release record: [1.2.0 validation](docs/RELEASE-1.2.0.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
+Release record: [1.2.1 validation](docs/RELEASE-1.2.1.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
 
 ## Start here
 
-1. Download `aps-quantum-writing-1.2.0.zip` and its checksum from the [v1.2.0 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.0).
+1. Download `aps-quantum-writing-1.2.1.zip` and its checksum from the [v1.2.1 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.1).
 2. Keep the complete `aps-quantum-writing` folder together. Read [installation](docs/INSTALL.md) for project-local, personal, and manual use.
 3. Ask your agent to read [SKILL.md](SKILL.md), then provide the manuscript, derivations/data, intended journal, and article type.
 
@@ -52,6 +52,8 @@ PRL, PRA, PRB, PRX Quantum, Physical Review Applied, Physical Review X, and Phys
 - Journal/type/role-aware heading checks, including PRL run-in dashes, other Letters' periods, independent numbered headings, and special end-matter roles.
 
 ## Figure planning and full-manuscript narrative
+
+Version 1.2.1 adds [narrative punctuation and literature wording](references/prose-conventions.md). Main text and supporting prose use connected sentences without prose colons or explanatory dashes, retain genuine heading joins and scientific notation, and discuss cited contributions without publication-status labels or preprint numbers. Reference metadata remains accurate and traceable. These are author-selected editorial preferences, not APS rules. See the [1.2.1 checks and boundaries](docs/RELEASE-1.2.1.md).
 
 Version 1.2.0 integrates the supplied fixed [figure planning record](references/figure-planning-record.md), conditional [quantum-domain recipes](references/quantum-figure-recipes.md), and single-column-first decision process. Main-text guidance connects the central question, obstacle, key idea, proof or evidence, and physical answer. Appendices and Supplemental Material follow the same direct scientific style while retaining necessary assumptions, uncertainty and negative results.
 

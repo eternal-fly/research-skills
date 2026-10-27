@@ -1,0 +1,62 @@
+{
+  "version": "1.2.1",
+  "date": "2026-10-28",
+  "base_commit": "1e87420fdecc3463197ba99192142c4cd52b5e54",
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.16.0",
+    "matplotlib": "3.8.0",
+    "platform": "Windows; ordinary encoding for unittest, explicit UTF-8 for artifact processing"
+  },
+  "fresh": {
+    "source_skill_suite": {
+      "methods": 27,
+      "status": "passed",
+      "breakdown": {
+        "distribution": 6,
+        "mechanism": 2,
+        "figure_plan_structure": 14,
+        "review_bookkeeping": 5
+      }
+    },
+    "builder_suite": {
+      "methods": 4,
+      "status": "passed",
+      "scope": "Two Git/index/archive regression behaviors run separately against frozen 1.2.0 and 1.2.1 builders"
+    },
+    "skill_frontmatter": {
+      "status": "passed",
+      "mode": "External skill-creator validator with Python -X utf8"
+    },
+    "focused_prose_behavior": {
+      "cases_per_condition": 5,
+      "comparison_outputs": 10,
+      "fresh_agents": 10,
+      "baseline_style_findings": 4,
+      "revised_style_findings": 0,
+      "scientific_failures_observed": 0,
+      "preliminary_invalid_input_calls_excluded": 5,
+      "record": "prose-behavior-1.2.1/results.json",
+      "manual_review": "prose-behavior-1.2.1/review.md"
+    },
+    "extracted_skill_suite": {
+      "methods": 27,
+      "status": "passed",
+      "scope": "Preflight installable ZIP; same methods, not new cases"
+    }
+  },
+  "inherited_not_rerun": [
+    "1.2.0 full-manuscript/Supplement behavior applications",
+    "1.2.0 analytic-figure generation and visual review",
+    "1.1.0 abstract behavior applications",
+    "Source literature and figure-image reviews",
+    "2026-10-20 five-example REVTeX 4.2f compilation and 120 checks",
+    "Historical 29-source/32-assertion typography matrix"
+  ],
+  "claims": {
+    "new_APS_requirement": false,
+    "fresh_APS_policy_review": false,
+    "statistical_or_causal_writing_improvement": false
+  }
+}

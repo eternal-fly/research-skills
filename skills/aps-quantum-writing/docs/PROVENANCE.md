@@ -1,5 +1,9 @@
 # Provenance and evidence boundaries
 
+## 1.2.1 editorial patch provenance
+
+The 2026-10-28 author request adds narrative punctuation and literature-wording preferences. These are not new APS requirements or literature-derived frequency claims. The [1.2.1 report](RELEASE-1.2.1.md) records focused synthetic English/Chinese editing applications and release-package checks. References to existing research or recent work preserve the cited contribution and its evidence status; bibliography entries keep their true metadata. Earlier source reviews, full-manuscript cases, figure renders and REVTeX checks retain their dates and are not counted as newly executed here.
+
 ## 1.2.0 integration provenance
 
 The supplied `aps-quantum-writing-1.2.0-rc1.zip` extends the 1.1.0 source with figure planning and a [quantum figure review ledger](../evidence/quantum-figure-review/README.md). Its reported 432 substantive source revisits and 29 pixel-inspected papers belong to that supplied revision; release integration checks its hashes, bookkeeping and links without repeating those source reads. The original ledger and dated validation files are preserved.

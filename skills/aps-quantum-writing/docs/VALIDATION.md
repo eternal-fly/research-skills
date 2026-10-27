@@ -1,6 +1,6 @@
 # Validation and reproducibility
 
-For the current 1.2.0 release, see [the release report](RELEASE-1.2.0.md) and [machine-readable validation](../evidence/public-release-validation-1.2.0.json). The [1.1.0 report](RELEASE-1.1.0.md), supplied rc1 review records and original 1.0.0 record remain dated historical evidence. The sections below retain their original execution context.
+For the current 1.2.1 release, see [the release report](RELEASE-1.2.1.md) and [machine-readable validation](../evidence/public-release-validation-1.2.1.json). The [1.2.0 report](RELEASE-1.2.0.md), [1.1.0 report](RELEASE-1.1.0.md), supplied rc1 review records and original 1.0.0 record remain dated historical evidence. The sections below retain their original execution context.
 
 ## What is tested
 

@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-28",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "baseline": "Unchanged active 1.2.0 instructions at commit 1e87420fdecc3463197ba99192142c4cd52b5e54",
+  "design": "Five distinct synthetic cases, one fresh-context agent per case per condition. Not five repeats of each case and not a statistical efficacy estimate.",
+  "preliminary_calls_excluded": {
+    "count": 5,
+    "reason": "Over-escaped TeX commands in initial test inputs; inputs corrected and all baseline cases rerun. Preliminary files retained in local audit only."
+  },
+  "outputs_edited_after_generation": false,
+  "manual_review": "All ten comparison outputs read in full by release integrator.",
+  "cases": [
+    {
+      "id": "01-maintext",
+      "input_sha256": "00c9b0ee879394eda2099967082d18cbe2e3e42e012b1d0fed2c5022820ebe99",
+      "manual_scientific_review": "Principal heading, common-mode contrast, fixed generator and exp(-4 epsilon t) retained.",
+      "baseline": {
+        "sha256": "c3aba52d75bc8e0b43547580581b170ec3cc14d7bd7f1e2b9e10b69c7a41f7e3",
+        "wording_review_matches": [
+          "online preprint"
+        ],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [
+          "Publication-status wording retained"
+        ],
+        "scientific_content_preserved": true
+      },
+      "revised": {
+        "sha256": "fc38a9080911839cb6af1f7c8edaff903bb8fe60dc5c61a2156ddcea4c76e8e5",
+        "wording_review_matches": [],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [],
+        "scientific_content_preserved": true
+      }
+    },
+    {
+      "id": "02-supplement",
+      "input_sha256": "413b37dfec9b49db1eeb07c2eaa7d08fc6032808c1031563584ae24111b82465",
+      "manual_scientific_review": "Known fixed p, independent shots, unbiased estimator, exact variance, clipping qualification, mapping/ratio notation and liu:2025 citation key retained.",
+      "baseline": {
+        "sha256": "93f1985d01ec90b50958b5935666bb18123c935030f5f1e5d31dcda2b3fabc65",
+        "wording_review_matches": [],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [],
+        "scientific_content_preserved": true
+      },
+      "revised": {
+        "sha256": "ed39b8921c679a40726ca50d06533c00562e6b11e6893353b59997be45f49570",
+        "wording_review_matches": [],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [],
+        "scientific_content_preserved": true
+      }
+    },
+    {
+      "id": "03-chinese",
+      "input_sha256": "f5bbde82a0ee668c50923a8dd6dfb5ea1cb2edb136970c94ae3b7b506e7c1a14",
+      "manual_scientific_review": "Four finite sizes, 0.01 +/- 0.03 null comparison, shared disorder and covariance retained; no asymptotic claim added.",
+      "baseline": {
+        "sha256": "31ee7a29351d03282aa51ba6292cea8793f32478e32e5e0fc7125ba04244063f",
+        "wording_review_matches": [
+          "预印本",
+          "arXiv:2610.00001"
+        ],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [
+          "Publication-status wording retained",
+          "Preprint identifier retained in narrative"
+        ],
+        "scientific_content_preserved": true
+      },
+      "revised": {
+        "sha256": "bf217f95048bc5b3a429fca2961d514d73e85f48d953100e959c7204e0ec760c",
+        "wording_review_matches": [],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [],
+        "scientific_content_preserved": true
+      }
+    },
+    {
+      "id": "04-attribution",
+      "input_sha256": "09a5ad6d05d0a047daa7d6d32b87774f577ec499ccae4b86da6f480ec923e271",
+      "manual_scientific_review": "Conjecture versus finite irreducible-chain result and nonuniform-bound distinction retained; missing author not invented and 2016 work not called recent; bibliography unchanged.",
+      "baseline": {
+        "sha256": "32c725349f01664f1e2ae73a3cc811c989586635e75d66632e55d5d427f66ca4",
+        "wording_review_matches": [
+          "preprint",
+          "arXiv:1601.00000",
+          "journal article"
+        ],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [
+          "Publication-status wording retained",
+          "Preprint identifier retained in narrative"
+        ],
+        "scientific_content_preserved": true,
+        "bibliography_byte_text_preserved": true
+      },
+      "revised": {
+        "sha256": "8e2804d9497245cb1685851e32d3a4faa025df4599f6d87dbfec51328f4079d7",
+        "wording_review_matches": [],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [],
+        "scientific_content_preserved": true,
+        "bibliography_byte_text_preserved": true
+      }
+    },
+    {
+      "id": "05-headings",
+      "input_sha256": "e509f680f0aeebc12f00750f800491406326523294bf952cb59ad7d4bafb5ca1",
+      "manual_scientific_review": "Principal and Note added heading macros retained; optional colon-producing secondary helper omitted; populations, rate 4 epsilon and nonuniqueness counterexample retained.",
+      "baseline": {
+        "sha256": "d0d3d03193b95265e5862d5a4aa59445cc5c99f3351f69498764eebf94e77055",
+        "wording_review_matches": [
+          "online preprint",
+          "arXiv:2610.00002"
+        ],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [
+          "Publication-status wording retained",
+          "Preprint identifier retained in narrative"
+        ],
+        "scientific_content_preserved": true
+      },
+      "revised": {
+        "sha256": "34a7fa4942396a024d2e734e17029b7e2538e6522d2fb2abdf91f79229048cc9",
+        "wording_review_matches": [],
+        "punctuation_review_matches": [],
+        "manual_requested_style_findings": [],
+        "scientific_content_preserved": true
+      }
+    }
+  ],
+  "summary": {
+    "comparison_outputs": 10,
+    "fresh_agents": 10,
+    "baseline_cases_with_requested_style_findings": 4,
+    "revised_cases_with_requested_style_findings": 0,
+    "scientific_failures_observed": 0,
+    "punctuation_improvement_claim": false,
+    "causal_or_statistical_improvement_claim": false
+  }
+}

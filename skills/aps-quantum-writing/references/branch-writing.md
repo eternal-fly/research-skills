@@ -2,6 +2,8 @@
 
 Use this branch for manuscript prose, introductions, conclusions, and references. [PLANNING](branch-planning.md) coordinates the target, outline, title/abstract, and layout; [FIGURES](branch-figures.md) handles graphical evidence. Follow the user's requested language. The English examples below are original illustrations of expression.
 
+For main-text and supporting-prose edits, apply [prose punctuation and literature wording](prose-conventions.md), including local revisions. Write connected sentences without prose colons or explanatory dashes, preserve genuine heading joins and mathematical/source syntax, and introduce prior work through its scientific contribution with accurate citations.
+
 ## Continue from the background, target, and argument
 
 For a new manuscript, [PLANNING](branch-planning.md) first examines the background and closest literature, clarifies the physical question, and selects the target journal/article type. Then develop the argument and outline described below, propose a working title, plan the figures, and continue drafting. If the background, target, and outline already exist, resume from the current step. Revise the title and abstract after the complete draft. Do not add a separate Related Work section merely to fit a generic template, or impose IMRaD or one file per section.
@@ -81,5 +83,7 @@ Work in this order:
 - Compare the closest work by its scientific differences, rather than announcing novelty from title or abstract keywords. Search recent work until the principal relevant approaches are covered. Stop when the argument is adequately supported, not when a numerical target is met.
 - If only a few supplied references are available and searching is impossible, deliver the sourced portion and explicit gaps. Do not present three background references as a complete 30–40-item bibliography or invent plausible-looking placeholder DOIs.
 - Preserve the user's valid citations. Explain substantive reasons for deleting or replacing any. Generate numbering through BibTeX/REVTeX and deduplicate preprint and published versions of the same work.
+
+Source verification and narrative wording have different jobs. Keep identifiers and actual publication metadata in the bibliography and verification records. In the narrative, use existing research or verified authors' recent work as appropriate; do not replace missing author/date information with invented attribution. Follow [prose conventions](prose-conventions.md#describe-the-contribution-rather-than-its-publication-status).
 
 For journal-specific emphasis, consult [PRL](prl.md), [PRA](pra.md), [PRB](prb.md), [PRX Quantum](prx-quantum.md), [Physical Review Applied](prapplied.md), [Physical Review X](prx.md), or [Physical Review Research](prresearch.md) as needed. The additional PRL sample supports observations about rhetorical function only; see [provenance](../docs/PROVENANCE.md). Do not turn sample word counts into requirements.

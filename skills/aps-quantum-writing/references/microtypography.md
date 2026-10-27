@@ -14,6 +14,8 @@ For each decision, first establish `journal + article_type + heading_role`. Then
 
 The Regular/Research route covers Regular Articles in PRA, PRB, Applied, and Research, plus Research Articles in PRX and PRX Quantum. The non-PRL Letter route covers only Letters in PRA, PRB, Applied, and Research; do not invent a PRX or PRX Quantum Letter type.
 
+For this skill's author-selected [prose conventions](prose-conventions.md#identify-heading-punctuation-by-its-role), retain necessary run-in heading dashes and avoid optional colon-ended secondary headings when the paragraph works without them. The tables and historical examples below document heading roles; they do not authorize colons or explanatory dashes inside narrative sentences. Do not globally modify the helpers or historical examples to implement a prose preference.
+
 ## 2. Body-heading quick reference
 
 Every entry below concerns **a heading that has already been chosen**. Sentence case must preserve the meaning of proper names, acronyms, variables, and chemical formulas; do not force mathematical content into uppercase. A run-in heading shares a paragraph with the following text, which returns to upright type.

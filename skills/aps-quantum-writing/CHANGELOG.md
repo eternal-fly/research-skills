@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.1 — Narrative punctuation and literature wording (2026-10-28)
+
+- Write main-text and supporting-material prose without narrative colons or explanatory dashes, while preserving genuine run-in heading joins, mathematical notation and source syntax.
+- Introduce existing research and verified authors' recent work through their scientific contributions; keep preprint identifiers and publication metadata in the bibliography instead of narrative status labels.
+- Apply the preference to local revisions and Supplemental Material, with explicit handling of optional colon-ended headings and incomplete author/date records.
+- Add five paired English/Chinese editing applications with raw outputs and dated scope; retain historical manuscripts, literature records, figure examples and REVTeX evidence unchanged.
+- Publish a new versioned package, frozen builder and verification workflow without replacing earlier release assets.
+
 ## 1.2.0 — Figure planning, main-text narrative and supporting prose (2026-10-22)
 
 - Integrate the supplied 1.2.0-rc1 figure-planning records, conditional quantum routes and structural validator. Attribute its source-review evidence separately from release integration.
