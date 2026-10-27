@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "version_unchanged": "1.2.1",
+  "base_commit": "bd2f9225c866f07117bb54cdda9243dc53935db0",
+  "scope": "Same-version source refinement; original release tag and assets unchanged",
+  "behavior": {
+    "cases_per_condition": 5,
+    "agent_calls": 2,
+    "design": "One fresh-context agent per condition, five cases bundled per call; not five independent repetitions",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "baseline_findings": 0,
+    "revised_findings": 0,
+    "manually_reviewed": "All ten excerpts; scientific conditions, correct citation keys, real model extension and actual bibliography title preserved",
+    "interpretation": "Baseline already satisfies these fixtures. This documents an explicit author-requested rule, not an observed behavioral improvement."
+  },
+  "sha256": {
+    "cases.md": "b96b3b7a91244e14392eebaa7c18aabc6580ee8f46fc17128edd05392d619065",
+    "baseline.md": "c40dde76b57f542088b12580c8763865a9744f02deaf8ed6f7bd835980a8bf05",
+    "revised.md": "746bb6f73cf4342372dd1230b0940e93c5c06baea3c2f5ef4e945c84e16e8a9c"
+  },
+  "fresh_checks": {
+    "skill_frontmatter": "passed",
+    "source_skill_suite": {
+      "methods": 27,
+      "status": "passed"
+    },
+    "builder_suite": {
+      "methods": 4,
+      "status": "passed",
+      "scope": "Two existing regression behaviors against each frozen builder"
+    }
+  },
+  "not_rerun": [
+    "Earlier full-manuscript behavior cases",
+    "Literature and figure visual reviews",
+    "REVTeX compilation and typography assertions"
+  ]
+}

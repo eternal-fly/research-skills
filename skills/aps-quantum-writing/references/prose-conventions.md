@@ -22,6 +22,12 @@ Do not put preprint numbers or publication-status descriptions such as "the publ
 
 If the author or date is unverified, use a neutral citation-based expression such as "The analysis in Ref.~\cite{key}" or "Earlier work" when chronology is known. Do not invent a name, call an old or undated source recent, or imply that a source has been peer reviewed. Accurate bibliography entries, preprint identifiers and version information stay in the reference list, BibTeX records, or a separate source-verification note. Preserve valid citation keys, citation placement and source traceability. These conventions do not authorize deleting a reference or changing its actual publication status.
 
+## Short conference and journal manuscripts
+
+When a short manuscript draws on a reference's fuller proof, calculation, discussion, or other additional material, retain the original scientific wording and the citation to the source that supports it. Do not add "extended version", "expanded version", "longer version", "full version", or equivalent labels in the requested language merely because the source contains more detail than the short format. Apply this to both the current manuscript and the cited work, including supporting-material prose. Describe the result or refer to the proof directly, without recasting an existing sentence as a statement about manuscript versions.
+
+Preserve the cited result's conditions and the locator or citation key that identifies the actual supporting material. Do not attribute a proof to the short account when it appears only in the cited companion, or promise an unprovided Supplement. A genuine scientific extension, such as extending a Hamiltonian to additional couplings, remains scientific content. Actual source titles and version metadata in the bibliography remain accurate; this prose preference does not rename a reference or remove a required submission disclosure.
+
 ## Original revision example
 
 This example assumes the source already establishes the stated finite-size result.

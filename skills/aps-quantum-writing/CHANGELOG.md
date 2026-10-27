@@ -1,5 +1,10 @@
 # Changelog
 
+## Same-version source refinement (2026-10-28)
+
+- Keep VERSION at 1.2.1. For short conference or journal manuscripts using fuller material from a reference, preserve the original scientific wording and correct citation without introducing extended/expanded-version labels.
+- Preserve genuine scientific extensions and accurate bibliographic titles. Record focused checks separately from the original v1.2.1 release validation; the existing tag and release assets are unchanged.
+
 ## 1.2.1 — Narrative punctuation and literature wording (2026-10-28)
 
 - Write main-text and supporting-material prose without narrative colons or explanatory dashes, while preserving genuine run-in heading joins, mathematical notation and source syntax.

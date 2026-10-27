@@ -35,6 +35,8 @@ After drafting, check whether readers understand why the problem is difficult, h
 
 Concision removes synonymous repetition, irrelevant history, and self-evaluation; it does not remove the literature and explanation needed to understand the science. Address PRL's short format through an evidence hierarchy and a whole-manuscript space budget, rather than sacrificing the introduction's logical chain first.
 
+For short conference or journal manuscripts using a reference's fuller material, retain the original scientific statement and the correct citation without adding extended/expanded-version labels. Follow [short-format prose conventions](prose-conventions.md#short-conference-and-journal-manuscripts); a source's additional detail does not require a version-history sentence in the paper.
+
 ## Main text: sustain the question-to-answer argument
 
 Organize the full body around the central question, the obstacle to answering it, the decisive idea, the proof or evidence that makes that idea work, and the resulting physical understanding. These are reasoning relationships, not required headings or a fixed chronology. Make the key construction or mechanism understandable before its technical expansion. Give readers a short account of why the necessary proof steps, measurements, or controls establish the answer; a method name alone does not explain the idea. Independent complementary results can jointly answer the question without a fabricated dependency.

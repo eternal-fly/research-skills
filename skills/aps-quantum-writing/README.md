@@ -10,6 +10,8 @@ APS Quantum Writing is an English-language agent skill for planning, writing, an
 
 Release record: [1.2.1 validation](docs/RELEASE-1.2.1.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
 
+The current source also includes a [same-version short-format wording refinement](docs/PROSE-FOLLOWUP-2026-10-28.md). VERSION remains 1.2.1. This refinement is in the main-branch skill folder; the original v1.2.1 tag and release archives retain their published contents. Use the current source folder to obtain this refinement.
+
 ## Start here
 
 1. Download `aps-quantum-writing-1.2.1.zip` and its checksum from the [v1.2.1 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.1).
