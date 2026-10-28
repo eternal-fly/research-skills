@@ -1,9 +1,10 @@
 # Changelog
 
-## Same-version source refinement (2026-10-28)
+## Same-version refinement and package refresh (2026-10-28)
 
 - Keep VERSION at 1.2.1. For short conference or journal manuscripts using fuller material from a reference, preserve the original scientific wording and correct citation without introducing extended/expanded-version labels.
-- Preserve genuine scientific extensions and accurate bibliographic titles. Record focused checks separately from the original v1.2.1 release validation; the existing tag and release assets are unchanged.
+- Preserve genuine scientific extensions and accurate bibliographic titles. Record focused checks separately from the original v1.2.1 release validation.
+- Refresh the v1.2.1 installation ZIP, attached source ZIP and release checksum file at the author's request. Keep the original Git tag and historical heading assets. Record the refreshed source commit and new checksums in the Release notes; see the [package refresh record](docs/RELEASE-REFRESH-1.2.1-2026-10-28.md).
 
 ## 1.2.1 — Narrative punctuation and literature wording (2026-10-28)
 

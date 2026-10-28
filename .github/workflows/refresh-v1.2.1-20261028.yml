@@ -1,0 +1,181 @@
+name: Refresh APS 1.2.1 packages
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/refresh-v1.2.1-20261028.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: aps-release-v1.2.1
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository == 'eternal-fly/research-skills' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    env:
+      GH_REPO: eternal-fly/research-skills
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check scope and run source tests
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = '733ae812392f6491d1ff126f30e4710b195c64e2'
+          test "$(cat skills/aps-quantum-writing/VERSION)" = '1.2.1'
+          git diff --exit-code HEAD^ HEAD -- skills/aps-quantum-writing/VERSION skills/aps-quantum-writing/CITATION.cff
+          python -m pip install -r skills/aps-quantum-writing/requirements.txt
+          python -m unittest discover -s scripts -p 'test_build_release*.py' -v
+          cd skills/aps-quantum-writing
+          python -m unittest discover -s tests -v
+      - name: Build and verify extracted package
+        run: |
+          set -euo pipefail
+          python scripts/build_release_1_2_1.py --out dist
+          python -m zipfile -e dist/aps-quantum-writing-1.2.1.zip smoke
+          cd smoke/aps-quantum-writing
+          sha256sum --check SHA256SUMS
+          python -m unittest discover -s tests -v
+      - name: Verify and back up the existing release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p refresh-audit/before
+          gh api "repos/$GH_REPO/releases/tags/v1.2.1" > refresh-audit/before.json
+          gh api "repos/$GH_REPO/git/ref/tags/v1.2.1" > refresh-audit/tag-before.json
+          gh release download v1.2.1 --dir refresh-audit/before
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          audit = Path('refresh-audit')
+          release = json.loads((audit/'before.json').read_text())
+          tag = json.loads((audit/'tag-before.json').read_text())
+          expected = {"APS-heading-layout-examples.pdf":{"id":682341153,"sha256":"c30f231055bf78655e6c1358695ab895972caa36f8338333d7975a4197d208cf"},"aps-quantum-writing-1.2.1.zip":{"id":682341151,"sha256":"c260c70f8aa9f789655260f17c06f93e32205fb3f8f0cdaed255a734fd1133c5"},"heading-revalidation-2026-10-20.zip":{"id":682341155,"sha256":"3b6c5b0425b806a667bd50f4cc5a0c9a66e56b16c2d245d0e8506ccab1cf8257"},"research-skills-1.2.1-source.zip":{"id":682341154,"sha256":"a2e16dfbfda9b564564e26fca359506ce3a272746804cf976b1def99201503a5"},"SHA256SUMS":{"id":682341152,"sha256":"ffff29a02d146fa927ce3ca2edc5bfc922583a0cf62de64482f692a0b6a2282b"}}
+          assert release['id'] == 425780927 and not release['draft'] and not release['prerelease'] and not release.get('immutable', False)
+          assert tag['object']['sha'] == 'bd2f9225c866f07117bb54cdda9243dc53935db0'
+          assert release['body'] == Path('skills/aps-quantum-writing/docs/RELEASE-NOTES-1.2.1.md').read_text()
+          assets = {a['name']: a for a in release['assets']}
+          assert len(assets) == len(release['assets']) and set(assets) == set(expected)
+          for name, old in expected.items():
+              data = (audit/'before'/name).read_bytes()
+              assert assets[name]['id'] == old['id']
+              assert assets[name]['digest'] == 'sha256:' + old['sha256']
+              assert hashlib.sha256(data).hexdigest() == old['sha256']
+          for name in ['APS-heading-layout-examples.pdf', 'heading-revalidation-2026-10-20.zip']:
+              assert (audit/'before'/name).read_bytes() == (Path('dist')/name).read_bytes()
+          (audit/'before-body.md').write_text(release['body'], encoding='utf-8')
+          source = os.environ['GITHUB_SHA']
+          run = os.environ['GITHUB_RUN_ID']
+          notes = (
+              '## Package refresh on 2026-10-28 (Asia/Shanghai)\n\n'
+              'Version remains 1.2.1. The installation ZIP and attached source ZIP now include the short-format wording refinement. '
+              'Short conference and journal manuscripts retain the original scientific wording and correct citation when using fuller reference material, without adding extended-version or expanded-version labels.\n\n'
+              f'Package source commit [{source}](https://github.com/eternal-fly/research-skills/commit/{source}). '
+              f'[Refresh validation run](https://github.com/eternal-fly/research-skills/actions/runs/{run}).\n\n'
+              'Fresh checks cover the 27-method source skill suite, four builder regression methods, all internal checksums, the 27-method extracted skill suite, and download/byte verification of all five final assets. '
+              'The earlier behavioral, literature, figure and REVTeX evidence was not rerun for this packaging refresh.\n\n'
+              'Install aps-quantum-writing-1.2.1.zip and verify it against the current SHA256SUMS. '
+              'The attached research-skills-1.2.1-source.zip matches this package. '
+              'The original v1.2.1 Git tag remains at bd2f9225c866f07117bb54cdda9243dc53935db0, so GitHub automatic Source code archives still represent the initial release. '
+              'The heading PDF and historical heading-validation ZIP are unchanged.\n\n'
+              '| Asset | Refreshed SHA-256 |\n| --- | --- |\n'
+          )
+          for file in sorted(Path('dist').iterdir()):
+              notes += f'| {file.name} | {hashlib.sha256(file.read_bytes()).hexdigest()} |\n'
+          notes += '\n## Initial release notes\n\n' + release['body']
+          (audit/'notes.md').write_text(notes, encoding='utf-8')
+          PY
+          (cd refresh-audit/before && sha256sum --check SHA256SUMS)
+      - name: Retain verified originals before replacement
+        uses: actions/upload-artifact@v4
+        with:
+          name: aps-v1.2.1-before-refresh-20261028
+          path: refresh-audit/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Replace three assets and verify the published result
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh api "repos/$GH_REPO/releases/tags/v1.2.1" > refresh-audit/prewrite.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          def identity(path):
+              r = json.loads(Path(path).read_text())
+              return (r['id'], r['tag_name'], r['target_commitish'], r['body'], r['draft'], r['prerelease'],
+                      sorted((a['id'], a['name'], a['digest'], a['size']) for a in r['assets']))
+          assert identity('refresh-audit/prewrite.json') == identity('refresh-audit/before.json')
+          PY
+          rollback() {
+            original_status=$?
+            trap - ERR
+            set +e
+            gh release upload v1.2.1 refresh-audit/before/aps-quantum-writing-1.2.1.zip refresh-audit/before/research-skills-1.2.1-source.zip refresh-audit/before/SHA256SUMS --clobber
+            gh release edit v1.2.1 --notes-file refresh-audit/before-body.md
+            mkdir -p refresh-audit/rollback
+            gh release download v1.2.1 --dir refresh-audit/rollback
+            for file in refresh-audit/before/*; do
+              cmp "$file" "refresh-audit/rollback/$(basename "$file")" || echo "::error::Rollback readback failed for $(basename "$file")"
+            done
+            exit "$original_status"
+          }
+          trap rollback ERR
+          gh release upload v1.2.1 dist/aps-quantum-writing-1.2.1.zip dist/research-skills-1.2.1-source.zip dist/SHA256SUMS --clobber
+          mkdir refresh-audit/after
+          gh release download v1.2.1 --dir refresh-audit/after
+          (cd refresh-audit/after && sha256sum --check SHA256SUMS)
+          for file in dist/*; do
+            cmp "$file" "refresh-audit/after/$(basename "$file")"
+          done
+          gh release edit v1.2.1 --notes-file refresh-audit/notes.md
+          gh api "repos/$GH_REPO/releases/tags/v1.2.1" > refresh-audit/after.json
+          gh api "repos/$GH_REPO/git/ref/tags/v1.2.1" > refresh-audit/tag-after.json
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          audit = Path('refresh-audit')
+          before = json.loads((audit/'before.json').read_text())
+          after = json.loads((audit/'after.json').read_text())
+          tag = json.loads((audit/'tag-after.json').read_text())
+          assert after['id'] == before['id'] and not after['draft'] and not after['prerelease']
+          assert after['tag_name'] == before['tag_name'] and after['target_commitish'] == before['target_commitish']
+          assert tag['object']['sha'] == 'bd2f9225c866f07117bb54cdda9243dc53935db0'
+          assert after['body'] == (audit/'notes.md').read_text()
+          assets = {a['name']: a for a in after['assets']}
+          assert len(assets) == len(after['assets']) == 5
+          assert set(assets) == {p.name for p in Path('dist').iterdir()}
+          for name, asset in assets.items():
+              data = (Path('dist')/name).read_bytes()
+              assert asset['digest'] == 'sha256:' + hashlib.sha256(data).hexdigest()
+              assert asset['size'] == len(data) and asset['state'] == 'uploaded'
+          old = {a['name']: a for a in before['assets']}
+          for name in ['APS-heading-layout-examples.pdf', 'heading-revalidation-2026-10-20.zip']:
+              assert assets[name]['id'] == old[name]['id']
+          receipt = {'source_commit': os.environ['GITHUB_SHA'], 'version': '1.2.1', 'release_id': after['id'],
+                     'tag_unchanged': True, 'downloaded_assets_byte_equal': True,
+                     'source_skill_methods': 27, 'builder_methods': 4, 'extracted_skill_methods': 27,
+                     'assets': {n: {'id': a['id'], 'sha256': a['digest']} for n,a in assets.items()},
+                     'status': 'passed'}
+          (audit/'receipt.json').write_text(json.dumps(receipt, indent=2) + '\n')
+          PY
+          trap - ERR
+      - name: Retain refresh evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aps-v1.2.1-refresh-20261028-audit
+          path: refresh-audit/
+          retention-days: 90
+          if-no-files-found: warn
+
