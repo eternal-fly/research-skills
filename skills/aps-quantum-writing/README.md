@@ -4,17 +4,17 @@
 
 APS Quantum Writing is an English-language agent skill for planning, writing, and illustrating quantum and related physics research. It keeps the scientific argument, evidence, prose, and final layout connected throughout a manuscript workflow.
 
-**Author:** Luofei Wang · **Version:** 1.2.1 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
+**Author:** Luofei Wang · **Version:** 1.2.2 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
 
 > This project is source-available, not OSI-approved open-source software. Noncommercial use and private modifications are permitted. Commercial use and public redistribution/repackaging require separate permission, subject to the license's platform and third-party exceptions. Ordinary research outputs are treated separately.
 
-Release record: [1.2.1 validation](docs/RELEASE-1.2.1.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
+Release record: [1.2.2 validation](docs/RELEASE-1.2.2.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
 
-The [same-version short-format wording refinement](docs/PROSE-FOLLOWUP-2026-10-28.md) is included in the refreshed `aps-quantum-writing-1.2.1.zip` and attached source archive. VERSION remains 1.2.1. See the [2026-10-28 package refresh record](docs/RELEASE-REFRESH-1.2.1-2026-10-28.md) and Release notes for the package source commit and updated checksums. The original Git tag is retained, so GitHub's automatic "Source code" downloads describe the initial release; use the attached `research-skills-1.2.1-source.zip` for the refreshed package source.
+Version 1.2.2 includes the [short-format wording refinement](docs/PROSE-FOLLOWUP-2026-10-28.md) and the stronger [direct scientific prose rule](references/prl-direct-prose.md). The [1.2.1 package refresh record](docs/RELEASE-REFRESH-1.2.1-2026-10-28.md) remains available as dated release history.
 
 ## Start here
 
-1. Download `aps-quantum-writing-1.2.1.zip` and its checksum from the [v1.2.1 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.1).
+1. Download `aps-quantum-writing-1.2.2.zip` and its checksum from the [v1.2.2 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.2).
 2. Keep the complete `aps-quantum-writing` folder together. Read [installation](docs/INSTALL.md) for project-local, personal, and manual use.
 3. Ask your agent to read [SKILL.md](SKILL.md), then provide the manuscript, derivations/data, intended journal, and article type.
 
@@ -48,12 +48,14 @@ PRL, PRA, PRB, PRX Quantum, Physical Review Applied, Physical Review X, and Phys
 - Conceptual unity: necessary technical links or genuinely complementary evidence, rather than a list of loosely related results.
 - Motivation-first exposition of proofs, with technical dependencies checked separately.
 - Direct, readable academic prose using standard terms and defined symbols.
-- Positive statements of applicable conditions, without unnecessary author-defensive lists of unperformed work.
+- Direct statements of completed work, actual conditions and evidence, omitting authorial disclaimers and inventories of unperformed operations or unsolved extensions, including related work and first occurrences.
 - Scientifically informative diagrams with recognizable internal structure, meaningful interfaces, and clear training/update/frozen-state distinctions when relevant.
 - Compact data panels with properly aligned y-axis content, centered bottom labels, readable final-size typography, and near-square scalar axes when the science permits.
 - Journal/type/role-aware heading checks, including PRL run-in dashes, other Letters' periods, independent numbered headings, and special end-matter roles.
 
 ## Figure planning and full-manuscript narrative
+
+Version 1.2.2 requires a final [direct-prose pass](references/prl-direct-prose.md) across the abstract, main text, captions, conclusion, appendices and Supplemental Material. Omit unfinished-work inventories instead of recasting them as passive caveats or future-work promises. Scope claims through the actual method and evaluation, retaining genuine measured failures, null findings, counterexamples and uncertainty. The [release report](docs/RELEASE-1.2.2.md) distinguishes the focused pre-release comparison from packaging checks and inherited evidence.
 
 Version 1.2.1 adds [narrative punctuation and literature wording](references/prose-conventions.md). Main text and supporting prose use connected sentences without prose colons or explanatory dashes, retain genuine heading joins and scientific notation, and discuss cited contributions without publication-status labels or preprint numbers. Reference metadata remains accurate and traceable. These are author-selected editorial preferences, not APS rules. See the [1.2.1 checks and boundaries](docs/RELEASE-1.2.1.md).
 

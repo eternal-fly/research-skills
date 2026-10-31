@@ -1,6 +1,6 @@
 # Validation and reproducibility
 
-For the current 1.2.1 release, see [the release report](RELEASE-1.2.1.md) and [machine-readable validation](../evidence/public-release-validation-1.2.1.json). The [1.2.0 report](RELEASE-1.2.0.md), [1.1.0 report](RELEASE-1.1.0.md), supplied rc1 review records and original 1.0.0 record remain dated historical evidence. The sections below retain their original execution context.
+For the current 1.2.2 release, see [the release report](RELEASE-1.2.2.md) and [machine-readable validation](../evidence/public-release-validation-1.2.2.json). The initial [1.2.1 report](RELEASE-1.2.1.md) remains dated historical evidence. The [1.2.0 report](RELEASE-1.2.0.md), [1.1.0 report](RELEASE-1.1.0.md), supplied rc1 review records and original 1.0.0 record remain dated historical evidence. The sections below retain their original execution context.
 
 The subsequent [same-version short-format refinement](PROSE-FOLLOWUP-2026-10-28.md) has its own source-validation record. The later [v1.2.1 package refresh](RELEASE-REFRESH-1.2.1-2026-10-28.md) distributes that refinement with updated checksums. Both records remain separate from the initial v1.2.1 release report; the initially published archives did not contain the later wording.
 

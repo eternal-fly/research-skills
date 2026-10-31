@@ -1,5 +1,9 @@
 # Provenance and evidence boundaries
 
+## 1.2.2 direct-prose correction provenance
+
+The author requested omission of authorial disclaimers, unsolved-extension statements and unperformed-operation inventories from manuscript prose. The rule applies even to related work and first occurrences, with the actual methods, evidence and conditions stated directly. This is an author-selected writing preference. The [1.2.2 report](RELEASE-1.2.2.md) records a bounded comparison executed before the version bump on 2026-10-31, and separate release checks. One comparison fixture contains private manuscript material, so only aggregate results are public. Earlier full-manuscript, figure, literature and REVTeX evidence keeps its original execution date.
+
 ## 1.2.1 editorial patch provenance
 
 The 2026-10-28 author request adds narrative punctuation and literature-wording preferences. These are not new APS requirements or literature-derived frequency claims. The [1.2.1 report](RELEASE-1.2.1.md) records focused synthetic English/Chinese editing applications and release-package checks. References to existing research or recent work preserve the cited contribution and its evidence status; bibliography entries keep their true metadata. Earlier source reviews, full-manuscript cases, figure renders and REVTeX checks retain their dates and are not counted as newly executed here.

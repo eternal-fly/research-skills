@@ -158,7 +158,7 @@ An ending on a new observable, a useful boundary, or a concrete prediction can b
 ## Evidence-sensitive language and compression
 
 - Use “prove,” “derive,” “predict,” “observe,” “simulate,” and “propose” according to the work, not as stylistic synonyms. An abstract's word “demonstrate” alone does not identify an experiment.
-- Keep truth-changing qualifiers close to claims. Express scope positively where possible: “For local Markovian noise…” instead of a list of unrelated cases not studied. Preserve scientific negative results and limitations essential to interpreting the achievement.
+- Keep truth-changing qualifiers close to claims. State the completed study's scope directly, such as "For local Markovian noise...", and omit lists of operations not performed or extensions not solved, whether related or unrelated. Preserve actual negative findings, uncertainty, and necessary model or evaluation conditions. Do not append "we do not claim", "remains unresolved", or equivalent qualifications; apply [direct scientific prose](prl-direct-prose.md).
 - A causal explanation needs a derivation or discriminating evidence. Otherwise describe a correlation, consistency, constraint, or supported candidate explanation accurately.
 - Replace “significant improvement” with the measured or proven improvement when known. Do not infer statistical significance from a descriptive adjective.
 - Avoid unsupported “first,” “universal,” “scalable,” “robust,” or “quantum advantage.” Clarify the actual metric and model. A better approximation guarantee need not establish runtime speedup, and a faster subroutine need not establish end-to-end advantage.

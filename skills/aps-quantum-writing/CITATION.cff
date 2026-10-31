@@ -5,7 +5,7 @@ title: "APS Quantum Writing"
 authors:
   - family-names: Wang
     given-names: Luofei
-version: 1.2.1
-date-released: 2026-10-28
+version: 1.2.2
+date-released: 2026-10-31
 url: "https://github.com/eternal-fly/research-skills"
 abstract: "An agent skill for coherent scientific manuscript planning, writing, figures, and APS journal-specific typography."

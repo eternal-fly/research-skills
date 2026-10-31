@@ -6,7 +6,7 @@ This is a file-based agent skill, not a desktop executable or a Python package. 
 
 ### A. Versioned ZIP (recommended)
 
-1. Download `aps-quantum-writing-1.2.1.zip` and its SHA-256 checksum from the repository's [v1.2.1 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.1).
+1. Download `aps-quantum-writing-1.2.2.zip` and its SHA-256 checksum from the repository's [v1.2.2 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.2).
 2. Verify the checksum using your operating system's checksum utility.
 3. Extract the ZIP. The resulting folder must contain `SKILL.md` directly, with `references`, `assets`, `scripts`, `docs`, and the license beside it.
 4. Place the complete folder in a location supported by your agent, or use the manual route below.
@@ -44,7 +44,7 @@ A chat interface that cannot read the folder cannot automatically follow its rel
 
 ### D. Source checkout
 
-Clone the public repository into a new directory. Use the `v1.2.1` tag for a reproducible released snapshot; use the default branch only if you intentionally want subsequent development. In the multi-skill repository, use `skills/aps-quantum-writing` as the skill folder. Do not run an unreviewed remote shell installer.
+Clone the public repository into a new directory. Use the `v1.2.2` tag for a reproducible released snapshot; use the default branch only if you intentionally want subsequent development. In the multi-skill repository, use `skills/aps-quantum-writing` as the skill folder. Do not run an unreviewed remote shell installer.
 
 ## Requirements by task
 

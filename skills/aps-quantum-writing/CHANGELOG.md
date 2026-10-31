@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.2 — Direct scientific prose (2026-10-31)
+
+- Omit authorial disclaimers and inventories of unperformed operations or unsolved extensions, including related work and first occurrences. Express the actual evaluation and conditions directly.
+- Close passive unresolved-status, incomplete-validation, incomplete-deployment and default future-work substitutions. Require a final pass across all manuscript prose, including abstracts, conclusions, appendices and Supplemental Material.
+- Preserve genuine measured failures, null findings, counterexamples, uncertainty, model assumptions and evaluation design.
+- Include the prior short-format wording refinement. Publish versioned packages and record the bounded pre-release behavior comparison separately from new package checks and inherited historical evidence.
+
 ## Same-version refinement and package refresh (2026-10-28)
 
 - Keep VERSION at 1.2.1. For short conference or journal manuscripts using fuller material from a reference, preserve the original scientific wording and correct citation without introducing extended/expanded-version labels.
