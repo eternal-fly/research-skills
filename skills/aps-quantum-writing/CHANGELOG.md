@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.3 — Author-supplied prose and exposition refinement (2026-11-17)
+
+- Integrate the author's exact revised natural-prose, Physical Review Applied and direct-prose guidance.
+- Vary sentence structures and paragraph openings within the existing no-colon/no-explanatory-dash convention, and introduce cross-disciplinary concepts through physical operations or domain intuition.
+- Present the motivation of application metrics and the governing physical mechanism early; keep inference-determining conditions in the body and exhaustive reproducibility records in appendices or tables.
+- Preserve the original bytes of files whose incoming differences were only line endings, including historical evidence and heading sources. Publish a new versioned package with fresh automated and packaging checks recorded separately from inherited validation.
+
 ## 1.2.2 — Direct scientific prose (2026-10-31)
 
 - Omit authorial disclaimers and inventories of unperformed operations or unsolved extensions, including related work and first occurrences. Express the actual evaluation and conditions directly.

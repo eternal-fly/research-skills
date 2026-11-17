@@ -12,9 +12,9 @@ Load this reference as needed when the target is Physical Review Applied (PR App
 
 - Develop a physical question from real application constraints, then identify observables and performance metrics. Connect them through measurements, calibration, models, and controls; “potential applications” alone cannot establish significance. Organize theoretical designs around the model and testable predictions without imposing an experimental or commercialization requirement.
 - Compare schemes using the same task, quality target, and key conditions. Report readout, reset, training, pre-/postprocessing, or postselection costs alongside the benefit when they affect it. Distinguish measurements, simulations, and predictions.
-- Establish the key idea before developing the model and derivation. Explain the scientific purpose of each step, and audit technical dependencies separately. When useful, introduce a simplified example before the full construction. Define terms and symbols clearly where they are used.
+- Establish the key idea before developing the model and derivation. For interdisciplinary applications, state the domain-specific physical or operational motivation of the target metrics up front, and introduce the physical mechanism governing the optimal operating regime early in the narrative rather than deferring it to the final section. Explain the scientific purpose of each step, and audit technical dependencies separately. When useful, introduce a simplified example before the full construction. Define terms and symbols clearly where they are used.
 - When stochastic fabrication, noise, or repeated experiments make averages insufficient, show the relevant distributions, yields, tails, or failure channels. Include tests that affect the central conclusion, and express applicability through a clearly defined operating regime.
-- Generally prefer appendices within the main manuscript for detailed technical material; keep the core argument in the body. A Letter's full length budget cannot inherit PRL's End Matter exemption.
+- Generally prefer appendices within the main manuscript for detailed technical material, including hyperparameter grids, seed inventories, and dataset-cleaning logs; keep the core physical and methodological argument in the body. A Letter's full length budget cannot inherit PRL's End Matter exemption.
 
 ## Figures
 

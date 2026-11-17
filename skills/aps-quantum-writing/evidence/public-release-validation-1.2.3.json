@@ -1,0 +1,120 @@
+{
+  "version": "1.2.3",
+  "date": "2026-11-17",
+  "base_commit": "b79de024d971ddd312f1f22248294043137f69fe",
+  "author_supplied_revision": {
+    "received": "2026-11-17",
+    "input_version": "1.2.2",
+    "input_sha256": {
+      "aps-quantum-writing-1.2.2.zip": "1a95efdc530f3c45425335720c4b8f19f1ee8189476ef7c688fc966865c2f515",
+      "research-skills-1.2.2-source.zip": "2a71e6571dff23b7d91bb05953698a02f699b0f7898c94bd624b3b202fe8330e",
+      "APS-heading-layout-examples.pdf": "c30f231055bf78655e6c1358695ab895972caa36f8338333d7975a4197d208cf",
+      "heading-revalidation-2026-10-20.zip": "3b6c5b0425b806a667bd50f4cc5a0c9a66e56b16c2d245d0e8506ccab1cf8257"
+    },
+    "skill_files": 194,
+    "source_files": 212,
+    "internal_manifest_entries": 193,
+    "input_checksums": "passed",
+    "skill_matches_supplied_source": true,
+    "imported_unchanged": [
+      "skills/aps-quantum-writing/references/natural-prose.md",
+      "skills/aps-quantum-writing/references/prapplied.md",
+      "skills/aps-quantum-writing/references/prl-direct-prose.md"
+    ],
+    "line_ending_only_files_kept_at_published_bytes": [
+      "skills/aps-quantum-writing/assets/figure-examples/compact_table.tex",
+      "skills/aps-quantum-writing/assets/heading-examples/build-preview.sh",
+      "skills/aps-quantum-writing/assets/heading-examples/heading-helpers.tex",
+      "skills/aps-quantum-writing/assets/heading-examples/nonprl-letter.tex",
+      "skills/aps-quantum-writing/assets/heading-examples/prl-chosen-headings.tex",
+      "skills/aps-quantum-writing/assets/heading-examples/prl-no-main-headings.tex",
+      "skills/aps-quantum-writing/assets/heading-examples/prl-unheaded-opening.tex",
+      "skills/aps-quantum-writing/assets/heading-examples/regular-preview-hooks.tex",
+      "skills/aps-quantum-writing/assets/heading-examples/regular-production-preview.tex",
+      "skills/aps-quantum-writing/assets/layout-example/layout.tex",
+      "skills/aps-quantum-writing/assets/layout-example/layoutNotes.bib",
+      "skills/aps-quantum-writing/evidence/figure-smoke-1.2.0/caption.md",
+      "skills/aps-quantum-writing/evidence/figure-smoke-1.2.0/draft-plan.json",
+      "skills/aps-quantum-writing/evidence/figure-smoke-1.2.0/figure-plan.json",
+      "skills/aps-quantum-writing/evidence/figure-smoke-1.2.0/generation-checks.json",
+      "skills/aps-quantum-writing/evidence/figure-smoke-1.2.0/visual-review.json",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/baseline/estimator-process.json",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/baseline/finite_size-process.json",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/baseline/theory-process.json",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/results.json",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/revised/estimator-process.json",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/revised/finite_size-process.json",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/revised/finite_size.md",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/revised/theory-process.json",
+      "skills/aps-quantum-writing/evidence/maintext-behavior-1.2.0/rubric.json",
+      "skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/baseline/01-maintext.md",
+      "skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/baseline/02-supplement.md",
+      "skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/baseline/04-attribution.md",
+      "skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/revised/01-maintext.md",
+      "skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/revised/02-supplement.md",
+      "skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/revised/03-chinese.md",
+      "skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/revised/05-headings.md",
+      "skills/aps-quantum-writing/evidence/public-release-validation-1.2.0.json",
+      "skills/aps-quantum-writing/evidence/short-format-followup-2026-10-28/revised.md",
+      "skills/aps-quantum-writing/tests/maintext-narrative-cases/estimator.md",
+      "skills/aps-quantum-writing/tests/maintext-narrative-cases/finite_size.md",
+      "skills/aps-quantum-writing/tests/maintext-narrative-cases/micro.md",
+      "skills/aps-quantum-writing/tests/maintext-narrative-cases/theory.md"
+    ]
+  },
+  "fresh_release_checks": {
+    "source_skill_suite": {
+      "methods": 27,
+      "status": "passed",
+      "breakdown": {
+        "distribution": 6,
+        "mechanism": 2,
+        "figure_plan_structure": 14,
+        "review_bookkeeping": 5
+      }
+    },
+    "builder_suite": {
+      "methods": 8,
+      "status": "passed",
+      "scope": "Two Git/index/archive regression behaviors separately applied to frozen 1.2.0, 1.2.1, 1.2.2 and 1.2.3 builders"
+    },
+    "skill_frontmatter": {
+      "status": "passed",
+      "mode": "External skill-creator validator with Python -X utf8"
+    },
+    "extracted_skill_suite": {
+      "methods": 27,
+      "status": "passed",
+      "scope": "Preflight installable ZIP, the same test methods rather than new cases"
+    },
+    "preflight_archive": {
+      "status": "passed",
+      "internal_manifest_entries": 196,
+      "zip_crc_and_readback": "passed"
+    },
+    "scope": "Local release preparation. CI and publication readback are separate post-commit records."
+  },
+  "inherited_not_rerun": [
+    "2026-10-31 direct-prose behavior comparison",
+    "1.2.1 punctuation and literature-wording behavior applications",
+    "1.2.0 full-manuscript/Supplement behavior applications",
+    "1.2.0 analytic-figure generation and visual review",
+    "1.1.0 abstract behavior applications",
+    "Source literature and figure-image reviews",
+    "2026-10-20 five-example REVTeX 4.2f compilation and 120 checks",
+    "Historical 29-source/32-assertion typography matrix"
+  ],
+  "claims": {
+    "new_APS_requirement": false,
+    "fresh_APS_policy_review": false,
+    "new_model_behavior_evaluation": false,
+    "statistical_or_causal_writing_improvement": false
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.16.0",
+    "matplotlib": "3.8.0",
+    "platform": "Windows, UTF-8 subprocess logs"
+  }
+}

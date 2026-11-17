@@ -1,5 +1,9 @@
 # Provenance and evidence boundaries
 
+## 1.2.3 author-supplied prose revision
+
+The author supplied revised installation and source archives on 2026-11-17, both still labeled 1.2.2. Three reference files contain substantive changes to prose rhythm, early physical interpretation and placement of reproducibility details. They are integrated without wording changes in 1.2.3. Thirty-eight additional files differ only in line endings; their previously released bytes are retained so shell helpers and historical fingerprints keep their original form. Input archive hashes and executed checks appear in the [1.2.3 report](RELEASE-1.2.3.md) and its validation JSON. No new behavioral, literature, figure or REVTeX results are inferred from the supplied archives.
+
 ## 1.2.2 direct-prose correction provenance
 
 The author requested omission of authorial disclaimers, unsolved-extension statements and unperformed-operation inventories from manuscript prose. The rule applies even to related work and first occurrences, with the actual methods, evidence and conditions stated directly. This is an author-selected writing preference. The [1.2.2 report](RELEASE-1.2.2.md) records a bounded comparison executed before the version bump on 2026-10-31, and separate release checks. One comparison fixture contains private manuscript material, so only aggregate results are public. Earlier full-manuscript, figure, literature and REVTeX evidence keeps its original execution date.

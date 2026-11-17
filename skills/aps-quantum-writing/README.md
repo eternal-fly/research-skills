@@ -4,17 +4,17 @@
 
 APS Quantum Writing is an English-language agent skill for planning, writing, and illustrating quantum and related physics research. It keeps the scientific argument, evidence, prose, and final layout connected throughout a manuscript workflow.
 
-**Author:** Luofei Wang · **Version:** 1.2.2 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
+**Author:** Luofei Wang · **Version:** 1.2.3 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
 
 > This project is source-available, not OSI-approved open-source software. Noncommercial use and private modifications are permitted. Commercial use and public redistribution/repackaging require separate permission, subject to the license's platform and third-party exceptions. Ordinary research outputs are treated separately.
 
-Release record: [1.2.2 validation](docs/RELEASE-1.2.2.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
+Release record: [1.2.3 validation](docs/RELEASE-1.2.3.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
 
 Version 1.2.2 includes the [short-format wording refinement](docs/PROSE-FOLLOWUP-2026-10-28.md) and the stronger [direct scientific prose rule](references/prl-direct-prose.md). The [1.2.1 package refresh record](docs/RELEASE-REFRESH-1.2.1-2026-10-28.md) remains available as dated release history.
 
 ## Start here
 
-1. Download `aps-quantum-writing-1.2.2.zip` and its checksum from the [v1.2.2 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.2).
+1. Download `aps-quantum-writing-1.2.3.zip` and its checksum from the [v1.2.3 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.3).
 2. Keep the complete `aps-quantum-writing` folder together. Read [installation](docs/INSTALL.md) for project-local, personal, and manual use.
 3. Ask your agent to read [SKILL.md](SKILL.md), then provide the manuscript, derivations/data, intended journal, and article type.
 
@@ -54,6 +54,8 @@ PRL, PRA, PRB, PRX Quantum, Physical Review Applied, Physical Review X, and Phys
 - Journal/type/role-aware heading checks, including PRL run-in dashes, other Letters' periods, independent numbered headings, and special end-matter roles.
 
 ## Figure planning and full-manuscript narrative
+
+Version 1.2.3 integrates the author's revised [natural prose](references/natural-prose.md), [Physical Review Applied](references/prapplied.md), and [direct-prose](references/prl-direct-prose.md) guidance. It develops sentence and paragraph variation within the existing punctuation preferences, grounds cross-disciplinary concepts in physical operations or intuitive explanations, and separates inference-determining conditions in the main text from exhaustive reproducibility details in appendices or tables. See the [integration and validation record](docs/RELEASE-1.2.3.md).
 
 Version 1.2.2 requires a final [direct-prose pass](references/prl-direct-prose.md) across the abstract, main text, captions, conclusion, appendices and Supplemental Material. Omit unfinished-work inventories instead of recasting them as passive caveats or future-work promises. Scope claims through the actual method and evaluation, retaining genuine measured failures, null findings, counterexamples and uncertainty. The [release report](docs/RELEASE-1.2.2.md) distinguishes the focused pre-release comparison from packaging checks and inherited evidence.
 
