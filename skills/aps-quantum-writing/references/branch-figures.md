@@ -6,16 +6,9 @@ For new or substantially reorganized figures, use the fixed [figure planning rec
 
 ## From a claim to discriminating evidence
 
-For every figure, first ask: What physical judgment should it establish? Which two explanations, regimes, or predictions must the reader distinguish? What data are available, and what is missing? Choose quantities, controls, and coordinates accordingly, rather than defaulting to mean-value scatter plots for every parameter.
+Identify the supported physical judgment, the observations that enter it, and the comparable conditions. An ordered scan, a set of independent samples, a field on two coordinates and a collection of estimates with uncertainty have different data requirements. Keep the unit of observation, coordinates, masks and uncertainty explicit.
 
-| Scientific task | Suitable evidence geometry | Required inputs and limits |
-|---|---|---|
-| Identify interference, hybridization, resonances, or mode structure | Spectra/complex poles, frequency response, avoided crossings, or phase response, with uncoupled or detuned controls | Actual spectra, a model, or complex amplitudes; an intensity curve alone may not distinguish mechanisms |
-| Distinguish transients, transport, and steady states | Time traces, space-time maps, impulse responses, or correlation functions, with varied initial states/controls | Time-resolved data, time units, and control conditions; do not reconstruct trajectories from means |
-| Identify state structure or fluctuations | Distributions, histograms, state-space or Wigner plots, or joint distributions | Raw samples or a valid state reconstruction with its method; mean error bars cannot stand in for missing distribution data |
-| Test scaling laws and phase boundaries | Raw curves for multiple sizes, scaling collapse, phase diagrams with representative cuts, or theoretical asymptotes | Multiple sizes/ranges and a fitting basis; a fit to a few points does not automatically establish a limiting law |
-| Separate a mechanism from alternative explanations | The same observable under controlled mechanism-on/off conditions, residuals, or differences | Actual controls or a reproducible model; state which variables change together |
-| Compare theory, algorithms, or measurement precision | Error, bound, or performance curves, discrete points, and necessary uncertainties | Means/scatter may be exactly appropriate; do not replace them with unsupported heatmaps merely for variety |
+Browse the [visual forms and palette collections](data-figures.md) for independent choices of marks, layout and color. Both collections are available across the figure branch. Reuse identities already established by the manuscript.
 
 A finite-size trend is not a scaling collapse; spectral collapse is not data collapse; deterministic time evolution is not a stochastic single-shot trajectory; a Wigner quasiprobability is not an ordinary sample histogram. Name the actual data object instead of substituting visually similar evidence.
 

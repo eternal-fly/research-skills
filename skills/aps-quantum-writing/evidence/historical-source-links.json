@@ -1,0 +1,66 @@
+{
+  "commit": "a3bac355dd5e38638dff7ebc67985ae5708cda56",
+  "scope": "Original multilingual records and the earlier figure-note translation. Each digest identifies the original file at the linked revision.",
+  "files": [
+    {
+      "file": "evidence/astra-writing-1.2.4/writing-task.md",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/astra-writing-1.2.4/writing-task.md",
+      "sha256": "d346f0633bc356e4a67fdd4340fc12f9ee1daea651b86a16154405259110d21f"
+    },
+    {
+      "file": "evidence/astra-writing-1.2.4/control.txt",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/astra-writing-1.2.4/control.txt",
+      "sha256": "e7a854e78832abfe7981e5f0b5b841beff4445ad130426e09846fafcfa4a66c3"
+    },
+    {
+      "file": "evidence/astra-writing-1.2.4/baseline.txt",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/astra-writing-1.2.4/baseline.txt",
+      "sha256": "b44ac5cbbcd3900e50550645be6a19d9117e35b06c6ffd5f68d6bb05f212edd5"
+    },
+    {
+      "file": "evidence/astra-writing-1.2.4/revised.txt",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/astra-writing-1.2.4/revised.txt",
+      "sha256": "aed354f86ac31b6df72a512ea8c955514c42f086397c4d85993270066f4ba52c"
+    },
+    {
+      "file": "evidence/short-format-followup-2026-10-28/cases.md",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/short-format-followup-2026-10-28/cases.md",
+      "sha256": "b96b3b7a91244e14392eebaa7c18aabc6580ee8f46fc17128edd05392d619065"
+    },
+    {
+      "file": "evidence/short-format-followup-2026-10-28/baseline.md",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/short-format-followup-2026-10-28/baseline.md",
+      "sha256": "c40dde76b57f542088b12580c8763865a9744f02deaf8ed6f7bd835980a8bf05"
+    },
+    {
+      "file": "evidence/short-format-followup-2026-10-28/revised.md",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/short-format-followup-2026-10-28/revised.md",
+      "sha256": "746bb6f73cf4342372dd1230b0940e93c5c06baea3c2f5ef4e945c84e16e8a9c"
+    },
+    {
+      "file": "tests/prose-conventions-cases/03-chinese.md",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/tests/prose-conventions-cases/03-chinese.md",
+      "sha256": "f5bbde82a0ee668c50923a8dd6dfb5ea1cb2edb136970c94ae3b7b506e7c1a14"
+    },
+    {
+      "file": "evidence/prose-behavior-1.2.1/baseline/03-chinese.md",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/baseline/03-chinese.md",
+      "sha256": "31ee7a29351d03282aa51ba6292cea8793f32478e32e5e0fc7125ba04244063f"
+    },
+    {
+      "file": "evidence/prose-behavior-1.2.1/revised/03-chinese.md",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/revised/03-chinese.md",
+      "sha256": "bf217f95048bc5b3a429fca2961d514d73e85f48d953100e959c7204e0ec760c"
+    },
+    {
+      "file": "evidence/prose-behavior-1.2.1/results.json",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/results.json",
+      "sha256": "4767fe24c77c5735a66badd11844cd4156ae290d93bac79bebbf23d035113e67"
+    },
+    {
+      "file": "docs/FIGURE-REVISION.zh-CN.md",
+      "url": "https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/docs/FIGURE-REVISION.zh-CN.md",
+      "sha256": "acc4e458f4a584d5522478a786ea888a89a8ae39f538182737d409794c3384b3"
+    }
+  ]
+}

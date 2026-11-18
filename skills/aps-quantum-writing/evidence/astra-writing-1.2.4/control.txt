@@ -1,3 +1,0 @@
-At 4 K, the paired fluorescence measurements give a normalized intensity difference of $0.02 \pm 0.05$ (standard error)~\cite{pairing}. At this precision, we resolve no difference in fluorescence intensity between the two preparations.
-
-在相同读出维数下，我们分别在长度为 8、16 和 24 的链上比较了基于响应的读出选择规则与参考规则。在这三个长度下，基于响应的规则均给出了较低的平均预测误差。

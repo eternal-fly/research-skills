@@ -10,6 +10,8 @@ Applies to PRL, PRA, PRB, PRX Quantum, Physical Review Applied, Physical Review 
 
 ## Planning and column preference
 
+The [visual forms and palette collections](data-figures.md) place the original five-color cycle, cividis and RdBu_r beside ten additional palette options. Shapes, line styles and panel arrangements can be chosen independently. The [catalog](../assets/data-palettes.json) records the exact colors and scale definitions.
+
 Use the [fixed planning record](figure-planning-record.md) to connect the physical discrimination, panel roles, data lineage and visual choices. Unless specified otherwise by the user, start at single-column width. Move to double column only when an essential mechanism/comparison, scientific geometry, or final-size legibility cannot be retained after reasonable layout repair; record that decision and recheck the actual export/insertion size. This is a configurable workflow preference, not an APS requirement. Multiple panels can fit one column, and even two coupled panels can need both columns. Near-square scalar plotting areas and the exceptions below remain in force.
 
 ## Shared baseline: inspect the generated appearance

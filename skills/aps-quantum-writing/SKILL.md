@@ -17,6 +17,8 @@ This is one skill with three task-dependent branches. Do not load every referenc
 - **WRITING**: For drafting, developing, or restructuring manuscripts, introductions, proofs, conclusions, appendices, Supplemental Material, citations, and prose, read the [writing branch](references/branch-writing.md). Fully develop the physical problem and literature gap, and explain the reasoning clearly. A local one-sentence edit can be handled directly.
 - **FIGURES**: For designing, generating, and checking scientific data plots and mechanism, apparatus, or workflow diagrams, read the [figures branch](references/branch-figures.md). First choose discriminating evidence and physical relationships; then use its fixed figure-plan fields, assign flexible panel roles, and choose the figure type, layout, and style. Quantum-domain recipes are on-demand references. Start single-column unless specified otherwise, widening only when mechanism, geometry, or final-size readability requires it.
 
+For quantitative artwork, the [visual forms and palette collections](references/data-figures.md) offer independent choices of marks, layout and color. Preserve an established color identity across related panels.
+
 PLANNING coordinates WRITING and FIGURES for a complete manuscript. These are the only three top-level branches. The user's existing choices of journal, language, data, structure, and layout take precedence.
 
 ## Abstract tasks: use the dedicated writing reference

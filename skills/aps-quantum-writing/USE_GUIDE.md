@@ -5,3 +5,4 @@ The skill entry is [SKILL.md](SKILL.md). Load only the planning, writing, or fig
 
 For journal-specific headings, see [microtypography](references/microtypography.md).
 For evidence coverage, see [provenance](docs/PROVENANCE.md).
+Browse the [visual forms and palette collections](references/data-figures.md) or open the [English figure gallery](assets/data-figures/gallery.pdf).

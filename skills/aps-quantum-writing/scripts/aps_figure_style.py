@@ -27,6 +27,28 @@ def schematic_palette(name='floquet'):
     raise KeyError(f'Unknown schematic palette: {name}')
 
 
+def data_palette(name='aps-cycle'):
+    """Return the named data palette, including scale type and ordered stops when applicable."""
+    path = Path(__file__).resolve().parents[1] / 'assets' / 'data-palettes.json'
+    with path.open(encoding='utf-8') as source:
+        return json.load(source)['palettes'][name]
+
+
+def data_colormap(name):
+    """Return a local scalar colormap. Preserve native Matplotlib defaults for original scales."""
+    spec = data_palette(name)
+    if 'matplotlib_cmap' in spec:
+        cmap = mpl.colormaps[spec['matplotlib_cmap']].copy()
+    elif 'stops' in spec:
+        cmap = mpl.colors.LinearSegmentedColormap.from_list(name, spec['stops'], N=257)
+    else:
+        raise ValueError(f'{name} supplies named mark colors; select them with data_palette().')
+    missing = spec['colors'].get('missing', spec['colors'].get('undefined'))
+    if missing:
+        cmap.set_bad(missing)
+    return cmap
+
+
 PROFILES = {
     'prl': {'width_mm': 85, 'height_mm': 105},
     'pra': {'width_mm': 85, 'height_mm': 68},

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.5 (2026-11-18)
+
+- Offer the original data colors and ten additional palettes side by side. The established plotting cycle, scalar scales, schematic palettes and Floquet preset remain available.
+- Present visual forms as a general collection of marks, layers and layouts. A reproducible English gallery illustrates their construction using synthetic coordinates.
+- Distribute English instructions, examples and documentation. The existing dated bilingual study records are available at their original public revision.
+
 ## 1.2.4 (2026-11-17)
 
 - Keep sound prose intact. Follow the central question through its key idea and evidence to a physical answer. Remove unsupported implications from the manuscript and Supplemental Material while preserving genuine null findings, assumptions and uncertainty.

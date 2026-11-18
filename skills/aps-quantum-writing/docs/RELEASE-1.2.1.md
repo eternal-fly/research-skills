@@ -12,7 +12,7 @@ Literature discussion describes existing research or verified authors' recent wo
 
 Five paired cases produced ten unedited outputs in fresh contexts. They cover English PRL prose, a technical Supplement, Chinese body/supporting prose, incomplete attribution with a bibliography, and principal/secondary/Note added heading roles. Four baseline outputs retain requested literature-wording violations; none of the revised outputs does. All ten were manually read for scientific preservation. Both conditions already removed explanatory punctuation, so no punctuation-effectiveness improvement is claimed.
 
-See the [raw-output review](../evidence/prose-behavior-1.2.1/review.md) and [per-case fingerprints and results](../evidence/prose-behavior-1.2.1/results.json). Five preliminary calls with incorrectly escaped inputs were excluded and all baseline cases rerun after fixture repair. This is a focused synthetic check, not a new full-manuscript benchmark or a statistical efficacy claim.
+See the [raw-output review](../evidence/prose-behavior-1.2.1/review.md) and [per-case fingerprints and results](https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/prose-behavior-1.2.1/results.json). Five preliminary calls with incorrectly escaped inputs were excluded and all baseline cases rerun after fixture repair. This is a focused synthetic check, not a new full-manuscript benchmark or a statistical efficacy claim.
 
 ## Release checks
 

@@ -1,0 +1,176 @@
+{
+  "scope": "Two optional color collections for data marks and scales on white. The original five-color sequence remains the default plotting cycle.",
+  "collections": {
+    "original": [
+      "aps-cycle",
+      "cividis",
+      "RdBu_r"
+    ],
+    "additional": [
+      "condition-pair",
+      "cohort-distributions",
+      "class-identity",
+      "trace-pair",
+      "focus-context",
+      "magnitude-blue",
+      "signed-balance",
+      "epoch-windows",
+      "feature-order",
+      "wrapped-phase"
+    ]
+  },
+  "palettes": {
+    "aps-cycle": {
+      "name": "Five-color cycle",
+      "kind": "categorical",
+      "encoding": "Five identity colors in the established plotting order.",
+      "colors": {
+        "blue": "#0072B2",
+        "vermilion": "#D55E00",
+        "green": "#009E73",
+        "purple": "#CC79A7",
+        "ink": "#222222"
+      }
+    },
+    "cividis": {
+      "name": "Cividis",
+      "kind": "sequential",
+      "encoding": "The original Matplotlib sequential scale.",
+      "matplotlib_cmap": "cividis",
+      "colors": {}
+    },
+    "RdBu_r": {
+      "name": "Blue, white and red",
+      "kind": "diverging",
+      "encoding": "The original reversed red-blue Matplotlib scale.",
+      "matplotlib_cmap": "RdBu_r",
+      "colors": {}
+    },
+    "condition-pair": {
+      "name": "Paired tones",
+      "kind": "categorical",
+      "colors": {
+        "control": "#34434B",
+        "intervention": "#A34451",
+        "control_band": "#DFE4E6",
+        "intervention_band": "#EFD7DA",
+        "pair_link": "#AFB6BA"
+      },
+      "encoding": "Two mark colors, two matching fills and a neutral link."
+    },
+    "cohort-distributions": {
+      "name": "Three tones with tints",
+      "kind": "categorical",
+      "colors": {
+        "blue": "#48668C",
+        "ochre": "#906025",
+        "rose": "#934B60",
+        "blue_fill": "#CCD8E7",
+        "ochre_fill": "#EBD6B5",
+        "rose_fill": "#E9CBD3"
+      },
+      "encoding": "Three dark strokes and three lighter fills in matching order."
+    },
+    "class-identity": {
+      "name": "Four category colors",
+      "kind": "categorical",
+      "colors": {
+        "blue": "#416EB9",
+        "orange": "#A96228",
+        "purple": "#7D5FA5",
+        "green": "#387456"
+      },
+      "encoding": "Four independently distinguishable nominal hues."
+    },
+    "trace-pair": {
+      "name": "Teal and berry",
+      "kind": "categorical",
+      "colors": {
+        "teal": "#26716D",
+        "berry": "#963E63",
+        "teal_band": "#CFE4E0",
+        "berry_band": "#EAD5DE"
+      },
+      "encoding": "Two dark strokes and their lighter tints."
+    },
+    "focus-context": {
+      "name": "Accent and context",
+      "kind": "highlight",
+      "colors": {
+        "population": "#BCC6CF",
+        "series": "#3E5F83",
+        "selected": "#A24D24",
+        "reference": "#59636C"
+      },
+      "encoding": "A quiet field, a principal stroke, an accent and a reference ink."
+    },
+    "magnitude-blue": {
+      "name": "Blue gradient",
+      "kind": "sequential",
+      "stops": [
+        "#F1F6F9",
+        "#C8DFED",
+        "#8FBAD3",
+        "#4D86AA",
+        "#224D71"
+      ],
+      "colors": {
+        "missing": "#858585"
+      },
+      "encoding": "Five light-to-dark anchors with an independent missing-value color."
+    },
+    "signed-balance": {
+      "name": "Blue, neutral and brick",
+      "kind": "diverging",
+      "stops": [
+        "#365F91",
+        "#A8C8E0",
+        "#F5F3EF",
+        "#E7B4A0",
+        "#A54B3D"
+      ],
+      "colors": {
+        "missing": "#858585"
+      },
+      "encoding": "Two ordered arms meeting at a light neutral center."
+    },
+    "epoch-windows": {
+      "name": "Interval backgrounds",
+      "kind": "context",
+      "colors": {
+        "signal": "#396888",
+        "comparator": "#343D46",
+        "drive_window": "#F5DFE1",
+        "recovery_window": "#F9EDD2"
+      },
+      "encoding": "Two mark colors and two pale background fills."
+    },
+    "feature-order": {
+      "name": "Cream to plum",
+      "kind": "sequential",
+      "stops": [
+        "#F7F1DC",
+        "#E9C5AE",
+        "#C293A7",
+        "#8B627F",
+        "#50394F"
+      ],
+      "colors": {
+        "importance": "#996722",
+        "zero": "#747C84",
+        "missing": "#858585"
+      },
+      "encoding": "A light-to-dark sequence with a separate summary accent and reference ink."
+    },
+    "wrapped-phase": {
+      "name": "Closed color cycle",
+      "kind": "cyclic",
+      "matplotlib_cmap": "twilight_shifted",
+      "colors": {
+        "undefined": "#FFFFFF",
+        "mask_boundary": "#32383D"
+      },
+      "encoding": "A continuous scale whose two ends meet."
+    }
+  }
+}

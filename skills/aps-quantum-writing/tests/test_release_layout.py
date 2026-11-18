@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import re
 import unittest
+import zipfile
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +32,34 @@ def markdown_targets(text):
     return re.findall(r'\]\(([^)]+)\)', text)
 
 class ReleaseLayoutTests(unittest.TestCase):
+    def test_distribution_text_and_archived_text_are_english(self):
+        cjk = re.compile(r'[\u3400-\u9fff\u3040-\u30ff\uac00-\ud7af]')
+        legal_name = 'Copyright (c) 2026 ' + chr(0x65ec) + chr(0x5e38)
+        binary = {'.pdf', '.png', '.jpg', '.jpeg', '.zip'}
+
+        def check(name, data):
+            if Path(name).suffix.lower() in binary:
+                return
+            content = data.decode('utf-8-sig')
+            if name.endswith('.json'):
+                content = json.dumps(json.loads(content), ensure_ascii=False)
+            if name == 'licenses/RESEARCH-WRITING-SKILL-MIT.txt':
+                self.assertIn(legal_name, content)
+                content = content.replace(legal_name, '', 1)
+            self.assertIsNone(cjk.search(name + content), name)
+
+        for line in (ROOT/'SHA256SUMS').read_text().splitlines():
+            _, name = line.split('  ', 1)
+            with self.subTest(name=name):
+                path = ROOT / name
+                if path.suffix == '.zip':
+                    with zipfile.ZipFile(path) as archive:
+                        for item in archive.infolist():
+                            if not item.is_dir():
+                                check(item.filename, archive.read(item))
+                else:
+                    check(name, path.read_bytes())
+
     def test_release_documents_exist(self):
         for name in ('README.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md',
                      'docs/INSTALL.md', 'docs/USAGE.md', 'CONTRIBUTING.md'):

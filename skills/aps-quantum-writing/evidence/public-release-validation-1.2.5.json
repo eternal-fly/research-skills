@@ -1,0 +1,31 @@
+{
+  "version": "1.2.5",
+  "date": "2026-11-18",
+  "base_tag": "v1.2.4",
+  "base_commit": "a3bac355dd5e38638dff7ebc67985ae5708cda56",
+  "status": "Source and extracted candidate checks passed.",
+  "palette_compatibility": {
+    "original_data_options": ["aps-cycle", "cividis", "RdBu_r"],
+    "additional_options": 10,
+    "checks": "Verified original cycle order, native scalar lookup tables including special colors, and opt-in palette isolation. Additional swatches and continuous stops retained their earlier values.",
+    "schematics": "The original catalog, ten study families, Floquet preset, generator and associated shipped example files match the previous release."
+  },
+  "visual_gallery": {
+    "pages": 5,
+    "language": "English",
+    "data": "Synthetic coordinates, samples and joint counts.",
+    "pdf_sha256": "c6c5a7955dc2a6a750f89ed558b99c858a1b4f47927abda0926e68158c32ef51",
+    "review": "Rendered all pages with Poppler. Checked chart titles, legends, type, colorbars, scalar endpoints and markers. Verified paired panels share arrays, extents and numeric limits. Both font faces are embedded.",
+    "reproduction": "Regenerated the gallery from the extracted candidate. It was byte-identical on the local rendering environment."
+  },
+  "distribution": {
+    "source_skill_tests": 37,
+    "extracted_skill_tests": 37,
+    "builder_regression_tests": 12,
+    "skill_frontmatter": "Passed.",
+    "language_checks": "Checked distributed text, decoded JSON, historical archive text and extracted text of 23 PDFs containing 32 pages. The upstream English license retains its exact copyright line.",
+    "archive_checks": "Checked safe member paths, CRCs, complete manifest coverage and byte identity of each member against the source index. Checked all five attached asset names and the external checksums in the local build.",
+    "english_history": "12 historical supporting files have revision-pinned accessible locations and verified original hashes."
+  },
+  "historical_scope": "Manuscript benchmarks, literature reading and REVTeX compilation retain their dated release records."
+}

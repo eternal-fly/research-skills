@@ -4,7 +4,7 @@ Baseline v1.2.3 is commit `150b29f56a660a7f85bde856df480e73eb8444e8». The writi
 
 ## What happened in the writing comparison
 
-Three independent GPT-6.2 Astra sessions received the same two synthetic excerpts in their original languages. One used the task alone, one read the released 1.2.3 guidance, and one read the revised guidance. Each condition ran once. [Task](../evidence/astra-writing-1.2.4/writing-task.md) · [Task alone](../evidence/astra-writing-1.2.4/control.txt) · [1.2.3](../evidence/astra-writing-1.2.4/baseline.txt) · [1.2.4 candidate](../evidence/astra-writing-1.2.4/revised.txt)
+Three independent GPT-6.2 Astra sessions received the same two synthetic excerpts in their original languages. One used the task alone, one read the released 1.2.3 guidance, and one read the revised guidance. Each condition ran once. [Task](https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/astra-writing-1.2.4/writing-task.md) · [Task alone](https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/astra-writing-1.2.4/control.txt) · [1.2.3](https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/astra-writing-1.2.4/baseline.txt) · [1.2.4 candidate](https://github.com/eternal-fly/research-skills/blob/a3bac355dd5e38638dff7ebc67985ae5708cda56/skills/aps-quantum-writing/evidence/astra-writing-1.2.4/revised.txt)
 
 | Passage | Task alone | 1.2.3 | 1.2.4 candidate |
 |---|---|---|---|
