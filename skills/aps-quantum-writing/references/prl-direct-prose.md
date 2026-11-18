@@ -1,6 +1,6 @@
 # Remove Defensive Prose: Let the Physical Results Carry the Argument
 
-Apply this reference when drafting or revising manuscript prose and before delivering the text. It draws on PRL's narrative logic without forcing manuscripts into a fixed paragraph template. The same editorial preference applies in the manuscript's requested language.
+Use the final read to check what the paragraph establishes. A passage that already names the finding, its conditions and its physical meaning can stand as written. The same judgment applies in the manuscript's requested language.
 
 ## Omit unfinished work instead of describing its absence
 
@@ -122,7 +122,7 @@ After: "Independent local-response tests give a low mean target-wise error for a
 
 ## Final manuscript pass
 
-Inspect the actual revised prose, including its last paragraphs and all supporting material. Locate phrases equivalent to "we do not claim", "has not been done", "remains unresolved", "not yet validated", "does not yet constitute", and "future work should" in the requested language. Check their function, not just their spelling. Delete inventories of unfinished work; rewrite a mixed sentence to retain its completed result or necessary method condition. Read again to ensure the deleted claim has not reappeared as a synonym, future promise, or qualification elsewhere.
+Read the ending in context. A sentence such as “This opens a route to universal calibration” can reintroduce an untested generalization without a single negative word. If deleting it leaves the physical answer complete, stop there. If it also contains a necessary assumption, attach that assumption to the finding. Apply the same check in captions and supporting material. Read an observed null or a counterexample for its scientific meaning and keep it.
 
 Confirm that actual approximations, simulation or experiment status, tested sizes, measurement uncertainty, citation keys, and genuine negative findings remain intact. A word search is only a review aid. Keep a necessary process-status report or a request for an indispensable missing input outside the manuscript; this editorial rule never turns an unexecuted validation into a passed test.
 

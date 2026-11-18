@@ -1,0 +1,156 @@
+{
+  "version": "1.2.4",
+  "source_baseline": {
+    "tag": "v1.2.3",
+    "commit": "150b29f56a660a7f85bde856df480e73eb8444e8"
+  },
+  "writing_comparison": {
+    "model": "gpt-6.2-astra",
+    "sessions": 3,
+    "excerpts_per_session": 2,
+    "repetitions_per_condition": 1,
+    "input_and_output_sha256": {
+      "baseline.txt": "b44ac5cbbcd3900e50550645be6a19d9117e35b06c6ffd5f68d6bb05f212edd5",
+      "control.txt": "e7a854e78832abfe7981e5f0b5b841beff4445ad130426e09846fafcfa4a66c3",
+      "revised.txt": "aed354f86ac31b6df72a512ea8c955514c42f086397c4d85993270066f4ba52c",
+      "writing-task.md": "d346f0633bc356e4a67fdd4340fc12f9ee1daea651b86a16154405259110d21f"
+    },
+    "interpretation": "All omitted the two speculative extensions. Both skill conditions preserved the English paragraph verbatim. Only the revised output explicitly described independent evaluation within each chain length. Qualitative observation on these excerpts."
+  },
+  "source_figures": {
+    "reopened": 10,
+    "publisher_editions": 4,
+    "author_manuscripts": 6,
+    "hex_values": "Author-supplied approximate rendered samples. This check inspected the figure pages and the role assignments.",
+    "sources": [
+      {
+        "doi": "10.1103/2tt3-yndr",
+        "figure": "1(a,b)",
+        "pdf_page": 3,
+        "edition": "version of record",
+        "pdf_sha256": "9490862b35888a4e3efd1a451d6592a9ce7bb094733b8a9e389147d6869d9cfa"
+      },
+      {
+        "doi": "10.1103/xysy-q3fp",
+        "figure": "1",
+        "pdf_page": 3,
+        "edition": "version of record",
+        "pdf_sha256": "d3388003af84a5e8af22902cee7cd6a4455f4f8a801b11ebd6b530d655d19219"
+      },
+      {
+        "doi": "10.1103/b7ck-8wh4",
+        "figure": "2",
+        "pdf_page": 6,
+        "edition": "version of record",
+        "pdf_sha256": "87f7c0a261de40d0dde1edcbf21cf25f307b538f92d09a89311721994937e50e"
+      },
+      {
+        "doi": "10.1103/149q-4z6s",
+        "figure": "6",
+        "pdf_page": 11,
+        "edition": "author manuscript",
+        "pdf_sha256": "ffc6a9330e3bfe54a18b32dd49eccaaa1cd3095b90d29f59f3fa8126e192e575"
+      },
+      {
+        "doi": "10.1103/1cmc-njt9",
+        "figure": "1",
+        "pdf_page": 4,
+        "edition": "author manuscript",
+        "pdf_sha256": "f3e3fbc8500257deb2c76a8c3f71b353d8c9b2b6924f122b58c16be124506447"
+      },
+      {
+        "doi": "10.1103/gdbf-cjz4",
+        "figure": "1(a\u2013c)",
+        "pdf_page": 4,
+        "edition": "author manuscript",
+        "pdf_sha256": "d5f87dfd98fdebacd66be71a24b5f48f2bb3c083c9cc30d590d66956f9e77823"
+      },
+      {
+        "doi": "10.1103/5wpc-w64n",
+        "figure": "1",
+        "pdf_page": 3,
+        "edition": "author manuscript",
+        "pdf_sha256": "e1c0db5cb595289b8d14e045228e57e057e84d0298d694cc7732f9a595760a89"
+      },
+      {
+        "doi": "10.1103/wsvz-mstf",
+        "figure": "1(a)",
+        "pdf_page": 3,
+        "edition": "author manuscript",
+        "pdf_sha256": "7c94db23948d4bdd64ee3706bc2f15dbfb599a4ec156019d86b40759e79351af"
+      },
+      {
+        "doi": "10.1103/n766-4z8v",
+        "figure": "1(a\u2013e)",
+        "pdf_page": 4,
+        "edition": "author manuscript",
+        "pdf_sha256": "b53850d6cdf911dffa733b9f3a7fa513522d4fe1f7575586e93a702768b3c845"
+      },
+      {
+        "doi": "10.1103/jknv-3tx7",
+        "figure": "1(a\u2013c)",
+        "pdf_page": 2,
+        "edition": "version of record",
+        "pdf_sha256": "83c8465a6413c530977fb48084497bedccecb7e673b048610bd940457cd4a9d8"
+      }
+    ]
+  },
+  "synthetic_figure": {
+    "dimensions_mm": [
+      85,
+      63
+    ],
+    "pdf_page_box_pt": [
+      240.945,
+      178.583
+    ],
+    "pages": 1,
+    "pdf_embedded_font_subsets": 4,
+    "svg_text_elements": 21,
+    "svg_embedded_images": 0,
+    "color_and_grayscale_proof": "Inspected renders of the final PDF. Wires clear gate labels. The return and the meter are distinguishable. Markers and line styles distinguish the inset traces.",
+    "files": {
+      "floquet-period.pdf": "fba58e498971abbbaaf76f79207ccb6780a9e4a2e688ae3fcf17bc7b2abcc8d6",
+      "floquet-period.png": "d85d090ebd5f7cb8c42ee171f1b71748af3fe8b7c1b249108d253ed0ef054463",
+      "floquet-period.svg": "d7e98ce5827bd69c87787604834e7d20edcf42d07228b8758d12228b86b57f72"
+    }
+  },
+  "inherited": {
+    "heading_examples": "Five-source REVTeX 4.2f execution dated 2026-10-20.",
+    "historical_typography": "29 sources and 32 assertions from the earlier matrix.",
+    "other": "Prior complete manuscript and supplement applications, earlier abstract scenarios, numerical example figures and the broad source-review corpus keep their original execution evidence."
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.16.0",
+    "matplotlib": "3.8.0",
+    "platform": "Windows"
+  },
+  "fresh_release_checks": {
+    "source_skill_suite": {
+      "passed_methods": 29,
+      "breakdown": {
+        "distribution": 6,
+        "mechanism": 2,
+        "plan_structure": 14,
+        "review_bookkeeping": 5,
+        "schematic_palette_and_model": 2
+      }
+    },
+    "builder_suite": {
+      "passed_methods": 10,
+      "scope": "Two regression behaviors for each of the five versioned builders."
+    },
+    "packaged_preflight": {
+      "passed_methods": 29,
+      "manifest_entries": 212,
+      "archive_crc_and_readback": "passed",
+      "figure_regeneration": "PDF, SVG and PNG byte-identical to the included exports on this environment with SOURCE_DATE_EPOCH=1794873600."
+    },
+    "skill_frontmatter": "passed",
+    "figure_plan_structure": "passed",
+    "release_workflow_syntax": "YAML parsed and all three shell blocks syntax-checked.",
+    "publication": "The GitHub Actions run associated with the release commit records publication and remote readback."
+  }
+}

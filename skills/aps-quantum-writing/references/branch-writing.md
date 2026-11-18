@@ -2,7 +2,7 @@
 
 Use this branch for manuscript prose, introductions, conclusions, and references. [PLANNING](branch-planning.md) coordinates the target, outline, title/abstract, and layout; [FIGURES](branch-figures.md) handles graphical evidence. Follow the user's requested language. The English examples below are original illustrations of expression.
 
-For main-text and supporting-prose edits, apply [prose punctuation and literature wording](prose-conventions.md), including local revisions. Write connected sentences without prose colons or explanatory dashes, preserve genuine heading joins and mathematical/source syntax, and introduce prior work through its scientific contribution with accurate citations. Apply [direct scientific prose](prl-direct-prose.md) during drafting and its final manuscript pass before delivery. Omit statements about work not performed or problems left unsolved, including related extensions and one-off disclaimers; state the completed result and its actual conditions directly.
+Apply [prose punctuation and literature wording](prose-conventions.md) in local edits and supporting material. Preserve heading joins, notation, citations and the distinction between simulation, measurement and proof. On the final read, follow what each sentence adds to the argument. Keep clear prose intact. For an unsupported qualification or prospective claim, use [direct scientific prose](prl-direct-prose.md).
 
 ## Continue from the background, target, and argument
 

@@ -1,5 +1,9 @@
 # Provenance and evidence boundaries
 
+## Writing comparison and schematic colors in 1.2.4
+
+The author supplied approximate HEX values and proposed color roles from ten figures. The release revisited the figure pages in four APS versions of record and six identified author manuscripts. Each catalog entry identifies the edition, page, figure and DOI. The new two-spin diagram and the data in its inset come from the model defined with the example. The bilingual comparison uses two synthetic manuscript excerpts. [Figure sources](../references/schematic-palettes.md) · [Release evidence](RELEASE-1.2.4.md)
+
 ## 1.2.3 author-supplied prose revision
 
 The author supplied revised installation and source archives on 2026-11-17, both still labeled 1.2.2. Three reference files contain substantive changes to prose rhythm, early physical interpretation and placement of reproducibility details. They are integrated without wording changes in 1.2.3. Thirty-eight additional files differ only in line endings; their previously released bytes are retained so shell helpers and historical fingerprints keep their original form. Input archive hashes and executed checks appear in the [1.2.3 report](RELEASE-1.2.3.md) and its validation JSON. No new behavioral, literature, figure or REVTeX results are inferred from the supplied archives.

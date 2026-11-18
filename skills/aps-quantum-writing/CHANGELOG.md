@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.4 (2026-11-17)
+
+- Keep sound prose intact. Follow the central question through its key idea and evidence to a physical answer. Remove unsupported implications from the manuscript and Supplemental Material while preserving genuine null findings, assumptions and uncertainty.
+- Route schematic design through physical connections, local returns and shared identity marks. Ten source-linked palettes and a Floquet preset assign colors to scientific roles.
+- Ship an editable single-column two-spin example with a calculated readout and a numerical cross-check. The [release report](docs/RELEASE-1.2.4.md) records a bounded GPT-6.2 Astra writing comparison and figure proofs.
+
 ## 1.2.3 — Author-supplied prose and exposition refinement (2026-11-17)
 
 - Integrate the author's exact revised natural-prose, Physical Review Applied and direct-prose guidance.

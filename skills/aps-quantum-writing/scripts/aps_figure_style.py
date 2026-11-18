@@ -4,6 +4,7 @@ Requires Matplotlib. Data selection, fitting and uncertainty remain caller-owned
 """
 from contextlib import contextmanager
 from pathlib import Path
+import json
 import matplotlib as mpl
 from cycler import cycler
 
@@ -11,6 +12,21 @@ from cycler import cycler
 COLORS = ('#0072B2', '#D55E00', '#009E73', '#CC79A7', '#222222')
 MARKERS = ('o', 's', '^', 'D', 'v')
 LINESTYLES = ('-', '--', '-.', ':', '-')
+
+
+def schematic_palette(name='floquet'):
+    """Read the named schematic's role colors independently of Matplotlib's data cycle."""
+    path = Path(__file__).resolve().parents[1] / 'assets' / 'schematic-palettes.json'
+    with path.open(encoding='utf-8') as source:
+        catalog = json.load(source)
+    if name == 'floquet':
+        return catalog['floquet']
+    for study in catalog['studies']:
+        if study['key'] == name:
+            return study['colors']
+    raise KeyError(f'Unknown schematic palette: {name}')
+
+
 PROFILES = {
     'prl': {'width_mm': 85, 'height_mm': 105},
     'pra': {'width_mm': 85, 'height_mm': 68},

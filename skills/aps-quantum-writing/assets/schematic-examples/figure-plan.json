@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "figure_id": "Two-spin-period",
+  "status": "ready",
+  "claim": "The two specified reset probabilities give different stroboscopic spin readouts in a two-spin Floquet model.",
+  "discrimination": "Compare the same observable at the same period and rotation angles.",
+  "evidence_sequence": ["Identify the unitary period and joint reset.", "Read the calculated spin expectation as a function of period."],
+  "main_text_location": "Standalone example, accompanying caption beside the model definition.",
+  "journal_article_type": "Synthetic single-column quantum physics illustration",
+  "layout": {"column": "single", "width_mm": 85, "height_mm": 63, "single_column_check": "passes", "reason": "Two spin wires share a period field, and a local return leaves room for a short time trace. The printed size and grayscale proof preserve its marker and line identities."},
+  "style_semantics": "Pale blue groups the period, mauve marks a joint reset and teal marks the Z meter. The warm point locates the Ising interaction. Each trace has its own marker and line style.",
+  "open_checks": [],
+  "deliverables": ["floquet-period.pdf", "floquet-period.svg", "floquet-period.png", "README.md", "../../scripts/draw_floquet_example.py"],
+  "panels": [
+    {
+      "id": "circuit", "role": "explanation", "secondary_roles": [],
+      "claim": "Two spin rotations precede a symmetric Ising interaction and a probabilistic joint reset.",
+      "observable_units": "Spin labels and dimensionless gates.", "conditions": "Both spins start in the ground state.",
+      "data_kind": "schematic", "data_status": "not_applicable",
+      "raw_source": "The model in README.md.", "processed_source": "Circuit drawing in draw_floquet_example.py.",
+      "transforms": "Two wires share the symmetric coupling.", "script_parameters": "Rotations 0.74 pi and coupling phase 0.36 pi.",
+      "comparison": "The circuit is common to both displayed probabilities.", "uncertainty": "Exact circuit definition.",
+      "challenge": "The meter labels the readout while the local return carries the state into the next period.",
+      "visual_encoding": "A pale shared field, gate glyphs, a coupling link and one dashed return path."
+    },
+    {
+      "id": "readout", "role": "finding", "secondary_roles": [],
+      "claim": "The calculated spin expectation differs between coherent evolution and evolution with joint reset.",
+      "observable_units": "Dimensionless expectation of Pauli Z on the first spin against integer periods.",
+      "conditions": "Input |00>, fixed angles and periods zero through eight.", "data_kind": "theory", "data_status": "available",
+      "raw_source": "The density-matrix recurrence in README.md.", "processed_source": "readout_trace in draw_floquet_example.py.",
+      "transforms": "Direct Pauli trace after each channel application.", "script_parameters": "p = 0 and 0.18 with fixed angles.",
+      "comparison": "Coherent evolution at p = 0.", "uncertainty": "Deterministic calculation at specified parameters.",
+      "challenge": "The two curves share a value at the initial period.", "visual_encoding": "Dashed line and open circles, solid line and filled squares."
+    }
+  ]
+}

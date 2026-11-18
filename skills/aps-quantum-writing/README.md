@@ -4,17 +4,17 @@
 
 APS Quantum Writing is an English-language agent skill for planning, writing, and illustrating quantum and related physics research. It keeps the scientific argument, evidence, prose, and final layout connected throughout a manuscript workflow.
 
-**Author:** Luofei Wang · **Version:** 1.2.3 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
+**Author:** Luofei Wang · **Version:** 1.2.4 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
 
 > This project is source-available, not OSI-approved open-source software. Noncommercial use and private modifications are permitted. Commercial use and public redistribution/repackaging require separate permission, subject to the license's platform and third-party exceptions. Ordinary research outputs are treated separately.
 
-Release record: [1.2.3 validation](docs/RELEASE-1.2.3.md). The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
+See the [1.2.4 release report](docs/RELEASE-1.2.4.md) for the writing comparison and the figure proofs. The supplied figure revision remains documented in [English](docs/FIGURE-REVISION-2026-10-22.md) and [Chinese](docs/FIGURE-REVISION.zh-CN.md).
 
 Version 1.2.2 includes the [short-format wording refinement](docs/PROSE-FOLLOWUP-2026-10-28.md) and the stronger [direct scientific prose rule](references/prl-direct-prose.md). The [1.2.1 package refresh record](docs/RELEASE-REFRESH-1.2.1-2026-10-28.md) remains available as dated release history.
 
 ## Start here
 
-1. Download `aps-quantum-writing-1.2.3.zip` and its checksum from the [v1.2.3 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.3).
+1. Download `aps-quantum-writing-1.2.4.zip` and its checksum from the [v1.2.4 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.4).
 2. Keep the complete `aps-quantum-writing` folder together. Read [installation](docs/INSTALL.md) for project-local, personal, and manual use.
 3. Ask your agent to read [SKILL.md](SKILL.md), then provide the manuscript, derivations/data, intended journal, and article type.
 
@@ -54,6 +54,8 @@ PRL, PRA, PRB, PRX Quantum, Physical Review Applied, Physical Review X, and Phys
 - Journal/type/role-aware heading checks, including PRL run-in dashes, other Letters' periods, independent numbered headings, and special end-matter roles.
 
 ## Figure planning and full-manuscript narrative
+
+Version 1.2.4 keeps a clean passage intact and checks the **meaning** of a caveat or prospective claim. For a mechanism schematic, organize the circuit, branches and readout around their physical connections. Choose color by what it identifies. [Ten figure palettes](references/schematic-palettes.md) · [Editable two-spin example](assets/schematic-examples/README.md)
 
 Version 1.2.3 integrates the author's revised [natural prose](references/natural-prose.md), [Physical Review Applied](references/prapplied.md), and [direct-prose](references/prl-direct-prose.md) guidance. It develops sentence and paragraph variation within the existing punctuation preferences, grounds cross-disciplinary concepts in physical operations or intuitive explanations, and separates inference-determining conditions in the main text from exhaustive reproducibility details in appendices or tables. See the [integration and validation record](docs/RELEASE-1.2.3.md).
 
@@ -96,6 +98,7 @@ python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 python scripts/generate_figure_examples.py --out /path/to/new-output/figures
 python scripts/generate_mechanism_examples.py --out /path/to/new-output/mechanisms
+python scripts/draw_floquet_example.py --out /path/to/new-output/circuit
 ```
 
 Choose a new output directory to preserve the shipped examples. Heading examples require a working LaTeX installation and REVTeX; instructions are included with the sources. Minimum compatible dependency versions are not claimed beyond the environment actually tested.

@@ -1,0 +1,170 @@
+{
+  "scope": "Approximate swatches supplied by the author from rendered figures. Roles describe uses in the cited figure. The Floquet preset is a separate editorial design for a new schematic.",
+  "floquet": {
+    "field": "#EDF2F6",
+    "boundary": "#A7B6C4",
+    "ink": "#263B4D",
+    "gate": "#D8E6EF",
+    "reset": "#E8E0EB",
+    "loop": "#8C728E",
+    "measurement": "#DDECEB",
+    "accent": "#E59E66"
+  },
+  "studies": [
+    {
+      "key": "fourier-layer",
+      "publication": "PRX Quantum",
+      "doi": "10.1103/2tt3-yndr",
+      "figure": "1(a,b)",
+      "use": "Carry a pale grouping field across a layer. Reserve amber and orange for operator or junction nodes.",
+      "colors": {
+        "module": "#C1DDEC",
+        "fourier_node": "#66AAD1",
+        "operator": "#F4D899",
+        "addition_activation": "#E59E66"
+      },
+      "source_pdf": "https://harvest.aps.org/v2/journals/articles/10.1103/2tt3-yndr/fulltext",
+      "edition": "version of record",
+      "pdf_page": 3
+    },
+    {
+      "key": "state-transition",
+      "publication": "PRX Quantum",
+      "doi": "10.1103/xysy-q3fp",
+      "figure": "1",
+      "use": "Keep successive states visually alike and name the transformation beside its arrow.",
+      "colors": {
+        "state": "#EBEBEB",
+        "transition": "#B187B1"
+      },
+      "source_pdf": "https://harvest.aps.org/v2/journals/articles/10.1103/xysy-q3fp/fulltext",
+      "edition": "version of record",
+      "pdf_page": 3
+    },
+    {
+      "key": "ion-regions",
+      "publication": "Physical Review Research",
+      "doi": "10.1103/b7ck-8wh4",
+      "figure": "2",
+      "use": "Reuse region identities from the chip to its tabular representation. Blue arrows show the mapping.",
+      "colors": {
+        "field": "#E3E3E3",
+        "zone_pink": "#CF9999",
+        "zone_green": "#B0D197",
+        "zone_yellow": "#D8DF87",
+        "zone_blue": "#93AAD3"
+      },
+      "source_pdf": "https://harvest.aps.org/v2/journals/articles/10.1103/b7ck-8wh4/fulltext",
+      "edition": "version of record",
+      "pdf_page": 6
+    },
+    {
+      "key": "repeated-blocks",
+      "publication": "Physical Review Applied",
+      "doi": "10.1103/149q-4z6s",
+      "figure": "6",
+      "use": "Mark segment types with short blue and green strokes and group repeated operations with a dashed boundary.",
+      "colors": {
+        "group": "#F5F5F5",
+        "segment_blue": "#006EAF",
+        "segment_green": "#81B366",
+        "gate": "#D9E7FB"
+      },
+      "source_pdf": "https://arxiv.org/pdf/2512.01120v3",
+      "edition": "author manuscript",
+      "pdf_page": 11
+    },
+    {
+      "key": "parallel-samplers",
+      "publication": "Physical Review A",
+      "doi": "10.1103/1cmc-njt9",
+      "figure": "1",
+      "use": "Carry each sampler's color along its own wires within a common neutral enclosure.",
+      "colors": {
+        "group": "#EAEAEA",
+        "sampler_1": "#E2A678",
+        "sampler_2": "#A0BFD6",
+        "sampler_n": "#8BCEA9"
+      },
+      "source_pdf": "https://arxiv.org/pdf/2505.00102v1",
+      "edition": "author manuscript",
+      "pdf_page": 4
+    },
+    {
+      "key": "qsp-rounds",
+      "publication": "Physical Review A",
+      "doi": "10.1103/gdbf-cjz4",
+      "figure": "1(a–c)",
+      "use": "Distinguish operations by their gate edges within gray rounds. Red denotes endpoint hybridization and magenta marks excitation-dependent phase shifts in the source.",
+      "colors": {
+        "round": "#D9D9D9",
+        "phase_edge": "#104862",
+        "rotation_edge": "#F2AA84"
+      },
+      "source_pdf": "https://arxiv.org/pdf/2508.20261v3",
+      "edition": "author manuscript",
+      "pdf_page": 4
+    },
+    {
+      "key": "parameter-encoding",
+      "publication": "Physical Review A",
+      "doi": "10.1103/5wpc-w64n",
+      "figure": "1",
+      "use": "Highlight the parameter-encoding operation along a dark wire leading to a cool neutral measurement block.",
+      "colors": {
+        "measurement": "#F0F2F4",
+        "wire": "#293241",
+        "encoding": "#FDDD81"
+      },
+      "source_pdf": "https://arxiv.org/pdf/2601.05457v2",
+      "edition": "author manuscript",
+      "pdf_page": 3
+    },
+    {
+      "key": "bath-ends",
+      "publication": "Physical Review Letters",
+      "doi": "10.1103/wsvz-mstf",
+      "figure": "1(a)",
+      "use": "Treat the bath as a faint field. Use distinct endpoint markers and a third fill for auxiliary sites.",
+      "colors": {
+        "bath": "#FEE7E7",
+        "left_end": "#B4C7E7",
+        "right_end": "#FFE699",
+        "auxiliary": "#CCB5DD"
+      },
+      "source_pdf": "https://arxiv.org/pdf/2511.05328v2",
+      "edition": "author manuscript",
+      "pdf_page": 3
+    },
+    {
+      "key": "control-trajectory",
+      "publication": "Physical Review B",
+      "doi": "10.1103/n766-4z8v",
+      "figure": "1(a–e)",
+      "use": "Reuse the control and evolution colors in trajectory strips. A strong orange can mark an individual gate.",
+      "colors": {
+        "control": "#ACE4FF",
+        "bernoulli": "#FABBBA",
+        "local_gate": "#FB8500"
+      },
+      "source_pdf": "https://arxiv.org/pdf/2504.10803v2",
+      "edition": "author manuscript",
+      "pdf_page": 4
+    },
+    {
+      "key": "reservoir-ports",
+      "publication": "PRX Quantum",
+      "doi": "10.1103/jknv-3tx7",
+      "figure": "1(a–c)",
+      "use": "Place dark reservoir nodes on white and confine high chroma to the labeled input and output ports.",
+      "colors": {
+        "core": "#003399",
+        "input": "#FF9D0A",
+        "output": "#0ACD0A"
+      },
+      "source_pdf": "https://harvest.aps.org/v2/journals/articles/10.1103/jknv-3tx7/fulltext",
+      "edition": "version of record",
+      "pdf_page": 2
+    }
+  ]
+}
