@@ -10,4 +10,10 @@ Connect the concrete question in a model or material to observables, then make t
 
 Paragraphs should advance physical judgments rather than merely report which parameters were scanned. See [APS formatting](aps-format.md) for specific requirements.
 
+## Introduction and conclusion
+
+Close the introduction by identifying the physical distinction and the observable that can resolve it. When the contribution is a new diagnostic, define what event it detects before comparing it with a familiar proxy. A parameter regime belongs beside the comparison if changing it changes the inference.
+
+For a mechanism paper, the closing paragraph can lead with the process, the signal it produces, and the range over which the connection holds. For a detection paper, a short account of why the usual measurement is difficult can precede the alternative observable. A calculation that predicts a measurable signal supports a prediction even when no measurement enters the study. [PRB passages](../evidence/paragraph-order-review.md#physical-review-b)
+
 These are literature observations and editorial choices associated with PRB-R01/R02/R03. For the source and version basis, see [Provenance](../docs/PROVENANCE.md).

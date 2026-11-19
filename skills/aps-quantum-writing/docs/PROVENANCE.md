@@ -1,5 +1,11 @@
 # Provenance and evidence boundaries
 
+## Introduction and conclusion passage review
+
+On November 19, 2026, a purposive subset of 21 papers from the original index was reopened, three per journal. The passage review records 13 APS versions of record and eight fixed author manuscripts. It identifies 20 concluding passages and one Letter that ends in Methods. The section locators and reading versions support conditional advice in the Writing branch and the seven journal profiles. The original corpus counts and earlier review scopes retain their historical meaning. [Passages and observations](../evidence/paragraph-order-review.md)
+
+A separate writing check applied the revised skill to four synthetic editing requests. The resulting passages preserved the reversal between inner-update and end-to-end timing, opened a finite-size result with its scaling law and boundary condition, distinguished a decoder proof from a simulation median, and carried a surface-identification question into the first observation in Results. These checks exercised editorial behavior.
+
 ## Writing comparison and schematic colors in 1.2.4
 
 The author supplied approximate HEX values and proposed color roles from ten figures. The release revisited the figure pages in four APS versions of record and six identified author manuscripts. Each catalog entry identifies the edition, page, figure and DOI. The new two-spin diagram and the data in its inset come from the model defined with the example. The bilingual comparison uses two synthetic manuscript excerpts. [Figure sources](../references/schematic-palettes.md) · [Release evidence](RELEASE-1.2.4.md)

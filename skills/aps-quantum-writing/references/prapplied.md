@@ -16,6 +16,12 @@ Load this reference as needed when the target is Physical Review Applied (PR App
 - When stochastic fabrication, noise, or repeated experiments make averages insufficient, show the relevant distributions, yields, tails, or failure channels. Include tests that affect the central conclusion, and express applicability through a clearly defined operating regime.
 - Generally prefer appendices within the main manuscript for detailed technical material, including hyperparameter grids, seed inventories, and dataset-cleaning logs; keep the core physical and methodological argument in the body. A Letter's full length budget cannot inherit PRL's End Matter exemption.
 
+## Introduction and conclusion
+
+At the end of the introduction, connect the practical bottleneck to the physical design variable and the metric that can judge it. The comparison can be specified here even when the numerical performance belongs with the results. For a shared control line, for example, the relevant sequence was the interference problem, the frequency spacing, and the predicted gate fidelity.
+
+When a device or design is the contribution, open the conclusion with the capability and its decisive comparison. If the verdict hinges on how advantage is counted, define the operational metric first, then give the conditioned verdict, including a measured or calculated null. Preserve the difference between modeled design performance and a demonstrated device capability. [Physical Review Applied passages](../evidence/paragraph-order-review.md#physical-review-applied)
+
 ## Figures
 
 Make the actual relationships among the apparatus, data processing, and feedback visible. Connect modules through clear operations, variables, and criteria, retaining necessary internal hardware or network structure. When comparing workflows, show differences with the same objects and visual encoding. Arrange parameter or method comparisons along explicit row and column dimensions, and place principle, pulse, or control schematics near the data they directly explain.

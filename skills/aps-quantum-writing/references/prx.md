@@ -16,6 +16,12 @@ Load this reference as needed when the target is Physical Review X (PRX), and co
 - For a mechanism paper, identify what observations, processing, fitting, and inference each support, and choose controls that distinguish competing explanations. For a performance paper, compare baselines, conditions, key resources, and errors together. State necessary conditions beside the supported conclusions, and omit inventories of work not performed or extensions left unsolved, including related tasks; apply the final pass in [direct scientific prose](prl-direct-prose.md#final-manuscript-pass).
 - Make the introduction, discussion, and conclusion intelligible to readers in neighboring areas of physics. Write the technical abstract and Popular Summary separately. For the latter, follow the journal-specific maximum of 150 words and organize around the problem, finding, and significance, avoiding a buildup of formulas and specialist abbreviations.
 
+## Introduction and conclusion
+
+The introduction can end on the specific physical origin or comparison at stake when Results begins by establishing where that distinction can be observed. A first paragraph identifying a material surface or a working point can be part of the answer's development. When the claim already has a compact formulation, state it and use a roadmap to distinguish the reasoning from the tests.
+
+Lead the closing passage with the physical judgment the evidence changes. Explain how each observation or calculation bears on it. For a platform paper, measured scale and performance may carry that judgment, while projected performance belongs to a separate claim. A summary embedded in Results and an Outlook that opens with a demonstrated capability are both viable. [Physical Review X passages](../evidence/paragraph-order-review.md#physical-review-x)
+
 ## Figures
 
 Use spatial placement to express scientific correspondence: put components beside their diagnostic quantities, give mathematical branches their actual decision criteria, and place theoretical predictions beside the results that test them. In multilayer mechanisms or computational workflows, retain object transformations, fixed versus updated states, and real connections. Schematics and data panels can coexist when they explain the same conclusion.

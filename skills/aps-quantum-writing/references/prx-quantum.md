@@ -10,4 +10,10 @@ Make the task, key idea, and resulting capability easy to understand before deve
 
 Write the Popular Summary separately for nonspecialist readers, explaining the problem, advance, and use. Replacing a few words in the technical abstract does not produce a popular summary. See [APS formatting](aps-format.md) for specific requirements.
 
+## Introduction and conclusion
+
+For a long construction, explain what task becomes tractable and the idea that makes it so. A roadmap can then distinguish where the guarantee is established, where the method is implemented, and what the benchmarks assess. Section references can also accompany the corresponding claims in a single overview.
+
+Open the conclusion with the construction and its guarantee when that pair is the advance. Numerical performance can follow on its own terms. For an experiment, the observed effect can lead instead. Name what the independent readouts agree on, then identify the range that the model reproduces. [PRX Quantum passages](../evidence/paragraph-order-review.md#prx-quantum)
+
 These are literature observations and editorial choices associated with PRXQ-R01/R02/R03/R06/R09. For the source and version basis, see [Provenance](../docs/PROVENANCE.md).

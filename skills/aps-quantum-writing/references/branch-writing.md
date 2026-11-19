@@ -29,7 +29,13 @@ The introduction performs connected tasks. Let the content determine paragraph c
 1. **The physical problem and why it matters:** Identify the actual system, observable, or theoretical relationship, and explain how the problem affects understanding, capabilities, or existing conclusions. Broad statements such as “quantum technologies are important” cannot replace a specific difficulty. Give readers in adjacent fields the concepts needed for subsequent inferences.
 2. **Existing approaches and mechanisms:** Organize the most relevant literature by physical mechanism, theoretical assumption, experimental capability, or methodological route. Explain what these approaches have already explained or achieved and where their applicability ends. Avoid a string of author names and phrases such as “extensively studied.”
 3. **The precise unresolved issue:** Express the gap as a verifiable distinction between existing results and the present question, such as two unresolved mechanisms, a missing observable, a restricted parameter range, or different applicability conditions. Compare the closest work specifically; do not claim “first” or “previously unstudied” before checking.
-4. **The contribution and evidence route:** Answer the preceding gap by stating the core result actually obtained and its evidential basis. Identify discriminating calculations, controls, or experimental signals. Do not preload every step and number into the introduction or substitute “this paper is organized as follows” for the contribution.
+4. **The contribution and its evidence.** Connect the preceding gap to the idea, observation, or calculation that can resolve it. Choose where to introduce the answer by reading the end of the introduction together with the opening of the main argument.
+
+### Closing the introduction
+
+**If the answer is intelligible here, give the contribution.** Name the distinction raised above, explain what makes the design or argument decisive, and give the finding or the comparison that will test it. A long paper can then guide readers to a derivation, control, or benchmark by saying what they will learn there. Section references can accompany substantive results, and a scientific synthesis can follow the roadmap. The reader should still know what the paper contributes if the section numbers are removed.
+
+**If the answer needs evidence the reader has yet to see, hand the question to the next section.** End on the precise alternatives, observable, or operating condition to be distinguished. Open the next section with the specimen, comparison, or measurement that starts to resolve them. The answer can emerge over several paragraphs. Read across the break to check that the reader can recognize what the first piece of evidence is for.
 
 After drafting, check whether readers understand why the problem is difficult, how far prior work reaches, the exact unresolved issue, and which part this manuscript answers. If the introduction consists only of field background followed by “Here we…”, return to the materials to develop the argument and references. If the materials are insufficient, formulate specific author questions or literature searches rather than lengthening the text with generalities.
 
@@ -59,11 +65,19 @@ Apply the main text's direct scientific style to appendices, End Matter, Supplem
 
 State approximation orders, noise models, finite sizes, sampling units, convergence evidence, proof conditions, and genuine negative results where they affect the inference. Keep those scientific statements and omit inventories of unperformed operations or unsolved extensions, whether related or unrelated. Removed self-defense does not become a supplementary limitations list or an impersonal "remains unresolved" sentence. Internal figure-plan challenges and delivery audit notes do not automatically belong in the scientific prose. Use [direct scientific prose](prl-direct-prose.md#appendices-and-supplemental-material) for the same retain/rewrite/delete decisions across all these locations.
 
-## Conclusion: central question → supported physical claim → significance
+## Conclusion
 
-Return first to the question posed in the introduction and answer it with a substantive physical claim. The claim should identify the object, relationship or mechanism, and decisive applicability conditions. It cannot be merely “we have studied X” or “the results are promising.”
+### Opening the conclusion
 
-Then select the key evidence needed to explain the claim, connect the observations to the mechanism or mathematical structure, and state which existing understanding or capability changes. Listing a first, second, and third result does not yet constitute synthesis. If the evidence cannot distinguish mechanisms, synthesize the established constraints or phenomena accurately rather than inventing a unique explanation.
+Choose the first piece of information the reader needs to understand the answer. A conclusion can occupy a Discussion, an Outlook, or the closing passage of Results. A final Methods paragraph can keep its technical purpose.
+
+- **Work first** when a construction, device, or intervention is itself the advance. Name the decisive change and say in the same sentence or the next what it enables, establishes, or measures. A list of completed operations delays the answer.
+- **Result first** when a relationship, mechanism, or observation is already intelligible. Give it with any condition that changes its meaning, then bring in the evidence that distinguishes it from the nearest alternative. A sentence that starts with “we found” can still lead with a physical result.
+- **Question or criterion first** when the answer depends on an operational definition, a constraint, or a particular comparison. Recover just that prerequisite and give the verdict as soon as it has a meaning. A substantial definition may occupy the opening paragraph, with the answer at the start of the next.
+
+The introduction explains why the proposed test can tell the alternatives apart. The conclusion states what the evidence now lets the reader infer. Give the evidence that directly answers the question first, followed by the control that changes its interpretation or the observation that establishes its range. Section order can work when it also serves this reasoning. If a proof supplies a bound, simulations explore its range, and measurements test one setting, attach each to its own claim. Say what two independent measurements agree on when they probe the same quantity.
+
+Repeat a number when it defines a capability, resolves a comparison, or marks the edge of a regime. Keep its units, comparator, and relevant conditions close. A qualitative answer can be complete on its own. [Paired reading notes from seven journals](../evidence/paragraph-order-review.md)
 
 End with the physical meaning of the result or a direct implication. State applicability conditions beside the relevant claims. Omit unstudied extensions, absent operations, and tasks the paper has not solved instead of turning them into an outlook, "not yet validated" qualification, or limitations section. If several explanations fit the evidence, state the observed relationship or established constraints without inventing a unique mechanism or appending a generic unresolved-problem sentence. The conclusion may span several paragraphs, and its final sentence need not repeat the main claim, but the conclusion as a whole must have a clear center.
 

@@ -1,5 +1,7 @@
 # Validation and reproducibility
 
+The [1.2.6 report](RELEASE-1.2.6.md) describes the introduction and conclusion revision. Its [validation record](../evidence/public-release-validation-1.2.6.json) distinguishes the 21-paper passage review and four editorial cases from the checks run during release integration.
+
 The [1.2.5 report](RELEASE-1.2.5.md) and [validation record](../evidence/public-release-validation-1.2.5.json) cover the English distribution, the two palette collections and the visual-form gallery. The [1.2.4 report](RELEASE-1.2.4.md) and [validation JSON](../evidence/public-release-validation-1.2.4.json) retain the earlier scope. For the earlier 1.2.3 release, see [the release report](RELEASE-1.2.3.md) and [machine-readable validation](../evidence/public-release-validation-1.2.3.json). The [1.2.2 report](RELEASE-1.2.2.md) remains dated historical evidence. The initial [1.2.1 report](RELEASE-1.2.1.md) remains dated historical evidence. The [1.2.0 report](RELEASE-1.2.0.md), [1.1.0 report](RELEASE-1.1.0.md), supplied rc1 review records and original 1.0.0 record remain dated historical evidence. The sections below retain their original execution context.
 
 The subsequent [same-version short-format refinement](PROSE-FOLLOWUP-2026-10-28.md) has its own source-validation record. The later [v1.2.1 package refresh](RELEASE-REFRESH-1.2.1-2026-10-28.md) distributes that refinement with updated checksums. Both records remain separate from the initial v1.2.1 release report; the initially published archives did not contain the later wording.

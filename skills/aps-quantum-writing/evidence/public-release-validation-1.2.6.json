@@ -1,0 +1,29 @@
+{
+  "version": "1.2.6",
+  "date": "2026-11-19",
+  "base_tag": "v1.2.5",
+  "base_commit": "354ca7bdfa57223ee227d2c422d06a0e6d1ff86f",
+  "editorial_revision": {
+    "review_date": "2026-11-19",
+    "coverage": "21 selected papers from the existing 700-paper index, three per journal.",
+    "aps_versions_of_record": 13,
+    "pinned_author_manuscripts": 8,
+    "concluding_passages": 20,
+    "methods_ending": 1,
+    "synthetic_editing_cases": 4,
+    "reading_notes": "paragraph-order-review.md"
+  },
+  "release_integration": {
+    "status": "Source and extracted candidate checks passed.",
+    "source_skill_tests": 37,
+    "extracted_skill_tests": 37,
+    "builder_regression_tests": 14,
+    "skill_frontmatter": "Passed.",
+    "writing_content": "The skill entry, provenance, passage review, Writing branch and seven journal profiles match the reviewed editorial revision byte for byte.",
+    "source_readback": "Checked the saved source hashes and corpus membership for 21 papers, 16 anchors in the pinned author texts, and ten internal links to the new headings.",
+    "distribution": "Verified 214 installable files and 244 repository source files against the Git index. Checked ZIP member paths and CRCs, the internal manifest, and the five asset names and external checksums.",
+    "figure_smoke_test": "Validated the schematic figure plan and regenerated the data-figure gallery from the extracted candidate. The resulting gallery matched the packaged PDF byte for byte.",
+    "revtex_compilation_rerun": false
+  },
+  "inherited_evidence": "The prior manuscript studies, palette observations, and REVTeX compilation retain their dated records. The heading preview and the October 20 verification archive are distributed as historical assets."
+}

@@ -15,6 +15,12 @@ Load this reference as needed once Physical Review Research (PRR/PRResearch) is 
 - Define the resource accounting and baseline conventions before comparing performance. When preparation, training, sampling, postselection, or data-access costs affect the claim, include them in the same comparison as performance. Address genuine data gaps in working feedback.
 - Begin a proof with the problem and key idea, then introduce the required constructions and steps. Check technical dependencies separately. Define conditions, idealized models, noisy predictions, and measured quantities beside the relevant results, using positive, concrete language to state the scope supported by the evidence.
 
+## Introduction and conclusion
+
+Carry the same discriminating comparison across the two passages. The introduction explains why the observable, control, or normalization can separate two explanations. The conclusion gives the outcome on those same terms. When a gain has two possible sources, identify which quantity changed and what the comparison held fixed. A number is worth repeating when its comparator makes that distinction legible.
+
+For a model-based comparison, the measured quantity can come first and the inferred parameter second. In a continuous Letter, check where the physical interpretation actually occurs. A closing Methods passage can retain its own purpose without acquiring a summary paragraph. [Physical Review Research passages](../evidence/paragraph-order-review.md#physical-review-research)
+
 ## Figures
 
 Keep controls on matching coordinates, normalizations, and panel correspondences where possible. When data processing affects the interpretation, make the raw quantity, intermediate estimate, and final quantity traceable. A workflow can show transformations through successive snapshots of the same circuit, graph, state, or data object, retaining real branches, constraints, and return paths. An extra layer of generic process boxes is unnecessary.

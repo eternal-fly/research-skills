@@ -19,6 +19,8 @@ This is one skill with three task-dependent branches. Do not load every referenc
 
 For quantitative artwork, the [visual forms and palette collections](references/data-figures.md) offer independent choices of marks, layout and color. Preserve an established color identity across related panels.
 
+When revising an introduction or conclusion, use the Writing branch to [close the introduction](references/branch-writing.md#closing-the-introduction) and [open the conclusion](references/branch-writing.md#opening-the-conclusion). Consult the selected journal profile for examples of how the order changes with the contribution.
+
 PLANNING coordinates WRITING and FIGURES for a complete manuscript. These are the only three top-level branches. The user's existing choices of journal, language, data, structure, and layout take precedence.
 
 ## Abstract tasks: use the dedicated writing reference

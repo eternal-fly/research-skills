@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.6 (2026-11-19)
+
+- Choose whether to close the introduction with a contribution or carry a precise question into Results. Open the conclusion with the work, result, or criterion that makes the answer intelligible.
+- Add conditional guidance for arranging the end of an introduction and the opening of a conclusion in all seven journal profiles. The [passage review](evidence/paragraph-order-review.md) identifies each reading version and the evidence behind the guidance.
+
 ## 1.2.5 (2026-11-18)
 
 - Offer the original data colors and ten additional palettes side by side. The established plotting cycle, scalar scales, schematic palettes and Floquet preset remain available.

@@ -4,17 +4,17 @@
 
 APS Quantum Writing is an English-language agent skill for planning, writing, and illustrating quantum and related physics research. It keeps the scientific argument, evidence, prose, and final layout connected throughout a manuscript workflow.
 
-**Author:** Luofei Wang · **Version:** 1.2.5 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
+**Author:** Luofei Wang · **Version:** 1.2.6 · **License:** custom noncommercial source-available terms; see [LICENSE](LICENSE).
 
 > This project is source-available, not OSI-approved open-source software. Noncommercial use and private modifications are permitted. Commercial use and public redistribution/repackaging require separate permission, subject to the license's platform and third-party exceptions. Ordinary research outputs are treated separately.
 
-See the [1.2.5 release report](docs/RELEASE-1.2.5.md), [visual forms and palette collections](references/data-figures.md) and [illustrated gallery](assets/data-figures/gallery.pdf). The earlier [figure-planning revision](docs/FIGURE-REVISION-2026-10-22.md) remains available.
+See the [1.2.6 release report](docs/RELEASE-1.2.6.md) and the [introduction and conclusion passage review](evidence/paragraph-order-review.md) for guidance on paragraph order across seven journals. For figures, see the [visual forms and palette collections](references/data-figures.md) and [illustrated gallery](assets/data-figures/gallery.pdf). The earlier [figure-planning revision](docs/FIGURE-REVISION-2026-10-22.md) remains available.
 
 Version 1.2.2 includes the [short-format wording refinement](docs/PROSE-FOLLOWUP-2026-10-28.md) and the stronger [direct scientific prose rule](references/prl-direct-prose.md). The [1.2.1 package refresh record](docs/RELEASE-REFRESH-1.2.1-2026-10-28.md) remains available as dated release history.
 
 ## Start here
 
-1. Download `aps-quantum-writing-1.2.5.zip` and its checksum from the [v1.2.5 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.5).
+1. Download `aps-quantum-writing-1.2.6.zip` and its checksum from the [v1.2.6 release](https://github.com/eternal-fly/research-skills/releases/tag/v1.2.6).
 2. Keep the complete `aps-quantum-writing` folder together. Read [installation](docs/INSTALL.md) for project-local, personal, and manual use.
 3. Ask your agent to read [SKILL.md](SKILL.md), then provide the manuscript, derivations/data, intended journal, and article type.
 
